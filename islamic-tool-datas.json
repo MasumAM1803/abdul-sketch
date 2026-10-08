@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "title": "Dzikir & Doa Sunnah",
+    "description": "Kumpulan dzikir pagi-petang dan doa harian yang bersumber dari Al-Qur'an dan hadits.",
+    "version": "2.0.0",
+    "notes": "Data dzikir pagi dan petang mengikuti daftar pada artikel Rumaysho yang dirujuk. Penomoran hadits dapat berbeda antar edisi. Gunakan tautan sumber untuk verifikasi.",
+    "sources": [
+      {
+        "name": "Rumaysho – Bacaan Dzikir Pagi",
+        "url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html"
+      },
+      {
+        "name": "Rumaysho – Bacaan Dzikir Petang",
+        "url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html"
+      },
+      {
+        "name": "Hisn al-Muslim / Kumpulan Doa",
+        "url": "https://hisnmuslim.com/i/id/27"
+      },
+      {
+        "name": "Sunnah.com – Hisn al-Muslim",
+        "url": "https://sunnah.com/hisn"
+      },
+      {
+        "name": "Sunnah.com – Sahih al-Bukhari",
+        "url": "https://sunnah.com/bukhari"
+      },
+      {
+        "name": "Sunnah.com – Sahih Muslim",
+        "url": "https://sunnah.com/muslim"
+      },
+      {
+        "name": "Sunnah.com – Sunan Abi Dawud",
+        "url": "https://sunnah.com/abudawud"
+      },
+      {
+        "name": "Sunnah.com – Jami` at-Tirmidhi",
+        "url": "https://sunnah.com/tirmidhi"
+      }
+    ],
+    "ordering_note": "Tampilan memisahkan Dzikir Pagi, Dzikir Petang, dan Doa Sunnah. Bacaan yang memiliki lafaz berbeda untuk pagi/petang ditampilkan sebagai item terpisah.",
+    "last_updated": "2026-10-08"
+  },
+  "items": [
+    {
+      "id": "rumaysho-morning-01",
+      "category": "pagi-petang",
+      "title": "Ayat Kursi",
+      "subtitle": "QS. Al-Baqarah: 255",
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "latin": "Allāhu lā ilāha illā huwa, al-ḥayyul-qayyūm. Lā ta’khudzuhū sinatun wa lā naum. Lahū mā fis-samāwāti wa mā fil-arḍ. Man dzalladzī yasyfa‘u ‘indahū illā bi-idznih. Ya‘lamu mā baina aidīhim wa mā khalfahum. Wa lā yuḥīṭūna bisyai’in min ‘ilmihī illā bimā syā’. Wasi‘a kursiyyuhus-samāwāti wal-arḍ. Wa lā ya’ūdūhū ḥifẓuhumā, wa huwal-‘aliyyul-‘aẓīm.",
+      "translation": "Membaca Ayat Kursi sebagai perlindungan hingga waktu berikutnya.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [1].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "quran"
+    },
+    {
+      "id": "rumaysho-morning-02",
+      "category": "pagi-petang",
+      "title": "Al-Ikhlas, Al-Falaq, An-Naas",
+      "subtitle": "Tiga surat perlindungan",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِنْ شَرِّ مَا خَلَقَ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "latin": "Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakul lahū kufuwan aḥad.\n\nQul a‘ūdzu birabbil-falaq. Min syarri mā khalaq. Wa min syarri ghāsiqin idzā waqab. Wa min syarrin-naffāṡāti fil-‘uqad. Wa min syarri ḥāsidin idzā ḥasad.\n\nQul a‘ūdzu birabbin-nās. Malikin-nās. Ilāhin-nās. Min syarril-waswāsil-khannās. Alladzī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wan-nās.",
+      "translation": "Membaca Al-Ikhlas, Al-Falaq, dan An-Naas, masing-masing tiga kali.",
+      "count": 3,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [2].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "quran-hadith"
+    },
+    {
+      "id": "rumaysho-morning-03",
+      "category": "pagi-petang",
+      "title": "Doa memulai pagi",
+      "subtitle": "Ashbahnaa wa ashbahal-mulku lillah",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ. رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "latin": "Ash-bahnaa wa ash-bahal mulku lillah walhamdulillah, laa ilaha illallah wahdahu laa syarika lah...",
+      "translation": "Memohon kebaikan hari ini dan sesudahnya serta perlindungan dari keburukan, kemalasan, usia tua, neraka, dan kubur.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [3].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-04",
+      "category": "pagi-petang",
+      "title": "Allahumma bika ashbahnaa",
+      "subtitle": "Doa memasuki pagi",
+      "arabic": "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ",
+      "latin": "Allahumma bika ash-bahnaa wa bika amsaynaa wa bika nahyaa wa bika namuutu wa ilaikan nusyuur.",
+      "translation": "Memasuki pagi, petang, hidup, mati, dan kebangkitan semuanya dengan kehendak Allah.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [4].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-05",
+      "category": "pagi-petang",
+      "title": "Sayyidul Istighfar",
+      "subtitle": "Istighfar utama",
+      "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي، فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "latin": "Allahumma anta robbii laa ilaaha illaa anta, kholaqtanii wa anaa 'abduka, wa anaa 'alaa 'ahdika wa wa'dika mastatho'tu. A'udzu bika min syarri maa shona'tu. Abu-u laka bini'matika 'alayya wa abu-u bidzanbii. Faghfirlii fa innahu laa yaghfirudz dzunuuba illaa anta.",
+      "translation": "Memohon ampun kepada Allah dengan mengakui rububiyah-Nya, nikmat-Nya, dan dosa diri.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [5].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-06",
+      "category": "pagi-petang",
+      "title": "Persaksian tauhid dan risalah",
+      "subtitle": "Allahumma inni ashbahtu usyhiduka",
+      "arabic": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ",
+      "latin": "Allahumma inni ash-bahtu usy-hiduka wa usy-hidu hamalata 'arsyika wa malaa-ikataka wa jami'a kholqik...",
+      "translation": "Bersaksi kepada Allah, malaikat, dan seluruh makhluk bahwa hanya Allah yang berhak disembah dan Muhammad adalah utusan-Nya.",
+      "count": 4,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [6].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-07",
+      "category": "pagi-petang",
+      "title": "Doa memohon keselamatan",
+      "subtitle": "Al-'afwu wal-'afiyah",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي، اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي، اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي، وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
+      "latin": "Allahumma innii as-alukal 'afwa wal 'aafiyah fid dunyaa wal aakhiroh...",
+      "translation": "Memohon ampunan dan keselamatan untuk agama, dunia, keluarga, harta, serta perlindungan dari berbagai arah.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [7].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-08",
+      "category": "pagi-petang",
+      "title": "Doa perlindungan dari keburukan diri",
+      "subtitle": "Allahumma 'aalimal-ghaibi wasy-syahadah",
+      "arabic": "اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
+      "latin": "Allahumma 'aalimal-ghoybi wasy-syahaadah faathiros samaawaati wal ardh...",
+      "translation": "Memohon perlindungan dari kejahatan diri, setan, dan perbuatan buruk terhadap diri atau sesama muslim.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [8].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-09",
+      "category": "pagi-petang",
+      "title": "Bismillahilladzi laa yadhurru",
+      "subtitle": "Perlindungan dengan nama Allah",
+      "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "latin": "Bismillahilladzi laa yadhurru ma'asmihi syai-un fil ardhi wa laa fis samaa-i wa huwas samii'ul 'aliim.",
+      "translation": "Dengan nama Allah, tidak ada sesuatu di bumi dan langit yang membahayakan dengan izin-Nya.",
+      "count": 3,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [9].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-10",
+      "category": "pagi-petang",
+      "title": "Ridha kepada Allah, Islam, dan Muhammad ﷺ",
+      "subtitle": "Radhitu billahi rabban",
+      "arabic": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+      "latin": "Rodhiitu billaahi robbaa wa bil-islaami diinaa, wa bi-muhammadin shallallaahu 'alaihi wa sallama nabiyyaa.",
+      "translation": "Menyatakan ridha Allah sebagai Rabb, Islam sebagai agama, dan Muhammad ﷺ sebagai nabi.",
+      "count": 3,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [10].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-11",
+      "category": "pagi-petang",
+      "title": "Ya Hayyu Ya Qayyum",
+      "subtitle": "Memohon pertolongan dan perbaikan urusan",
+      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا",
+      "latin": "Yaa Hayyu Yaa Qoyyum, bi-rohmatika as-taghiits, wa ash-lih lii sya'nii kullahu wa laa takilnii ilaa nafsii thorfata 'ainin abadan.",
+      "translation": "Memohon pertolongan dengan rahmat Allah dan agar seluruh urusan diperbaiki.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [11].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-12-special",
+      "category": "pagi-petang",
+      "title": "Di atas fitrah Islam",
+      "subtitle": "Ashbahnaa 'alaa fithratil-Islam",
+      "arabic": "أَصْبَحْنَا عَلَى فِطْرَةِ الْإِسْلَامِ وَعَلَى كَلِمَةِ الْإِخْلَاصِ، وَعَلَى دِينِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِينَا إِبْرَاهِيمَ، حَنِيفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
+      "latin": "Ash-bahnaa 'ala fithrotil islaam wa 'alaa kalimatil ikhlaash, wa 'alaa diini nabiyyinaa Muhammad...",
+      "translation": "Meneguhkan diri di atas fitrah Islam, kalimat ikhlas, agama Nabi Muhammad ﷺ, dan millah Ibrahim.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [12]. Hanya dicantumkan untuk pagi.",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-09",
+      "category": "pagi-petang",
+      "title": "Subhanallah wa bihamdihi",
+      "subtitle": "Tasbih 100 kali",
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "latin": "Subhanallah wa bi-hamdih.",
+      "translation": "Menyucikan Allah dan memuji-Nya.",
+      "count": 100,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [13].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-10",
+      "category": "pagi-petang",
+      "title": "Tahlil 10 kali",
+      "subtitle": "La ilaha illallahu wahdahu",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa 'ala kulli syai-in qodiir.",
+      "translation": "Mengesakan Allah dan menetapkan bahwa kerajaan serta pujian milik-Nya.",
+      "count": 10,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [14].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-11",
+      "category": "pagi-petang",
+      "title": "Tahlil 100 kali dalam sehari",
+      "subtitle": "La ilaha illallahu wahdahu",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa 'ala kulli syai-in qodiir.",
+      "translation": "Mengesakan Allah dan memperbanyak tahlil dalam sehari.",
+      "count": 100,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [15].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-12",
+      "category": "pagi-petang",
+      "title": "Tasbih dengan bilangan makhluk",
+      "subtitle": "Adada khalqihi...",
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ: عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ",
+      "latin": "Subhanallah wa bi-hamdih, 'adada khalqih wa ridhaa nafsih, wa zinata 'arsyih wa midaada kalimaatih.",
+      "translation": "Memuji Allah sebanyak bilangan makhluk-Nya, sesuai keridaan-Nya, seberat 'Arsy-Nya, dan sebanyak tinta kalimat-Nya.",
+      "count": 3,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [16].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-13",
+      "category": "pagi-petang",
+      "title": "Doa memohon ilmu dan rezeki",
+      "subtitle": "Setelah salam shalat Shubuh",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+      "latin": "Allahumma innii as-aluka 'ilman naafi'a, wa rizqon thoyyibaa, wa 'amalan mutaqobbalaa.",
+      "translation": "Memohon ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima.",
+      "count": 1,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [17].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-morning-14",
+      "category": "pagi-petang",
+      "title": "Istighfar dan taubat",
+      "subtitle": "Astaghfirullah wa atuubu ilaih",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+      "latin": "Astaghfirullah wa atuubu ilaih.",
+      "translation": "Memohon ampun kepada Allah dan bertaubat kepada-Nya.",
+      "count": 100,
+      "time": [
+        "pagi"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Pagi [18].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-01",
+      "category": "pagi-petang",
+      "title": "Ayat Kursi",
+      "subtitle": "QS. Al-Baqarah: 255",
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "latin": "Allāhu lā ilāha illā huwa, al-ḥayyul-qayyūm. Lā ta’khudzuhū sinatun wa lā naum. Lahū mā fis-samāwāti wa mā fil-arḍ. Man dzalladzī yasyfa‘u ‘indahū illā bi-idznih. Ya‘lamu mā baina aidīhim wa mā khalfahum. Wa lā yuḥīṭūna bisyai’in min ‘ilmihī illā bimā syā’. Wasi‘a kursiyyuhus-samāwāti wal-arḍ. Wa lā ya’ūdūhū ḥifẓuhumā, wa huwal-‘aliyyul-‘aẓīm.",
+      "translation": "Membaca Ayat Kursi sebagai perlindungan hingga waktu berikutnya.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [1].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "quran"
+    },
+    {
+      "id": "rumaysho-evening-02",
+      "category": "pagi-petang",
+      "title": "Al-Ikhlas, Al-Falaq, An-Naas",
+      "subtitle": "Tiga surat perlindungan",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِنْ شَرِّ مَا خَلَقَ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "latin": "Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakul lahū kufuwan aḥad.\n\nQul a‘ūdzu birabbil-falaq. Min syarri mā khalaq. Wa min syarri ghāsiqin idzā waqab. Wa min syarrin-naffāṡāti fil-‘uqad. Wa min syarri ḥāsidin idzā ḥasad.\n\nQul a‘ūdzu birabbin-nās. Malikin-nās. Ilāhin-nās. Min syarril-waswāsil-khannās. Alladzī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wan-nās.",
+      "translation": "Membaca Al-Ikhlas, Al-Falaq, dan An-Naas, masing-masing tiga kali.",
+      "count": 3,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [2].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "quran-hadith"
+    },
+    {
+      "id": "rumaysho-evening-03",
+      "category": "pagi-petang",
+      "title": "Doa memulai petang",
+      "subtitle": "Amsaynaa wa amsal-mulku lillah",
+      "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "latin": "Amsaynaa wa amsal mulku lillah walhamdulillah, laa ilaha illallah wahdahu laa syarika lah...",
+      "translation": "Memohon kebaikan malam ini dan sesudahnya serta perlindungan dari keburukan, kemalasan, usia tua, neraka, dan kubur.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [3].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-04",
+      "category": "pagi-petang",
+      "title": "Allahumma bika amsaynaa",
+      "subtitle": "Doa memasuki petang",
+      "arabic": "اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيرُ",
+      "latin": "Allahumma bika amsaynaa wa bika ash-bahnaa wa bika nahyaa wa bika namuutu wa ilaikal mashiir.",
+      "translation": "Memasuki petang dan pagi, hidup, mati, dan tempat kembali semuanya dengan kehendak Allah.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [4].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-05",
+      "category": "pagi-petang",
+      "title": "Sayyidul Istighfar",
+      "subtitle": "Istighfar utama",
+      "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي، فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "latin": "Allahumma anta robbii laa ilaaha illaa anta, kholaqtanii wa anaa 'abduka, wa anaa 'alaa 'ahdika wa wa'dika mastatho'tu. A'udzu bika min syarri maa shona'tu. Abu-u laka bini'matika 'alayya wa abu-u bidzanbii. Faghfirlii fa innahu laa yaghfirudz dzunuuba illaa anta.",
+      "translation": "Memohon ampun kepada Allah dengan mengakui rububiyah-Nya, nikmat-Nya, dan dosa diri.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [5].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-06",
+      "category": "pagi-petang",
+      "title": "Persaksian tauhid dan risalah",
+      "subtitle": "Allahumma inni amsaytu usyhiduka",
+      "arabic": "اللَّهُمَّ إِنِّي أَمْسَيْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ",
+      "latin": "Allahumma inni amsaytu usy-hiduka wa usy-hidu hamalata 'arsyika wa malaa-ikataka wa jami'a kholqik...",
+      "translation": "Bersaksi kepada Allah, malaikat, dan seluruh makhluk bahwa hanya Allah yang berhak disembah dan Muhammad adalah utusan-Nya.",
+      "count": 4,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [6].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-07",
+      "category": "pagi-petang",
+      "title": "Doa memohon keselamatan",
+      "subtitle": "Al-'afwu wal-'afiyah",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي، اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي، اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي، وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
+      "latin": "Allahumma innii as-alukal 'afwa wal 'aafiyah fid dunyaa wal aakhiroh...",
+      "translation": "Memohon ampunan dan keselamatan untuk agama, dunia, keluarga, harta, serta perlindungan dari berbagai arah.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [7].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-08",
+      "category": "pagi-petang",
+      "title": "Doa perlindungan dari keburukan diri",
+      "subtitle": "Allahumma 'aalimal-ghaibi wasy-syahadah",
+      "arabic": "اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
+      "latin": "Allahumma 'aalimal-ghoybi wasy-syahaadah faathiros samaawaati wal ardh...",
+      "translation": "Memohon perlindungan dari kejahatan diri, setan, dan perbuatan buruk terhadap diri atau sesama muslim.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [8].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-09",
+      "category": "pagi-petang",
+      "title": "Bismillahilladzi laa yadhurru",
+      "subtitle": "Perlindungan dengan nama Allah",
+      "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "latin": "Bismillahilladzi laa yadhurru ma'asmihi syai-un fil ardhi wa laa fis samaa-i wa huwas samii'ul 'aliim.",
+      "translation": "Dengan nama Allah, tidak ada sesuatu di bumi dan langit yang membahayakan dengan izin-Nya.",
+      "count": 3,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [9].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-10",
+      "category": "pagi-petang",
+      "title": "Ridha kepada Allah, Islam, dan Muhammad ﷺ",
+      "subtitle": "Radhitu billahi rabban",
+      "arabic": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+      "latin": "Rodhiitu billaahi robbaa wa bil-islaami diinaa, wa bi-muhammadin shallallaahu 'alaihi wa sallama nabiyyaa.",
+      "translation": "Menyatakan ridha Allah sebagai Rabb, Islam sebagai agama, dan Muhammad ﷺ sebagai nabi.",
+      "count": 3,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [10].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-11",
+      "category": "pagi-petang",
+      "title": "Ya Hayyu Ya Qayyum",
+      "subtitle": "Memohon pertolongan dan perbaikan urusan",
+      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا",
+      "latin": "Yaa Hayyu Yaa Qoyyum, bi-rohmatika as-taghiits, wa ash-lih lii sya'nii kullahu wa laa takilnii ilaa nafsii thorfata 'ainin abadan.",
+      "translation": "Memohon pertolongan dengan rahmat Allah dan agar seluruh urusan diperbaiki.",
+      "count": 1,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [11].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-12",
+      "category": "pagi-petang",
+      "title": "Subhanallah wa bihamdihi",
+      "subtitle": "Tasbih 100 kali",
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "latin": "Subhanallah wa bi-hamdih.",
+      "translation": "Menyucikan Allah dan memuji-Nya.",
+      "count": 100,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [12].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-13",
+      "category": "pagi-petang",
+      "title": "Tahlil 10 kali",
+      "subtitle": "La ilaha illallahu wahdahu",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa 'ala kulli syai-in qodiir.",
+      "translation": "Mengesakan Allah dan menetapkan bahwa kerajaan serta pujian milik-Nya.",
+      "count": 10,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [13].",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "rumaysho-evening-14",
+      "category": "pagi-petang",
+      "title": "Perlindungan dari keburukan makhluk",
+      "subtitle": "A'udzu bikalimatillahit-tammaat",
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "latin": "A'udzu bikalimaatillahit-taammaati min syarri maa kholaq.",
+      "translation": "Memohon perlindungan dengan kalimat-kalimat Allah yang sempurna dari keburukan makhluk.",
+      "count": 3,
+      "time": [
+        "petang"
+      ],
+      "source": "Rumaysho – Bacaan Dzikir Petang [14]. Khusus dicantumkan untuk petang.",
+      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
+      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-01",
+      "category": "doa-harian",
+      "title": "Doa ketika bangun tidur",
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "translation": "Segala puji bagi Allah yang telah menghidupkan kami setelah mematikan kami, dan kepada-Nya kebangkitan.",
+      "count": 1,
+      "time": [
+        "bangun-tidur"
+      ],
+      "source": "Sahih al-Bukhari 6312; Sahih Muslim 2711",
+      "hadith": "Rasulullah ﷺ mengucapkan doa ini ketika bangun dari tidur.",
+      "reference_url": "https://sunnah.com/bukhari:6312",
+      "type": "hadith",
+      "latin": "Alhamdu lillahil-ladzi ahyana ba'da ma amatana wa ilaihin-nusyur."
+    },
+    {
+      "id": "daily-02",
+      "category": "doa-harian",
+      "title": "Doa sebelum tidur",
+      "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "translation": "Dengan nama-Mu, ya Allah, aku mati dan aku hidup.",
+      "count": 1,
+      "time": [
+        "sebelum-tidur"
+      ],
+      "source": "Sahih al-Bukhari 6324",
+      "hadith": "Nabi ﷺ mengajarkan doa ini ketika hendak tidur.",
+      "reference_url": "https://sunnah.com/bukhari:6324",
+      "type": "hadith",
+      "latin": "Bismika Allahumma amutu wa ahya."
+    },
+    {
+      "id": "daily-03",
+      "category": "doa-harian",
+      "title": "Doa masuk rumah",
+      "arabic": "بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
+      "translation": "Dengan nama Allah kami masuk, dengan nama Allah kami keluar, dan kepada Allah Rabb kami, kami bertawakal.",
+      "count": 1,
+      "time": [
+        "masuk-rumah"
+      ],
+      "source": "Sunan Abi Dawud 5096",
+      "hadith": "Disebutkan dalam riwayat Abu Dawud tentang menyebut nama Allah ketika masuk rumah dan ketika makan.",
+      "reference_url": "https://sunnah.com/abudawud:5096",
+      "type": "hadith",
+      "latin": "Bismillahi walajna, wa bismillahi kharajna, wa 'alallahi rabbina tawakkalna."
+    },
+    {
+      "id": "daily-04",
+      "category": "doa-harian",
+      "title": "Doa keluar rumah",
+      "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "translation": "Dengan nama Allah, aku bertawakal kepada Allah. Tidak ada daya dan kekuatan kecuali dengan Allah.",
+      "count": 1,
+      "time": [
+        "keluar-rumah"
+      ],
+      "source": "Sunan Abi Dawud 5095; At-Tirmidhi 3426",
+      "hadith": "Dikatakan kepada orang yang membaca doa ini: engkau telah diberi petunjuk, dicukupi, dan dilindungi; setan pun menjauh darinya.",
+      "reference_url": "https://sunnah.com/abudawud:5095",
+      "type": "hadith",
+      "latin": "Bismillah, tawakkaltu 'alallah, la haula wa la quwwata illa billah."
+    },
+    {
+      "id": "daily-05",
+      "category": "doa-harian",
+      "title": "Doa ketika mendapat kesulitan",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+      "translation": "Tidak ada sesembahan yang berhak disembah selain Allah Yang Mahaagung lagi Maha Penyantun; tidak ada sesembahan selain Allah, Rabb 'Arsy yang agung; tidak ada sesembahan selain Allah, Rabb langit, Rabb bumi dan Rabb 'Arsy yang mulia.",
+      "count": 1,
+      "time": [
+        "saat-sulit"
+      ],
+      "source": "Sahih al-Bukhari 6346; Sahih Muslim 2730",
+      "hadith": "Nabi ﷺ mengucapkan doa ini ketika mengalami kesusahan.",
+      "reference_url": "https://sunnah.com/bukhari:6346",
+      "type": "hadith",
+      "latin": "La ilaha illallahul-'azhimul-halim, la ilaha illallahu rabbul-'arsyil-'azhim, la ilaha illallahu rabbus-samawati wa rabbul-ardhi wa rabbul-'arsyil-karim."
+    },
+    {
+      "id": "daily-06",
+      "category": "doa-harian",
+      "title": "Doa untuk kedua orang tua",
+      "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+      "translation": "Wahai Rabb-ku, sayangilah keduanya sebagaimana mereka berdua telah menyayangiku ketika aku kecil.",
+      "count": 1,
+      "time": [
+        "kapan-saja"
+      ],
+      "source": "QS. Al-Isra: 24",
+      "hadith": "Ini adalah doa yang bersumber dari Al-Qur'an. Doa untuk orang tua juga dianjurkan dalam hadits-hadits tentang amal yang terus mengalir setelah kematian.",
+      "reference_url": "https://quran.com/17/24",
+      "type": "quran",
+      "latin": "Rabbir hamhuma kama rabbayani shaghira."
+    },
+    {
+      "id": "daily-07",
+      "category": "doa-harian",
+      "title": "Doa kebaikan dunia dan akhirat",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "translation": "Wahai Rabb kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+      "count": 1,
+      "time": [
+        "kapan-saja"
+      ],
+      "source": "QS. Al-Baqarah: 201; Sahih al-Bukhari 6389; Sahih Muslim 2690",
+      "hadith": "Anas رضي الله عنه menyebut bahwa doa yang paling sering dibaca Nabi ﷺ adalah doa ini.",
+      "reference_url": "https://sunnah.com/bukhari:6389",
+      "type": "quran-hadith",
+      "latin": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adzaban-nar."
+    }
+  ]
+}

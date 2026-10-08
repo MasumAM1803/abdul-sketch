@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You Istriku Tercinta ❤️</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            overflow: hidden;
+            font-family: "Segoe UI", sans-serif;
+            background: #fff0f5;
+        }
+
+        /* =================================
+           OPENING SCREEN
+        ================================= */
+
+        .opening-screen {
+            position: fixed;
+            inset: 0;
+
+            z-index: 100;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #fff0f5,
+                    #ffe4ec
+                );
+
+            transition:
+                transform 1s cubic-bezier(
+                    .77,
+                    0,
+                    .18,
+                    1
+                );
+        }
+
+        /*
+         * Setelah OPEN diklik,
+         * halaman bergerak ke atas.
+         */
+        .opening-screen.opened {
+            transform: translateY(-100%);
+        }
+
+
+        /* =================================
+           OPEN CONTENT
+        ================================= */
+
+        .open-content {
+            text-align: center;
+
+            padding: 20px;
+        }
+
+        .open-content h1 {
+            color: #d6336c;
+
+            font-size:
+                clamp(
+                    36px,
+                    8vw,
+                    60px
+                );
+
+            margin-bottom: 12px;
+
+            animation:
+                titleFloat 3s ease-in-out infinite;
+        }
+
+        .open-content p {
+            color: #777;
+
+            font-size: 16px;
+
+            margin-bottom: 30px;
+        }
+
+
+        /* =================================
+           OPEN BUTTON
+        ================================= */
+
+        .open-button {
+            border: none;
+
+            padding:
+                15px 45px;
+
+            border-radius: 50px;
+
+            background: #d6336c;
+
+            color: white;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            box-shadow:
+                0 10px 30px
+                rgba(
+                    214,
+                    51,
+                    108,
+                    .30
+                );
+
+            transition:
+                transform .25s ease,
+                box-shadow .25s ease;
+        }
+
+        .open-button:hover {
+            transform:
+                translateY(-4px)
+                scale(1.05);
+
+            box-shadow:
+                0 15px 35px
+                rgba(
+                    214,
+                    51,
+                    108,
+                    .40
+                );
+        }
+
+        .open-button:active {
+            transform: scale(.95);
+        }
+
+
+        /* =================================
+           TITLE ANIMATION
+        ================================= */
+
+        @keyframes titleFloat {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+
+        /* =================================
+           MAIN CONTENT
+        ================================= */
+
+        .main-content {
+            position: relative;
+
+            width: 100%;
+            height: 100vh;
+
+            overflow: hidden;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background:
+                radial-gradient(
+                    circle at center,
+                    #fff5f8,
+                    #ffdce7
+                );
+        }
+
+
+        /* =================================
+           HEART CONTAINER
+        ================================= */
+
+        .hearts {
+            position: absolute;
+
+            inset: 0;
+
+            overflow: hidden;
+
+            pointer-events: none;
+        }
+
+
+        /* =================================
+           HEART
+        ================================= */
+
+        .heart {
+            position: absolute;
+
+            bottom: -60px;
+
+            opacity: 0;
+
+            animation:
+                floatHeart
+                linear
+                infinite;
+
+            user-select: none;
+        }
+
+
+        @keyframes floatHeart {
+
+            0% {
+                transform:
+                    translateY(0)
+                    translateX(0)
+                    rotate(0deg)
+                    scale(.8);
+
+                opacity: 0;
+            }
+
+            10% {
+                opacity: .8;
+            }
+
+            50% {
+                transform:
+                    translateY(-50vh)
+                    translateX(40px)
+                    rotate(20deg)
+                    scale(1);
+            }
+
+            100% {
+                transform:
+                    translateY(-115vh)
+                    translateX(-40px)
+                    rotate(-20deg)
+                    scale(1.2);
+
+                opacity: 0;
+            }
+        }
+
+
+        /* =================================
+           MESSAGE CONTAINER
+        ================================= */
+
+        .message-container {
+            position: relative;
+
+            z-index: 10;
+
+            width:
+                min(
+                    90%,
+                    650px
+                );
+
+            min-height: 300px;
+
+            padding:
+                45px 30px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            background:
+                rgba(
+                    255,
+                    255,
+                    255,
+                    .75
+                );
+
+            backdrop-filter:
+                blur(10px);
+
+            -webkit-backdrop-filter:
+                blur(10px);
+
+            border:
+                1px solid
+                rgba(
+                    255,
+                    255,
+                    255,
+                    .8
+                );
+
+            border-radius: 30px;
+
+            box-shadow:
+                0 20px 60px
+                rgba(
+                    214,
+                    51,
+                    108,
+                    .15
+                );
+        }
+
+
+        /* =================================
+           SMALL TEXT
+        ================================= */
+
+        .small-text {
+            color: #d6336c;
+
+            font-size: 15px;
+
+            margin-bottom: 20px;
+        }
+
+
+        /* =================================
+           MESSAGE
+        ================================= */
+
+        .message {
+            width: 100%;
+
+            min-height: 120px;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            color: #333;
+
+            font-size:
+                clamp(
+                    24px,
+                    5vw,
+                    40px
+                );
+
+            font-weight: 700;
+
+            line-height: 1.35;
+        }
+
+
+        /* =================================
+           TYPING CURSOR
+        ================================= */
+
+        .cursor {
+            display: inline-block;
+
+            width: 3px;
+
+            height: 1em;
+
+            background:
+                #d6336c;
+
+            margin-left: 5px;
+
+            animation:
+                blink .8s infinite;
+        }
+
+
+        @keyframes blink {
+
+            0%,
+            50% {
+                opacity: 1;
+            }
+
+            51%,
+            100% {
+                opacity: 0;
+            }
+        }
+
+
+        /* =================================
+           CENTER HEART
+        ================================= */
+
+        .center-heart {
+            font-size: 45px;
+
+            margin-top: 20px;
+
+            animation:
+                heartbeat 1.2s
+                infinite;
+        }
+
+
+        @keyframes heartbeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+
+        /* =================================
+           MOBILE
+        ================================= */
+
+        @media (max-width: 600px) {
+
+            .open-content h1 {
+                font-size: 42px;
+            }
+
+            .open-content p {
+                font-size: 14px;
+            }
+
+            .open-button {
+                padding:
+                    14px 38px;
+
+                font-size: 16px;
+            }
+
+            .message-container {
+                width: 90%;
+
+                min-height: 320px;
+
+                padding:
+                    35px 20px;
+
+                border-radius: 25px;
+            }
+
+            .message {
+                min-height: 160px;
+
+                font-size:
+                    clamp(
+                        23px,
+                        7vw,
+                        32px
+                    );
+            }
+
+            .center-heart {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- =================================
+         OPENING SCREEN
+    ================================= -->
+
+    <section
+        class="opening-screen"
+        id="openingScreen"
+    >
+
+        <div class="open-content">
+
+            <h1>
+                For You Istriku Tercinta ❤️
+            </h1>
+
+            <p>
+                Ada sesuatu yang ingin aku sampaikan...
+            </p>
+
+            <button
+                class="open-button"
+                id="openButton"
+            >
+                OPEN ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         MAIN CONTENT
+    ================================= -->
+
+    <main class="main-content">
+
+
+        <!--
+            Container untuk
+            hati yang bergerak
+        -->
+
+        <div
+            class="hearts"
+            id="hearts"
+        ></div>
+
+
+
+        <!-- =================================
+             MESSAGE
+        ================================= -->
+
+        <div class="message-container">
+
+            <div class="small-text">
+                ✨ A little message for you ✨
+            </div>
+
+
+            <div class="message">
+
+                <!--
+                    PENTING:
+                    Awalnya kosong.
+                    Tidak ada teks sebelum OPEN.
+                -->
+
+                <span
+                    id="typingText"
+                ></span>
+
+                <span
+                    class="cursor"
+                ></span>
+
+            </div>
+
+
+            <div class="center-heart">
+                ❤️
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================= -->
+
+    <script>
+
+
+        /* =================================
+           ELEMENTS
+        ================================= */
+
+        const openButton =
+            document.getElementById(
+                "openButton"
+            );
+
+        const openingScreen =
+            document.getElementById(
+                "openingScreen"
+            );
+
+        const typingText =
+            document.getElementById(
+                "typingText"
+            );
+
+        const heartsContainer =
+            document.getElementById(
+                "hearts"
+            );
+
+
+
+        /* =================================
+           OPEN STATE
+        ================================= */
+
+        let hasOpened = false;
+
+
+
+        /* =================================
+           OPEN BUTTON
+        ================================= */
+
+        openButton.addEventListener(
+            "click",
+            () => {
+
+                /*
+                 * Mencegah tombol
+                 * diklik berkali-kali
+                 */
+
+                if (hasOpened) {
+                    return;
+                }
+
+
+                hasOpened = true;
+
+
+                /*
+                 * Jalankan animasi
+                 * slide ke atas
+                 */
+
+                openingScreen.classList.add(
+                    "opened"
+                );
+
+
+                /*
+                 * Tunggu sampai animasi
+                 * slide-up hampir selesai.
+                 *
+                 * Durasi CSS = 1 detik
+                 *
+                 * Typing dimulai setelah
+                 * layar terbuka.
+                 */
+
+                setTimeout(
+                    () => {
+
+                        typeMessage();
+
+                    },
+                    1000
+                );
+
+            }
+        );
+
+
+
+        /* =================================
+           FLOATING HEARTS
+        ================================= */
+
+        const heartSymbols = [
+
+            "❤️",
+            "💕",
+            "💗",
+            "💖",
+            "💓",
+            "💞",
+            "💘"
+
+        ];
+
+
+
+        function createHeart() {
+
+            /*
+             * Buat element heart
+             */
+
+            const heart =
+                document.createElement(
+                    "div"
+                );
+
+
+            heart.classList.add(
+                "heart"
+            );
+
+
+            /*
+             * Pilih emoji secara random
+             */
+
+            heart.innerText =
+                heartSymbols[
+                    Math.floor(
+                        Math.random() *
+                        heartSymbols.length
+                    )
+                ];
+
+
+
+            /*
+             * Posisi horizontal random
+             */
+
+            heart.style.left =
+                Math.random() * 100 + "%";
+
+
+
+            /*
+             * Ukuran random
+             */
+
+            const size =
+                Math.random() * 25 + 15;
+
+            heart.style.fontSize =
+                size + "px";
+
+
+
+            /*
+             * Durasi animasi random
+             */
+
+            const duration =
+                Math.random() * 5 + 5;
+
+            heart.style.animationDuration =
+                duration + "s";
+
+
+
+            /*
+             * Delay random
+             */
+
+            heart.style.animationDelay =
+                Math.random() * 2 + "s";
+
+
+
+            /*
+             * Masukkan ke halaman
+             */
+
+            heartsContainer.appendChild(
+                heart
+            );
+
+
+
+            /*
+             * Hapus setelah animasi selesai
+             */
+
+            setTimeout(
+                () => {
+
+                    heart.remove();
+
+                },
+                (duration + 3) * 1000
+            );
+
+        }
+
+
+
+        /*
+         * Generate heart setiap
+         * 250ms
+         */
+
+        setInterval(
+            createHeart,
+            250
+        );
+
+
+
+        /*
+         * Buat beberapa heart
+         * sejak awal agar background
+         * tidak terlihat kosong.
+         */
+
+        for (
+            let i = 0;
+            i < 25;
+            i++
+        ) {
+
+            setTimeout(
+                createHeart,
+                i * 150
+            );
+
+        }
+
+
+
+        /* =================================
+           TYPING EFFECT
+        ================================= */
+
+        const messages = [
+
+            "Aku ingin kamu tahu bahwa setiap hari aku bersyukur memilikimu sebagai istriku. ❤️",
+
+            "Aku mencintaimu lebih dari kata-kata yang bisa aku ungkapkan. 💖",
+            
+            "Aku mungkin belum selalu pandai mengungkapkannya, tapi aku benar-benar bersyukur memilikimu. ❤️",
+
+            "Melihatmu tersenyum setiap hari adalah salah satu hal sederhana yang paling aku syukuri. 🥰",
+
+            "Sekarang kamu bukan hanya istriku, tapi juga ibu dari anak kita. Dan itu membuatku semakin mengagumimu. ❤️",
+
+            "Terima kasih sudah menjadi teman hidupku, tempatku pulang, dan calon ibu untuk buah hati kita. 🤍",
+
+            "Di balik perubahan yang kamu rasakan selama kehamilan ini, aku melihat seorang wanita yang luar biasa kuat. 🌷",
+
+            "Aku tahu perjalanan ini tidak selalu mudah, tapi aku ingin kamu tahu bahwa aku akan selalu ada di sampingmu. ❤️",
+
+            "Kita mungkin masih belajar menjadi suami dan istri, tapi aku ingin terus belajar menjadi suami yang lebih baik untukmu. 💕",
+
+            "Sebentar lagi kita tidak hanya memanggil satu sama lain sebagai suami dan istri, tapi juga Aba dan Uma. 🥹❤️",
+
+            "Terima kasih sudah mempercayakan sebagian besar perjalanan hidupmu kepadaku. Aku akan berusaha menjagamu dan keluarga kecil kita. 🤍",
+
+            "Semoga Allah selalu menjaga kamu, menjaga bayi kita, dan menjadikan keluarga kecil kita penuh dengan keberkahan. 🤲❤️",
+
+            "Aku mencintaimu, istriku. Dan sekarang, ada satu alasan kecil lagi yang membuat cintaku kepada kalian semakin besar. 👶❤️",
+
+            "Untuk kamu dan calon buah hati kita: kalian adalah dua hal yang ingin selalu aku jaga dan perjuangkan. ❤️",
+
+            "I Love U istriku sayangku cintaku imutku cantikku kasihku termuah muah muah muah ❤️"
+            
+        ];
+
+
+
+        /*
+         * Index pesan saat ini
+         */
+
+        let messageIndex = 0;
+
+
+        /*
+         * Posisi karakter
+         */
+
+        let characterIndex = 0;
+
+
+        /*
+         * Apakah sedang menghapus
+         */
+
+        let isDeleting = false;
+
+
+
+        /* =================================
+           TYPE MESSAGE
+        ================================= */
+
+        function typeMessage() {
+
+            /*
+             * Ambil pesan saat ini
+             */
+
+            const currentMessage =
+                messages[messageIndex];
+
+
+
+            /*
+             * =============================
+             * MENGETIK
+             * =============================
+             */
+
+            if (!isDeleting) {
+
+
+                /*
+                 * Tambahkan satu karakter
+                 */
+
+                typingText.textContent =
+                    currentMessage.substring(
+                        0,
+                        characterIndex + 1
+                    );
+
+
+                characterIndex++;
+
+
+
+                /*
+                 * Jika sudah selesai mengetik
+                 */
+
+                if (
+                    characterIndex >=
+                    currentMessage.length
+                ) {
+
+                    /*
+                     * Tunggu 2.5 detik
+                     * sebelum menghapus
+                     */
+
+                    isDeleting = true;
+
+
+                    setTimeout(
+                        typeMessage,
+                        2500
+                    );
+
+
+                    return;
+                }
+
+            }
+
+
+            /*
+             * =============================
+             * MENGHAPUS
+             * =============================
+             */
+
+            else {
+
+
+                /*
+                 * Hapus satu karakter
+                 */
+
+                typingText.textContent =
+                    currentMessage.substring(
+                        0,
+                        characterIndex - 1
+                    );
+
+
+                characterIndex--;
+
+
+
+                /*
+                 * Jika sudah selesai menghapus
+                 */
+
+                if (
+                    characterIndex <= 0
+                ) {
+
+                    characterIndex = 0;
+
+                    isDeleting = false;
+
+
+                    /*
+                     * Pindah ke pesan berikutnya
+                     */
+
+                    messageIndex++;
+
+
+                    /*
+                     * Kembali ke pesan pertama
+                     * setelah semua pesan selesai
+                     */
+
+                    if (
+                        messageIndex >=
+                        messages.length
+                    ) {
+
+                        messageIndex = 0;
+
+                    }
+
+                }
+
+            }
+
+
+
+            /*
+             * Kecepatan typing
+             */
+
+            const speed =
+                isDeleting
+                    ? 35
+                    : 65;
+
+
+
+            /*
+             * Jalankan karakter berikutnya
+             */
+
+            setTimeout(
+                typeMessage,
+                speed
+            );
+
+        }
+
+    </script>
+
+</body>
+</html>

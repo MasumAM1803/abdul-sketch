@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Abdul Sketch</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+
+            min-height: 100vh;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f5f7fa;
+
+            color: #1f2937;
+        }
+
+
+        /* =========================
+           CONTAINER
+        ========================= */
+
+        .container {
+            width: 100%;
+
+            max-width: 1200px;
+
+            margin: 0 auto;
+
+            padding: 40px 20px;
+        }
+
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        .header {
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            margin: 0;
+
+            font-size: 32px;
+
+            line-height: 1.2;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+
+            color: #6b7280;
+
+            font-size: 15px;
+        }
+
+
+        /* =========================
+           SEARCH
+        ========================= */
+
+        .search-container {
+            margin-bottom: 25px;
+
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+
+            height: 48px;
+
+            padding:
+                0 18px 0 46px;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            background: #ffffff;
+
+            color: #1f2937;
+
+            font-size: 15px;
+
+            outline: none;
+
+            transition:
+                border-color .2s,
+                box-shadow .2s;
+        }
+
+        .search-input:focus {
+            border-color: #9ca3af;
+
+            box-shadow:
+                0 0 0 3px
+                rgba(156, 163, 175, .15);
+        }
+
+        .search-icon {
+            position: absolute;
+
+            left: 16px;
+
+            top: 50%;
+
+            transform:
+                translateY(-50%);
+
+            font-size: 18px;
+
+            color: #9ca3af;
+
+            pointer-events: none;
+        }
+
+
+        /* =========================
+           PAGE LIST
+        ========================= */
+
+        .page-list {
+            display: grid;
+
+            grid-template-columns:
+                repeat(
+                    auto-fill,
+                    minmax(220px, 1fr)
+                );
+
+            gap: 18px;
+        }
+
+
+        /* =========================
+           CARD
+        ========================= */
+
+        .card {
+            display: flex;
+
+            flex-direction: column;
+
+            min-width: 0;
+
+            padding: 22px;
+
+            background: #ffffff;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius: 14px;
+
+            color: #1f2937;
+
+            text-decoration: none;
+
+            transition:
+                transform .2s ease,
+                box-shadow .2s ease,
+                border-color .2s ease;
+        }
+
+        .card:hover {
+            transform:
+                translateY(-3px);
+
+            border-color:
+                #d1d5db;
+
+            box-shadow:
+                0 10px 25px
+                rgba(0, 0, 0, .08);
+        }
+
+
+        /* =========================
+           ICON
+        ========================= */
+
+        .icon {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            width: 52px;
+
+            height: 52px;
+
+            margin-bottom: 16px;
+
+            background: #f3f4f6;
+
+            border-radius: 12px;
+
+            font-size: 26px;
+        }
+
+
+        /* =========================
+           CARD TEXT
+        ========================= */
+
+        .name {
+            font-size: 17px;
+
+            font-weight: 600;
+
+            word-break: break-word;
+        }
+
+        .filename {
+            margin-top: 6px;
+
+            color: #9ca3af;
+
+            font-size: 13px;
+
+            word-break: break-all;
+        }
+
+
+        /* =========================
+           PAGINATION
+        ========================= */
+
+        .pagination-wrapper {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin-top: 35px;
+        }
+
+        .pagination {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 6px;
+
+            flex-wrap: wrap;
+        }
+
+        .page-button {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            min-width: 40px;
+
+            height: 40px;
+
+            padding: 0 12px;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius: 8px;
+
+            background: #ffffff;
+
+            color: #374151;
+
+            font-size: 14px;
+
+            cursor: pointer;
+
+            transition: .2s;
+        }
+
+        .page-button:hover:not(:disabled) {
+            background: #f3f4f6;
+        }
+
+        .page-button.active {
+            background: #111827;
+
+            border-color: #111827;
+
+            color: #ffffff;
+        }
+
+        .page-button:disabled {
+            opacity: .4;
+
+            cursor: not-allowed;
+        }
+
+
+        /* =========================
+           PAGE INFO
+        ========================= */
+
+        .page-info {
+            margin-top: 15px;
+
+            text-align: center;
+
+            color: #6b7280;
+
+            font-size: 13px;
+        }
+
+
+        /* =========================
+           EMPTY
+        ========================= */
+
+        .empty {
+            grid-column: 1 / -1;
+
+            padding: 50px 20px;
+
+            text-align: center;
+
+            background: #ffffff;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius: 14px;
+
+            color: #6b7280;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 768px) {
+
+            .container {
+                padding: 30px 16px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .page-list {
+                grid-template-columns:
+                    repeat(
+                        2,
+                        minmax(0, 1fr)
+                    );
+            }
+        }
+
+
+        @media (max-width: 480px) {
+
+            .container {
+                padding: 24px 14px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .header p {
+                font-size: 14px;
+            }
+
+            .page-list {
+                grid-template-columns: 1fr;
+
+                gap: 12px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+
+            .icon {
+                width: 46px;
+
+                height: 46px;
+
+                margin-bottom: 12px;
+
+                font-size: 23px;
+            }
+
+            .pagination {
+                gap: 4px;
+            }
+
+            .page-button {
+                min-width: 36px;
+
+                height: 36px;
+
+                padding: 0 9px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <div class="header">
+
+        <h1>
+            Abdul Sketch
+        </h1>
+
+        <p>
+            Select a page to open
+        </p>
+
+    </div>
+
+
+    <!-- =========================
+         SEARCH
+    ========================== -->
+
+    <div class="search-container">
+
+        <span class="search-icon">
+            🔍
+        </span>
+
+        <input
+            id="searchInput"
+            class="search-input"
+            type="search"
+            placeholder="Search pages..."
+            autocomplete="off"
+        >
+
+    </div>
+
+
+    <!-- =========================
+         PAGE LIST
+    ========================== -->
+
+    <div
+        id="pageList"
+        class="page-list"
+    ></div>
+
+
+    <!-- =========================
+         PAGINATION
+    ========================== -->
+
+    <div
+        id="paginationWrapper"
+        class="pagination-wrapper"
+    >
+
+        <div
+            id="pagination"
+            class="pagination"
+        ></div>
+
+    </div>
+
+
+    <!-- =========================
+         PAGE INFO
+    ========================== -->
+
+    <div
+        id="pageInfo"
+        class="page-info"
+    ></div>
+
+
+</div>
+
+
+<script>
+
+
+    /*
+     * ==========================================
+     * CONFIGURATION
+     * ==========================================
+     */
+
+    const ITEMS_PER_PAGE = 20;
+
+
+    /*
+     * ==========================================
+     * YOUR HTML FILES
+     * ==========================================
+     */
+
+    const pages = [
+
+        {
+            name: "For You",
+            file: "foryou.html",
+            icon: "❤️"
+        },
+        {
+            name: "Snake",
+            file: "snake.html",
+            icon: "🐍"
+        },
+        {
+            name: "Mario Game",
+            file: "mario.html",
+            icon: "🎮"
+        },
+        {
+            name: "Monopoly Nusantara",
+            file: "monopoly-nusantara.html",
+            icon: "🎲"
+        },
+        {
+            name: "Tic Tac Toe",
+            file: "unlimited-tic-tac-toe.html",
+            icon: "❌⭕"
+        },
+        {
+            name: "Islamic Tools",
+            file: "islamic-tools.html",
+            icon: "🕌"
+        }
+
+        /*
+         * Add more pages:
+         *
+         * {
+         *     name: "My New Page",
+         *     file: "new-page.html",
+         *     icon: "🌐"
+         * },
+         */
+
+    ];
+
+
+    /*
+     * ==========================================
+     * STATE
+     * ==========================================
+     */
+
+    let currentPage = 1;
+
+    let searchQuery = "";
+
+
+    /*
+     * ==========================================
+     * DOM
+     * ==========================================
+     */
+
+    const pageList =
+        document.getElementById(
+            "pageList"
+        );
+
+    const pagination =
+        document.getElementById(
+            "pagination"
+        );
+
+    const paginationWrapper =
+        document.getElementById(
+            "paginationWrapper"
+        );
+
+    const pageInfo =
+        document.getElementById(
+            "pageInfo"
+        );
+
+    const searchInput =
+        document.getElementById(
+            "searchInput"
+        );
+
+
+    /*
+     * ==========================================
+     * SEARCH EVENT
+     * ==========================================
+     */
+
+    searchInput.addEventListener(
+        "input",
+        function () {
+
+            searchQuery =
+                this.value
+                    .trim()
+                    .toLowerCase();
+
+
+            /*
+             * Always return to
+             * page 1 after search.
+             */
+
+            currentPage = 1;
+
+
+            render();
+
+        }
+    );
+
+
+    /*
+     * ==========================================
+     * FILTER
+     * ==========================================
+     */
+
+    function getFilteredPages() {
+
+        if (!searchQuery) {
+
+            return pages;
+
+        }
+
+
+        return pages.filter(page => {
+
+            const name =
+                page.name
+                    .toLowerCase();
+
+            const file =
+                page.file
+                    .toLowerCase();
+
+
+            return (
+                name.includes(searchQuery) ||
+                file.includes(searchQuery)
+            );
+
+        });
+
+    }
+
+
+    /*
+     * ==========================================
+     * RENDER
+     * ==========================================
+     */
+
+    function render() {
+
+        const filteredPages =
+            getFilteredPages();
+
+
+        renderPages(
+            filteredPages
+        );
+
+
+        renderPagination(
+            filteredPages
+        );
+
+
+        renderPageInfo(
+            filteredPages
+        );
+
+    }
+
+
+    /*
+     * ==========================================
+     * RENDER PAGE ITEMS
+     * ==========================================
+     */
+
+    function renderPages(
+        filteredPages
+    ) {
+
+        pageList.innerHTML = "";
+
+
+        const start =
+            (currentPage - 1) *
+            ITEMS_PER_PAGE;
+
+
+        const end =
+            start +
+            ITEMS_PER_PAGE;
+
+
+        const currentItems =
+            filteredPages.slice(
+                start,
+                end
+            );
+
+
+        /*
+         * Empty state.
+         */
+
+        if (
+            currentItems.length === 0
+        ) {
+
+            pageList.innerHTML = `
+
+                <div class="empty">
+
+                    ${
+                        searchQuery
+                            ? "No pages match your search."
+                            : "No pages available."
+                    }
+
+                </div>
+
+            `;
+
+            return;
+
+        }
+
+
+        /*
+         * Create cards.
+         */
+
+        currentItems.forEach(page => {
+
+            const card =
+                document.createElement(
+                    "a"
+                );
+
+
+            card.className = "card";
+
+
+            card.href =
+                page.file;
+
+
+            card.innerHTML = `
+
+                <div class="icon">
+                    ${page.icon || "🌐"}
+                </div>
+
+                <div class="name">
+                    ${escapeHTML(
+                        page.name
+                    )}
+                </div>
+
+            `;
+
+
+            pageList.appendChild(card);
+
+        });
+
+    }
+
+
+    /*
+     * ==========================================
+     * PAGINATION
+     * ==========================================
+     */
+
+    function renderPagination(
+        filteredPages
+    ) {
+
+        pagination.innerHTML = "";
+
+
+        const totalPages =
+            Math.ceil(
+                filteredPages.length /
+                ITEMS_PER_PAGE
+            );
+
+
+        /*
+         * Hide pagination when
+         * there is only one page.
+         */
+
+        if (
+            totalPages <= 1
+        ) {
+
+            paginationWrapper.style.display =
+                "none";
+
+            return;
+
+        }
+
+
+        paginationWrapper.style.display =
+            "flex";
+
+
+        /*
+         * PREVIOUS
+         */
+
+        const previous =
+            createButton(
+                "‹",
+                currentPage === 1
+            );
+
+
+        previous.addEventListener(
+            "click",
+            () => {
+
+                if (
+                    currentPage > 1
+                ) {
+
+                    currentPage--;
+
+                    render();
+
+                    scrollToTop();
+
+                }
+
+            }
+        );
+
+
+        pagination.appendChild(
+            previous
+        );
+
+
+        /*
+         * PAGE NUMBERS
+         */
+
+        for (
+            let page = 1;
+            page <= totalPages;
+            page++
+        ) {
+
+            const button =
+                createButton(
+                    page,
+                    false
+                );
+
+
+            if (
+                page === currentPage
+            ) {
+
+                button.classList.add(
+                    "active"
+                );
+
+            }
+
+
+            button.addEventListener(
+                "click",
+                () => {
+
+                    currentPage =
+                        page;
+
+                    render();
+
+                    scrollToTop();
+
+                }
+            );
+
+
+            pagination.appendChild(
+                button
+            );
+
+        }
+
+
+        /*
+         * NEXT
+         */
+
+        const next =
+            createButton(
+                "›",
+                currentPage === totalPages
+            );
+
+
+        next.addEventListener(
+            "click",
+            () => {
+
+                if (
+                    currentPage <
+                    totalPages
+                ) {
+
+                    currentPage++;
+
+                    render();
+
+                    scrollToTop();
+
+                }
+
+            }
+        );
+
+
+        pagination.appendChild(
+            next
+        );
+
+    }
+
+
+    /*
+     * ==========================================
+     * CREATE PAGINATION BUTTON
+     * ==========================================
+     */
+
+    function createButton(
+        text,
+        disabled
+    ) {
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+
+        button.className =
+            "page-button";
+
+
+        button.textContent =
+            text;
+
+
+        button.disabled =
+            disabled;
+
+
+        return button;
+
+    }
+
+
+    /*
+     * ==========================================
+     * PAGE INFO
+     * ==========================================
+     */
+
+    function renderPageInfo(
+        filteredPages
+    ) {
+
+        if (
+            filteredPages.length === 0
+        ) {
+
+            pageInfo.textContent = "";
+
+            return;
+
+        }
+
+
+        const totalPages =
+            Math.ceil(
+                filteredPages.length /
+                ITEMS_PER_PAGE
+            );
+
+
+        const start =
+            (currentPage - 1) *
+            ITEMS_PER_PAGE + 1;
+
+
+        const end =
+            Math.min(
+                currentPage *
+                ITEMS_PER_PAGE,
+                filteredPages.length
+            );
+
+
+        pageInfo.textContent =
+            `Showing ${start}–${end} of ${filteredPages.length} pages · Page ${currentPage} of ${totalPages}`;
+
+    }
+
+
+    /*
+     * ==========================================
+     * SCROLL TO TOP
+     * ==========================================
+     */
+
+    function scrollToTop() {
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    }
+
+
+    /*
+     * ==========================================
+     * ESCAPE HTML
+     * ==========================================
+     */
+
+    function escapeHTML(
+        value
+    ) {
+
+        const div =
+            document.createElement(
+                "div"
+            );
+
+
+        div.textContent =
+            value;
+
+
+        return div.innerHTML;
+
+    }
+
+
+    /*
+     * ==========================================
+     * INITIAL RENDER
+     * ==========================================
+     */
+
+    render();
+
+</script>
+
+</body>
+
+</html>
