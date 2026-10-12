@@ -3,19 +3,11 @@
     "title": "Dzikir & Doa Sunnah",
     "description": "Kumpulan dzikir pagi-petang dan doa harian yang bersumber dari Al-Qur'an dan hadits.",
     "version": "2.0.0",
-    "notes": "Data dzikir pagi dan petang mengikuti daftar pada artikel Rumaysho yang dirujuk. Penomoran hadits dapat berbeda antar edisi. Gunakan tautan sumber untuk verifikasi.",
+    "notes": "Referensi dzikir pagi-petang diarahkan ke Al-Qur'an dan koleksi hadits, bukan artikel Rumaysho. Untuk item yang belum memiliki takhrij/nomor hadits spesifik pada data asal, tautan koleksi hadits disediakan sebagai rujukan penelusuran; jangan dianggap sebagai takhrij spesifik tanpa verifikasi.",
     "sources": [
       {
-        "name": "Rumaysho – Bacaan Dzikir Pagi",
-        "url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html"
-      },
-      {
-        "name": "Rumaysho – Bacaan Dzikir Petang",
-        "url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html"
-      },
-      {
-        "name": "Hisn al-Muslim / Kumpulan Doa",
-        "url": "https://hisnmuslim.com/i/id/27"
+        "name": "Al-Qur'an – Quran.com",
+        "url": "https://quran.com/"
       },
       {
         "name": "Sunnah.com – Hisn al-Muslim",
@@ -54,9 +46,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [1].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Al-Qur'an, QS. Al-Baqarah: 255",
+      "hadith": "Lafaz bersumber dari Al-Qur'an. Rujukan ayat ini tidak dengan sendirinya menetapkan waktu atau keutamaan khusus membacanya pada pagi/petang.",
+      "reference_url": "https://quran.com/2/255",
       "type": "quran"
     },
     {
@@ -71,9 +63,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [2].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Al-Qur'an (QS. Al-Ikhlas 112, Al-Falaq 113, An-Naas 114); riwayat dzikir pagi-petang",
+      "hadith": "Lafaz surat bersumber dari Al-Qur'an. Rujukan koleksi Sunan Abi Dawud disediakan untuk penelusuran riwayat tentang membaca tiga surat ini; nomor hadits spesifik perlu diverifikasi sebelum ditampilkan.",
+      "reference_url": "https://sunnah.com/abudawud",
       "type": "quran-hadith"
     },
     {
@@ -88,9 +80,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [3].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -105,9 +97,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [4].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -122,9 +114,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [5].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -139,9 +131,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [6].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -156,9 +148,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [7].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -173,9 +165,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [8].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -190,9 +182,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [9].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -207,9 +199,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [10].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -224,9 +216,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [11].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -241,9 +233,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [12]. Hanya dicantumkan untuk pagi.",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -258,9 +250,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [13].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -275,9 +267,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [14].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -292,9 +284,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [15].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -309,9 +301,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [16].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -326,9 +318,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [17].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -343,9 +335,9 @@
       "time": [
         "pagi"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Pagi [18].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1636-bacaan-dzikir-pagi.html",
+      "source": "Hadits dzikir pagi – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -360,9 +352,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [1].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Al-Qur'an, QS. Al-Baqarah: 255",
+      "hadith": "Lafaz bersumber dari Al-Qur'an. Rujukan ayat ini tidak dengan sendirinya menetapkan waktu atau keutamaan khusus membacanya pada pagi/petang.",
+      "reference_url": "https://quran.com/2/255",
       "type": "quran"
     },
     {
@@ -377,9 +369,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [2].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Al-Qur'an (QS. Al-Ikhlas 112, Al-Falaq 113, An-Naas 114); riwayat dzikir pagi-petang",
+      "hadith": "Lafaz surat bersumber dari Al-Qur'an. Rujukan koleksi Sunan Abi Dawud disediakan untuk penelusuran riwayat tentang membaca tiga surat ini; nomor hadits spesifik perlu diverifikasi sebelum ditampilkan.",
+      "reference_url": "https://sunnah.com/abudawud",
       "type": "quran-hadith"
     },
     {
@@ -394,9 +386,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [3].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -411,9 +403,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [4].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -428,9 +420,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [5].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -445,9 +437,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [6].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -462,9 +454,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [7].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -479,9 +471,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [8].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -496,9 +488,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [9].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -513,9 +505,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [10].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -530,9 +522,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [11].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -547,9 +539,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [12].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -564,9 +556,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [13].",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
@@ -581,9 +573,9 @@
       "time": [
         "petang"
       ],
-      "source": "Rumaysho – Bacaan Dzikir Petang [14]. Khusus dicantumkan untuk petang.",
-      "hadith": "Keterangan dan faedah mengikuti artikel Rumaysho yang menjadi sumber data ini.",
-      "reference_url": "https://rumaysho.com/1638-bacaan-dzikir-petang.html",
+      "source": "Hadits dzikir petang – rujukan koleksi Sunnah.com (Hisn al-Muslim dan kitab hadits)",
+      "hadith": "Rujukan penelusuran ke kumpulan dzikir dan doa serta kitab hadits. Nomor hadits dan derajat riwayat perlu dicocokkan dengan lafaz lengkap sebelum dijadikan takhrij spesifik.",
+      "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
     },
     {
