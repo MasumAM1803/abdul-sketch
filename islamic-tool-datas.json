@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Dzikir & Doa Sunnah",
-    "description": "Kumpulan dzikir pagi-petang dan doa harian yang bersumber dari Al-Qur'an dan hadits.",
-    "version": "2.0.0",
-    "notes": "Referensi dzikir pagi-petang diarahkan ke Al-Qur'an dan koleksi hadits, bukan artikel Rumaysho. Untuk item yang belum memiliki takhrij/nomor hadits spesifik pada data asal, tautan koleksi hadits disediakan sebagai rujukan penelusuran; jangan dianggap sebagai takhrij spesifik tanpa verifikasi.",
+    "title": "Doa Harian, Dzikir & Sifat Shalat Nabi",
+    "description": "Kumpulan doa harian yang diperluas, dzikir pagi-petang dan setelah shalat, serta panduan sifat shalat Nabi dengan referensi Al-Qur’an dan hadis.",
+    "version": "3.0.0",
+    "notes": "Panduan shalat ditambahkan sebagai materi edukasi. Rumaysho digunakan sebagai titik awal penelusuran; tautan dalil pada tiap langkah diarahkan ke ayat Al-Qur’an atau koleksi hadis. Perbedaan ulama dicatat ringkas; rincian yang sanadnya diperselisihkan tidak boleh dianggap setingkat hadis sahih. Penomoran hadis dapat berbeda menurut edisi. Bagian dzikir setelah shalat mencantumkan beberapa varian dzikir yang sama-sama memiliki dalil; varian hitungan disajikan terpisah dan tidak digabungkan. Doa keseharian diperluas. Untuk selesai membaca Al-Qur’an, aplikasi membedakan dzikir penutup majelis yang memiliki riwayat dari doa khusus setelah tilawah/khatam: tidak ditetapkan satu lafaz khusus yang sahih dari Nabi ﷺ untuk setiap selesai membaca atau khatam; pengguna tetap boleh berdoa dengan doa umum yang baik.",
     "sources": [
       {
         "name": "Al-Qur'an – Quran.com",
@@ -30,8 +30,8 @@
         "url": "https://sunnah.com/tirmidhi"
       }
     ],
-    "ordering_note": "Tampilan memisahkan Dzikir Pagi, Dzikir Petang, dan Doa Sunnah. Bacaan yang memiliki lafaz berbeda untuk pagi/petang ditampilkan sebagai item terpisah.",
-    "last_updated": "2026-10-08"
+    "ordering_note": "Tampilan dikelompokkan menjadi Doa Harian, Dzikir (Dzikir Pagi, Dzikir Petang, Dzikir Setelah Shalat), dan Sifat Shalat Nabi. Riwayat yang kualitasnya diperselisihkan diberi catatan khusus.",
+    "last_updated": "2026-10-20"
   },
   "items": [
     {
@@ -689,6 +689,1219 @@
       "reference_url": "https://sunnah.com/bukhari:6389",
       "type": "quran-hadith",
       "latin": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adzaban-nar."
+    },
+    {
+      "id": "shalat-01-persiapan",
+      "step": 1,
+      "title": "Persiapan: bersuci, kiblat, dan niat",
+      "subtitle": "Sebelum takbiratul ihram",
+      "arabic": "",
+      "latin": "",
+      "translation": "Pastikan telah bersuci sesuai keadaan, menutup aurat, masuk waktu shalat, dan menghadap kiblat. Niat tempatnya di hati: tentukan shalat yang hendak dikerjakan tanpa menganggap lafaz niat tertentu sebelum takbir sebagai bacaan wajib.",
+      "details": "Wudu dijelaskan dalam QS. Al-Ma’idah 5:6 dan perintah menghadap Masjidil Haram dalam QS. Al-Baqarah 2:144. Hadis “amal bergantung pada niat” menjadi dasar bahwa niat adalah maksud hati. Rincian syarat shalat dapat berbeda menurut pembahasan fikih; aplikasi ini tidak menyamakan seluruh syarat dan uzur dalam semua keadaan.",
+      "differences": "Melafazkan niat dengan lisan sebelum takbir tidak ditetapkan sebagai bacaan khusus dari Nabi dalam hadis sahih yang menjadi rujukan panduan ini. Sebagian ulama belakangan membolehkan lafaz sebagai bantuan hati, sementara ulama lain tidak menganjurkannya. Jangan menganggapnya rukun atau sunnah khusus Nabi.",
+      "scholars": "Dasar umum: para ulama hadis dan fikih menerima hadis niat sebagai kaidah umum. Penilaian praktik melafazkan niat dibahas dalam literatur mazhab; karena tidak ada satu dalil marfu’ sahih yang secara eksplisit memerintahkannya, panduan tidak menisbatkan lafaz tertentu kepada Nabi.",
+      "source": "Al-Qur’an dan hadis langsung",
+      "reference_url": "https://quran.com/5/6",
+      "extra_refs": [
+        {
+          "label": "QS. Al-Baqarah 2:144 — kiblat",
+          "url": "https://quran.com/2/144"
+        },
+        {
+          "label": "Sahih al-Bukhari 1 — niat",
+          "url": "https://sunnah.com/bukhari:1"
+        }
+      ],
+      "hadith": "QS. Al-Ma’idah 5:6; QS. Al-Baqarah 2:144; Sahih al-Bukhari 1.",
+      "type": "prayer-guide",
+      "time": [
+        "sebelum shalat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-02-takbir",
+      "step": 2,
+      "title": "Takbiratul ihram dan posisi jari",
+      "subtitle": "Mengangkat tangan ketika memulai shalat",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "latin": "Allāhu akbar.",
+      "translation": "Ucapkan “Allahu akbar” untuk memulai shalat. Angkat kedua tangan dengan telapak terbuka, tidak mengepal. Riwayat menjelaskan tangan diangkat sejajar bahu; riwayat lain menyebut sejajar telinga. Jari-jari terbuka alami/lurus, tidak digenggam dan tidak dipaksa direnggangkan lebar.",
+      "details": "Ibn Umar meriwayatkan Nabi mengangkat tangan sejajar bahu saat memulai shalat (Bukhari 735; Muslim 390). Malik bin al-Huwairits meriwayatkan sejajar telinga (Muslim 391). Abu Hurairah meriwayatkan Nabi mengangkat tangan dalam keadaan terbuka (Abu Dawud 753; Tirmidzi 240). Dalil “terbuka” tidak menetapkan ukuran jarak khusus antarjari.",
+      "differences": "Waktu mengangkat tangan dibanding lafaz takbir: sejumlah riwayat dan ulama memahaminya dilakukan bersamaan; sebagian penjelasan menyebut boleh mengangkat sebelum atau sesudah lafaz takbir berdasarkan penggabungan riwayat. Tinggi tangan sejajar bahu atau telinga sama-sama memiliki dasar hadis sahih, jadi tidak perlu saling menyalahkan.",
+      "scholars": "Syaikh ‘Abdurrahman bin Nashir as-Sa’di dalam Manhajus Salikin menyebut sejajar bahu atau cuping telinga. Muhammad Abduh Tuasikal menjelaskan dua riwayat tersebut di Rumaysho. Fokus pada riwayat sahih: tangan terbuka; tidak ada ukuran sahih yang tegas untuk jarak setiap jari.",
+      "source": "Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud",
+      "reference_url": "https://sunnah.com/bukhari:735",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 390 — sejajar bahu",
+          "url": "https://sunnah.com/muslim:390"
+        },
+        {
+          "label": "Sahih Muslim 391 — sejajar telinga",
+          "url": "https://sunnah.com/muslim:391"
+        },
+        {
+          "label": "Sunan Abi Dawud 753 — tangan terbuka",
+          "url": "https://sunnah.com/abudawud:753"
+        },
+        {
+          "label": "Jami’ at-Tirmidzi 240",
+          "url": "https://sunnah.com/tirmidhi:240"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 735; Sahih Muslim 390–391; Sunan Abi Dawud 753; Jami’ at-Tirmidzi 240.",
+      "type": "prayer-guide",
+      "time": [
+        "takbiratul ihram"
+      ],
+      "count": "1×",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-03-sedekap",
+      "step": 3,
+      "title": "Berdiri dan meletakkan tangan (sedekap)",
+      "subtitle": "Tangan kanan di atas tangan kiri",
+      "arabic": "",
+      "latin": "",
+      "translation": "Setelah takbir, letakkan tangan kanan di atas tangan kiri saat berdiri. Riwayat menyebut tangan kanan berada di atas telapak/pergelangan/lengan bawah kiri.",
+      "details": "Sahl bin Sa’d meriwayatkan orang-orang diperintahkan meletakkan tangan kanan di atas lengan kiri ketika shalat (Sahih al-Bukhari 740). Wail bin Hujr juga meriwayatkan Nabi meletakkan tangan kanan di atas tangan kiri (Sahih Muslim 401).",
+      "differences": "Lokasi sedekap—dada, di atas pusar, atau di bawah pusar—diperselisihkan. Riwayat yang eksplisit tentang lokasi tepat tidak sama kuatnya menurut para ahli hadis. Jangan menyatakan satu lokasi sebagai kesepakatan seluruh salaf.",
+      "scholars": "Dalam pembahasan fikih, terdapat perbedaan penisbatan kepada mazhab Hanafi, Maliki, Syafi’i, dan Hanbali tentang lokasi tangan. Rumaysho cenderung menguatkan sedekap dan membahas beberapa riwayat. Hadis sahih yang paling jelas di sini menetapkan tangan kanan di atas tangan kiri, bukan satu titik anatomis yang disepakati.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:740",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 401 — tangan kanan di atas kiri",
+          "url": "https://sunnah.com/muslim:401"
+        },
+        {
+          "label": "Rumaysho — posisi tangan ketika sedekap (pembahasan awal)",
+          "url": "https://rumaysho.com/6943-sifat-shalat-nabi-2.html"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 740; Sahih Muslim 401. Artikel Rumaysho digunakan sebagai penunjuk awal pembahasan, sedangkan tautan dalil diarahkan ke hadis.",
+      "type": "prayer-guide",
+      "time": [
+        "berdiri"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-04-istiftah",
+      "step": 4,
+      "title": "Doa istiftah",
+      "subtitle": "Dibaca setelah takbir dan sebelum Al-Fatihah",
+      "arabic": "اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْنِي مِنْ خَطَايَايَ بِالثَّلْجِ وَالْمَاءِ وَالْبَرَدِ",
+      "latin": "Allāhumma bā‘id bainī wa baina khaṭāyāya kamā bā‘adta bainal-masyriqi wal-maghrib. Allāhumma naqqinī min khaṭāyāya kamā yunaqqaṡ-ṡaubul-abyaḍu minad-danas. Allāhummaghsilnī min khaṭāyāya biṡ-ṡalji wal-mā’i wal-barad.",
+      "translation": "Ya Allah, jauhkanlah aku dari kesalahan-kesalahanku sebagaimana Engkau menjauhkan timur dan barat; bersihkanlah aku dari kesalahan sebagaimana kain putih dibersihkan dari kotoran; cucilah aku dari kesalahan dengan salju, air, dan embun es.",
+      "details": "Abu Hurairah bertanya tentang diam Nabi di antara takbir dan bacaan. Nabi menyebut doa ini (Sahih al-Bukhari 744; Sahih Muslim 598). Doa istiftah dibaca setelah takbiratul ihram dan sebelum isti’adzah serta Al-Fatihah.",
+      "differences": "Terdapat beberapa doa istiftah sahih, bukan hanya satu. Sebagian ulama menganjurkan variasi doa yang sahih pada kesempatan berbeda; jangan menggabungkan semua lafaz sebagai satu doa wajib.",
+      "scholars": "Ulama hadis seperti an-Nawawi membahas beragam doa pembuka yang sahih. Mengamalkan salah satu yang sahih sudah mencukupi; pilihan lafaz merupakan perkara keluasan sunnah.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:744",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 598 — doa istiftah",
+          "url": "https://sunnah.com/muslim:598"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 744; Sahih Muslim 598.",
+      "type": "prayer-guide",
+      "time": [
+        "awal rakaat"
+      ],
+      "count": "1×",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-05-istiadzah-fatihah",
+      "step": 5,
+      "title": "Isti’adzah dan membaca Al-Fatihah",
+      "subtitle": "Memohon perlindungan dan membaca Ummul Kitab",
+      "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "latin": "A‘ūdzu billāhi minasy-syaithānir-rajīm.",
+      "translation": "Baca isti’adzah sebelum bacaan Al-Qur’an, lalu baca Al-Fatihah. Lafaz isti’adzah di atas sesuai makna QS. An-Nahl 16:98. Al-Fatihah memiliki kedudukan khusus dalam shalat.",
+      "details": "Allah memerintahkan isti’adzah ketika hendak membaca Al-Qur’an (QS. An-Nahl 16:98). Nabi bersabda bahwa shalat orang yang tidak membaca Fatihatul Kitab tidak sah/sempurna, dengan rincian penerapan yang dibahas ulama (Sahih al-Bukhari 756; Sahih Muslim 394).",
+      "differences": "Basmalah dibaca jahr atau sirr dan apakah basmalah dihitung sebagai ayat Al-Fatihah dibahas berbeda dalam mazhab. Bacaan imam, makmum, dan shalat jahr juga memiliki perincian fikih. Panduan ini tidak menyatakan seluruh rincian tersebut sebagai ijmak.",
+      "scholars": "Imam asy-Syafi’i dikenal mengeraskan basmalah dalam shalat jahr menurut pendapat mazhabnya; ulama Hanafiyah dan Hanabilah umumnya membacanya pelan. Ada rincian dan riwayat dalam mazhab Maliki. Dalil-dalilnya perlu dibaca bersama pembahasan ulama, bukan dijadikan alasan saling membid’ahkan.",
+      "source": "Al-Qur’an, Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://quran.com/16/98",
+      "extra_refs": [
+        {
+          "label": "Sahih al-Bukhari 756 — Al-Fatihah",
+          "url": "https://sunnah.com/bukhari:756"
+        },
+        {
+          "label": "Sahih Muslim 394 — tidak ada shalat tanpa Al-Fatihah",
+          "url": "https://sunnah.com/muslim:394"
+        }
+      ],
+      "hadith": "QS. An-Nahl 16:98; Sahih al-Bukhari 756; Sahih Muslim 394.",
+      "type": "prayer-guide",
+      "time": [
+        "setiap rakaat"
+      ],
+      "count": "1×",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-06-bacaan-quran",
+      "step": 6,
+      "title": "Membaca surah setelah Al-Fatihah",
+      "subtitle": "Pada rakaat awal, sesuai jenis shalat",
+      "arabic": "",
+      "latin": "",
+      "translation": "Setelah Al-Fatihah, baca ayat atau surah Al-Qur’an pada rakaat-rakaat yang disyariatkan. Nabi membaca surah pada dua rakaat pertama shalat Zuhur, Asar, Magrib, dan Isya; detail panjang bacaan beragam.",
+      "details": "Hadis-hadis sifat shalat Abu Qatadah menjelaskan Nabi membaca Al-Fatihah dan surah pada dua rakaat pertama, dan Al-Fatihah pada rakaat berikutnya (Sahih al-Bukhari 776). Ada bacaan jahr pada shalat Subuh, dua rakaat pertama Magrib dan Isya; shalat Zuhur dan Asar dibaca sirr.",
+      "differences": "Makmum membaca Al-Fatihah ketika imam membaca jahr diperselisihkan oleh ulama. Ada hadis “jangan membaca kecuali Fatihatul Kitab” dan hadis perintah mendengarkan bacaan imam; para ulama berbeda dalam menggabungkan dalil.",
+      "scholars": "Mazhab Syafi’i mewajibkan Al-Fatihah bagi makmum dalam banyak keadaan, sedangkan pendapat Hanafi memiliki perincian berbeda mengenai bacaan makmum di belakang imam. Ini masalah khilaf fikih yang dikenal, bukan alasan mengingkari keabsahan semua praktik yang memiliki landasan ijtihad.",
+      "source": "Sahih al-Bukhari",
+      "reference_url": "https://sunnah.com/bukhari:776",
+      "extra_refs": [
+        {
+          "label": "Rumaysho — sifat shalat Nabi (seri)",
+          "url": "https://rumaysho.com/6934-sifat-shalat-nabi-1.html"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 776. Rujukan Rumaysho sebagai bahan kajian; dalil utama yang ditautkan tetap hadis.",
+      "type": "prayer-guide",
+      "time": [
+        "rakaat 1–2"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-07-rukuk",
+      "step": 7,
+      "title": "Rukuk: punggung, tangan, dan bacaan",
+      "subtitle": "Bertakbir lalu membungkuk dengan tuma’ninah",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "latin": "Subḥāna rabbiyal-‘aẓīm.",
+      "translation": "Bertakbir ketika turun rukuk. Letakkan telapak tangan pada lutut dan mantapkan posisi; jangan sekadar menundukkan kepala. Bacaan “Subhana rabbiyal-‘azhim” merupakan tasbih yang masyhur dalam rukuk.",
+      "details": "Hadis sifat shalat menjelaskan Nabi meletakkan tangan di lutut dan meluruskan punggung (Sahih Muslim 498; Sahih al-Bukhari 828). Riwayat Ibn Umar menyebut mengangkat tangan saat hendak rukuk (Bukhari 735; Muslim 390).",
+      "differences": "Jumlah bacaan tasbih tidak ditetapkan hanya satu angka yang wajib dalam hadis sahih yang dipakai di sini. Tuma’ninah merupakan bagian penting; imam tidak boleh tergesa-gesa hingga makmum tidak sempat tenang.",
+      "scholars": "Ulama empat mazhab sepakat tentang pokok rukuk dan tuma’ninah, dengan perincian hukum bacaan tasbih serta kadar minimal ketenangan yang dibahas dalam kitab fikih.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:828",
+      "extra_refs": [
+        {
+          "label": "Sahih al-Bukhari 735 — mengangkat tangan",
+          "url": "https://sunnah.com/bukhari:735"
+        },
+        {
+          "label": "Sahih Muslim 498 — sifat rukuk",
+          "url": "https://sunnah.com/muslim:498"
+        },
+        {
+          "label": "Sunan Abi Dawud 869 — tasbih rukuk",
+          "url": "https://sunnah.com/abudawud:869"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 735, 828; Sahih Muslim 390, 498; Sunan Abi Dawud 869.",
+      "type": "prayer-guide",
+      "time": [
+        "setiap rakaat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-08-itidal",
+      "step": 8,
+      "title": "Bangkit dari rukuk (i’tidal)",
+      "subtitle": "Berdiri tegak sebelum turun sujud",
+      "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ\nرَبَّنَا وَلَكَ الْحَمْدُ",
+      "latin": "Sami‘allāhu liman ḥamidah. Rabbanā wa lakal-ḥamd.",
+      "translation": "Saat bangkit dari rukuk, ucapkan “Sami’allahu liman hamidah”. Setelah berdiri tegak, ucapkan “Rabbana wa lakal-hamd” atau bentuk pujian sahih lainnya. Berdiri i’tidal dengan tenang sebelum turun sujud.",
+      "details": "Hadis Ibn Umar menyebut Nabi mengucapkan “Sami’allahu liman hamidah, Rabbana wa lakal-hamd” dan mengangkat tangan ketika bangkit (Sahih al-Bukhari 735; Sahih Muslim 392b). Hadis tentang orang yang salah shalatnya juga memerintahkan berdiri tegak setelah rukuk (Bukhari 757).",
+      "differences": "Ada beberapa lafaz pujian setelah i’tidal yang sahih, seperti “Rabbana wa lakal-hamd” dan tambahan pujian. Makmum memiliki rincian kapan mengucapkan “Sami’allahu liman hamidah” menurut hadis dan fikih; jangan menganggap satu tambahan lafaz sebagai satu-satunya bentuk.",
+      "scholars": "Ulama menjelaskan imam dan orang yang shalat sendiri mengucapkan “Sami’allahu liman hamidah”; makmum mengucapkan “Rabbana wa lakal-hamd”, dengan perincian antarmazhab.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/muslim:392b",
+      "extra_refs": [
+        {
+          "label": "Sahih al-Bukhari 735",
+          "url": "https://sunnah.com/bukhari:735"
+        },
+        {
+          "label": "Sahih al-Bukhari 757 — tuma’ninah",
+          "url": "https://sunnah.com/bukhari:757"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 735, 757; Sahih Muslim 392b.",
+      "type": "prayer-guide",
+      "time": [
+        "setiap rakaat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-09-sujud",
+      "step": 9,
+      "title": "Sujud di atas tujuh anggota",
+      "subtitle": "Posisi anggota sujud dan bacaan",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "latin": "Subḥāna rabbiyal-a‘lā.",
+      "translation": "Turun sujud dengan tuma’ninah. Sujud dilakukan di atas tujuh anggota: dahi beserta hidung, dua telapak tangan, dua lutut, dan ujung kedua kaki. Jaga siku tidak menempel ke lantai seperti hewan, sesuai hadis tentang cara sujud.",
+      "details": "Nabi memerintahkan sujud di atas tujuh tulang/anggota (Sahih al-Bukhari 812; Sahih Muslim 490). Hadis lain menjelaskan jangan membentangkan lengan bawah seperti anjing (Sahih al-Bukhari 822). Bacaan tasbih sujud berasal dari beberapa riwayat, termasuk Abu Dawud 869.",
+      "differences": "Cara meletakkan jari tangan menghadap kiblat dan jarak siku memiliki rincian dalam deskripsi hadis dan penjelasan ulama. Posisi dasar anggota sujud memiliki dalil kuat, tetapi bentuk anatomi setiap orang dapat berbeda karena kondisi tubuh atau uzur.",
+      "scholars": "Ulama hadis dan fikih menjadikan hadis tujuh anggota sebagai dasar. Ketentuan orang yang sakit atau tidak mampu sujud secara normal memiliki hukum tersendiri; jangan memaksakan postur yang membahayakan.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:812",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 490 — tujuh anggota sujud",
+          "url": "https://sunnah.com/muslim:490"
+        },
+        {
+          "label": "Sahih al-Bukhari 822 — posisi lengan saat sujud",
+          "url": "https://sunnah.com/bukhari:822"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 812, 822; Sahih Muslim 490; Sunan Abi Dawud 869.",
+      "type": "prayer-guide",
+      "time": [
+        "setiap rakaat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-10-duduk-dua-sujud",
+      "step": 10,
+      "title": "Duduk di antara dua sujud",
+      "subtitle": "Duduk iftirasy dan membaca doa",
+      "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+      "latin": "Rabbighfir lī, rabbighfir lī.",
+      "translation": "Bangkit dari sujud, duduk dengan tenang, lalu memohon ampun. Salah satu doa ringkas yang diriwayatkan ialah “Rabbighfir li”. Riwayat lain memiliki doa yang lebih panjang berisi ampunan, rahmat, petunjuk, kesehatan, dan rezeki.",
+      "details": "Hadis orang yang belum benar shalatnya menjelaskan Nabi memerintahkannya duduk sampai tenang (Sahih al-Bukhari 757). Sunan Abi Dawud 874 memuat doa di antara dua sujud.",
+      "differences": "Ada beberapa lafaz doa yang diriwayatkan. Posisi duduk yang masyhur antara dua sujud ialah iftirasy (duduk di atas kaki kiri dan menegakkan kaki kanan), tetapi orang yang memiliki uzur boleh duduk sesuai kemampuan.",
+      "scholars": "Mayoritas ulama menggambarkan duduk iftirasy antara dua sujud berdasarkan hadis sifat shalat. Detail posisi kaki dan tangan dibahas dalam kitab-kitab fikih; kemampuan fisik dan uzur diperhitungkan.",
+      "source": "Sahih al-Bukhari dan Sunan Abi Dawud",
+      "reference_url": "https://sunnah.com/bukhari:757",
+      "extra_refs": [
+        {
+          "label": "Sunan Abi Dawud 874 — doa antara dua sujud",
+          "url": "https://sunnah.com/abudawud:874"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 757; Sunan Abi Dawud 874. Periksa penilaian ulama atas jalur dan lafaz doa yang dipilih.",
+      "type": "prayer-guide",
+      "time": [
+        "setiap rakaat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-11-duduk-istirahat",
+      "step": 11,
+      "title": "Bangkit ke rakaat berikutnya dan duduk istirahat",
+      "subtitle": "Rincian yang diperselisihkan ulama",
+      "arabic": "",
+      "latin": "",
+      "translation": "Setelah sujud kedua, bangkit untuk rakaat berikutnya. Dalam sebagian riwayat sifat shalat Nabi disebut duduk sejenak sebelum berdiri pada rakaat tertentu; praktik ini dikenal sebagai duduk istirahat (jalsat al-istirahah).",
+      "details": "Hadis Malik bin al-Huwairits tentang sifat shalat Nabi memuat gambaran beliau duduk sejenak setelah rakaat sebelum bangkit (Sahih al-Bukhari 823). Riwayat ini menjadi dasar pembahasan ulama tentang duduk istirahat.",
+      "differences": "Ulama berbeda apakah duduk istirahat dianjurkan secara umum atau dilakukan ketika diperlukan, misalnya karena usia atau keperluan bangkit. Perbedaan ini berasal dari cara menggabungkan beberapa riwayat sifat shalat.",
+      "scholars": "Dalam mazhab Syafi’i, duduk istirahat dikenal sebagai sunnah; ulama lain mengaitkannya dengan kebutuhan atau tidak memandangnya sebagai kebiasaan tetap dalam semua shalat. Penisbatan rinci dapat berbeda antar kitab dan riwayat dalam mazhab.",
+      "source": "Sahih al-Bukhari",
+      "reference_url": "https://sunnah.com/bukhari:823",
+      "extra_refs": [
+        {
+          "label": "Rumaysho — seri sifat shalat Nabi",
+          "url": "https://rumaysho.com/6934-sifat-shalat-nabi-1.html"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 823. Perbedaan adalah pada cara memahami kebiasaan Nabi, bukan penolakan terhadap riwayat.",
+      "type": "prayer-guide",
+      "time": [
+        "bangkit ke rakaat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-12-tasyahud",
+      "step": 12,
+      "title": "Tasyahud dan posisi telunjuk",
+      "subtitle": "Duduk dan membaca tahiyat",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt. As-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh. As-salāmu ‘alainā wa ‘alā ‘ibādillāhiṣ-ṣāliḥīn. Asyhadu an lā ilāha illallāh wa asyhadu anna Muḥammadan ‘abduhū wa rasūluh.",
+      "translation": "Baca tahiyat sebagaimana diajarkan Nabi. Dalam riwayat sifat shalat, Nabi memberi isyarat dengan jari telunjuk ketika duduk tasyahud. Bentuk tangan dan gerakan jari dibahas berdasarkan variasi redaksi hadis.",
+      "details": "Hadis Ibn Mas’ud tentang tasyahud diriwayatkan dalam Sahih al-Bukhari 831 dan Sahih Muslim 402. Riwayat Wa’il bin Hujr tentang isyarat telunjuk terdapat dalam Sunan Abi Dawud 727 dan Sahih Muslim 580 (nomor/tautan dapat berbeda menurut sistem penomoran).",
+      "differences": "Ulama berbeda tentang kapan mulai mengangkat telunjuk, apakah menggerakkannya berulang atau cukup menunjuk, dan posisi jari lain. Perbedaan timbul dari variasi redaksi riwayat dan penilaian sanad; jangan menyatakan satu cara sebagai kesepakatan seluruh ulama.",
+      "scholars": "Sebagian ulama Hanbali dan ahli hadis menguatkan gerakan telunjuk berdasarkan riwayat yang menyebut Nabi menggerakkannya; ulama lain memahami riwayat sebagai isyarat tanpa gerakan berulang. Mazhab Syafi’i dan Hanafi memiliki perincian masing-masing tentang bentuk isyarat.",
+      "source": "Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud",
+      "reference_url": "https://sunnah.com/bukhari:831",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 402 — tasyahud",
+          "url": "https://sunnah.com/muslim:402"
+        },
+        {
+          "label": "Sahih Muslim 580 — isyarat telunjuk",
+          "url": "https://sunnah.com/muslim:580"
+        },
+        {
+          "label": "Sunan Abi Dawud 727 — sifat tangan saat tasyahud",
+          "url": "https://sunnah.com/abudawud:727"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 831; Sahih Muslim 402, 580; Sunan Abi Dawud 727. Perincian gerakan telunjuk termasuk khilaf yang dikenal.",
+      "type": "prayer-guide",
+      "time": [
+        "duduk tasyahud"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-13-shalawat-dan-duduk",
+      "step": 13,
+      "title": "Tasyahud akhir, shalawat, dan posisi duduk",
+      "subtitle": "Membaca shalawat Ibrahimiyah sebelum salam",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "latin": "Allāhumma ṣalli ‘alā Muḥammadin wa ‘alā āli Muḥammad, kamā ṣallaita ‘alā Ibrāhīma wa ‘alā āli Ibrāhīm, innaka ḥamīdun majīd. Allāhumma bārik ‘alā Muḥammadin wa ‘alā āli Muḥammad, kamā bārakta ‘alā Ibrāhīma wa ‘alā āli Ibrāhīm, innaka ḥamīdun majīd.",
+      "translation": "Pada tasyahud akhir, baca tahiyat lalu shalawat kepada Nabi dengan salah satu lafaz yang sahih. Doa sebelum salam juga diriwayatkan, termasuk memohon perlindungan dari empat perkara.",
+      "details": "Ka’ab bin ‘Ujrah meriwayatkan para sahabat bertanya cara bershalawat kepada Nabi; hadisnya ada dalam Sahih al-Bukhari 3370 dan Sahih Muslim 406. Riwayat Abu Hurairah tentang doa perlindungan dari azab kubur, neraka, fitnah hidup-mati, dan Dajjal terdapat dalam Sahih Muslim 588.",
+      "differences": "Posisi duduk pada tasyahud akhir—tawarruk atau bentuk duduk lain—memiliki variasi dalam riwayat dan perincian antarmazhab, termasuk bergantung pada jumlah rakaat. Bacaan shalawat juga memiliki beberapa lafaz sahih.",
+      "scholars": "Imam asy-Syafi’i dikenal menganjurkan tawarruk pada tasyahud akhir dalam shalat tertentu; ulama lain merinci duduk menurut keadaan rakaat. Ini perbedaan sifat duduk, bukan perbedaan kewajiban menghormati tasyahud dan shalawat.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:3370",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 406 — shalawat",
+          "url": "https://sunnah.com/muslim:406"
+        },
+        {
+          "label": "Sahih Muslim 588 — doa sebelum salam",
+          "url": "https://sunnah.com/muslim:588"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 3370; Sahih Muslim 406, 588.",
+      "type": "prayer-guide",
+      "time": [
+        "tasyahud akhir"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-14-salam",
+      "step": 14,
+      "title": "Salam untuk mengakhiri shalat",
+      "subtitle": "Menoleh ke kanan dan kiri",
+      "arabic": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+      "translation": "Akhiri shalat dengan salam. Terdapat riwayat Nabi mengucapkan salam sambil menoleh ke kanan dan ke kiri. Lafaz dan rincian salam dibahas dalam kitab hadis dan fikih.",
+      "details": "Hadis tentang salam ke kanan dan kiri diriwayatkan dalam Sunan Abi Dawud 996; riwayat lain menjelaskan Nabi menoleh sampai terlihat putih pipi beliau.",
+      "differences": "Ulama berbeda mengenai hukum salam kedua dan rincian apakah salam pertama merupakan rukun tunggal atau keduanya diwajibkan, menurut perincian mazhab. Lafaz tambahan “wa barakatuh” memiliki pembahasan sanad tersendiri, sehingga panduan ini menampilkan lafaz umum yang terkenal.",
+      "scholars": "Mayoritas ulama menetapkan salam sebagai penutup shalat. Detail kewajiban salam kedua dibahas berbeda antarmazhab; rujuk dalil dan penjelasan mazhab, jangan mencampurkan kesimpulan tanpa konteks.",
+      "source": "Sunan Abi Dawud",
+      "reference_url": "https://sunnah.com/abudawud:996",
+      "extra_refs": [
+        {
+          "label": "Sunan Abi Dawud 996 — salam",
+          "url": "https://sunnah.com/abudawud:996"
+        }
+      ],
+      "hadith": "Sunan Abi Dawud 996. Penilaian sanad dan nomor hadis dapat berbeda menurut edisi.",
+      "type": "prayer-guide",
+      "time": [
+        "akhir shalat"
+      ],
+      "count": "1–2×",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "shalat-15-tumani-nah",
+      "step": 15,
+      "title": "Tuma’ninah: jangan tergesa-gesa",
+      "subtitle": "Tenang pada setiap rukun gerakan",
+      "arabic": "",
+      "latin": "",
+      "translation": "Beri waktu agar setiap posisi berdiri, rukuk, i’tidal, sujud, dan duduk dilakukan dengan tenang. Jangan bergerak menuju rukun berikutnya sebelum posisi sebelumnya sempurna dan tubuh tenang.",
+      "details": "Dalam hadis orang yang salah shalatnya, Nabi memerintahkan mengulangi shalat dan mengajarkan urutan: takbir, membaca, rukuk sampai tenang, bangkit sampai tegak, sujud sampai tenang, duduk sampai tenang, lalu sujud kembali (Sahih al-Bukhari 757; Sahih Muslim 397).",
+      "differences": "Kadar minimal tuma’ninah dijelaskan dengan perincian fikih, tetapi shalat yang sangat tergesa-gesa hingga tidak tenang bertentangan dengan hadis ini. Orang yang sakit dapat melaksanakan gerakan sesuai kemampuannya.",
+      "scholars": "Hadis musī’ ṣalātahu menjadi dalil utama ulama dalam menegaskan tuma’ninah sebagai rukun atau kewajiban shalat; detail kategorisasi hukum berbeda menurut mazhab.",
+      "source": "Sahih al-Bukhari dan Sahih Muslim",
+      "reference_url": "https://sunnah.com/bukhari:757",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 397 — hadis orang yang salah shalatnya",
+          "url": "https://sunnah.com/muslim:397"
+        }
+      ],
+      "hadith": "Sahih al-Bukhari 757; Sahih Muslim 397.",
+      "type": "prayer-guide",
+      "time": [
+        "seluruh shalat"
+      ],
+      "count": "—",
+      "category": "tata-cara-shalat"
+    },
+    {
+      "id": "ba-da-shalat-01-istighfar",
+      "category": "dzikir-setelah-shalat",
+      "title": "Istighfar tiga kali",
+      "subtitle": "Dibaca setelah salam",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ",
+      "latin": "Astaghfirullāh.",
+      "translation": "Ucapkan “Astaghfirullah” sebanyak tiga kali setelah salam. Setelah itu lanjutkan dengan doa berikutnya.",
+      "count": 3,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sahih Muslim 591",
+      "hadith": "Tsauban meriwayatkan bahwa Nabi ﷺ memohon ampun tiga kali setelah selesai shalat, lalu membaca “Allahumma antas-salam…”. Hadis sahih.",
+      "reference_url": "https://sunnah.com/muslim:591",
+      "extra_refs": [
+        {
+          "label": "Pembahasan Rumaysho: Dzikir setelah shalat",
+          "url": "https://rumaysho.com/1997-dzikir-setelah-shalat.html"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "ba-da-shalat-02-allahumma-antas-salam",
+      "category": "dzikir-setelah-shalat",
+      "title": "Allahumma antas-salam",
+      "subtitle": "Dibaca setelah istighfar",
+      "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+      "latin": "Allāhumma antas-salām wa minkas-salām, tabārakta yā dzal-jalāli wal-ikrām.",
+      "translation": "“Ya Allah, Engkau Maha Pemberi keselamatan, dari-Mu keselamatan, Mahaberkah Engkau, wahai Pemilik keagungan dan kemuliaan.”",
+      "count": 1,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sahih Muslim 591",
+      "hadith": "Dibaca Nabi ﷺ setelah istighfar tiga kali. Riwayat sahih dari Tsauban.",
+      "reference_url": "https://sunnah.com/muslim:591",
+      "extra_refs": [
+        {
+          "label": "Rumaysho: Dzikir bakda shalat",
+          "url": "https://rumaysho.com/23011-manhajus-salikin-dzikir-bakda-shalat.html"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "ba-da-shalat-03-tahlil",
+      "category": "dzikir-setelah-shalat",
+      "title": "Tahlil dan pujian setelah shalat",
+      "subtitle": "Lafaz dzikir yang diriwayatkan setelah shalat",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ وَلَا مُعْطِيَ لِمَا مَنَعْتَ وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
+      "latin": "Lā ilāha illallāhu waḥdahu lā syarīka lah, lahul-mulku wa lahul-ḥamdu wa huwa ‘alā kulli syai’in qadīr. Allāhumma lā māni‘a limā a‘ṭaita wa lā mu‘ṭiya limā mana‘ta wa lā yanfa‘u dzal-jaddi minkal-jadd.",
+      "translation": "Maknanya: tidak ada sesembahan yang berhak disembah selain Allah semata; milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu. Ya Allah, tidak ada yang dapat menghalangi apa yang Engkau beri, tidak ada yang dapat memberi apa yang Engkau halangi, dan kekayaan tidak dapat menyelamatkan pemiliknya dari-Mu.",
+      "count": 1,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sahih Muslim 593–594",
+      "hadith": "Riwayat sahih menyebut Nabi ﷺ membaca tahlil setelah shalat dengan lafaz-lafaz yang datang dalam beberapa jalur. Lafaz ini merupakan salah satu bentuk yang diriwayatkan; tidak harus dianggap sebagai satu-satunya lafaz yang boleh dibaca.",
+      "reference_url": "https://sunnah.com/muslim:593",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 594b — tahlil setelah shalat",
+          "url": "https://sunnah.com/muslim/5/181"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "ba-da-shalat-04-tasbih-33",
+      "category": "dzikir-setelah-shalat",
+      "title": "Tasbih, tahmid, dan takbir — masing-masing 33 kali",
+      "subtitle": "Genapkan seratus dengan tahlil",
+      "arabic": "سُبْحَانَ اللَّهِ • الْحَمْدُ لِلَّهِ • اللَّهُ أَكْبَرُ",
+      "latin": "Subḥānallāh (33×), Alḥamdulillāh (33×), Allāhu akbar (33×), lalu baca: Lā ilāha illallāhu waḥdahu lā syarīka lah, lahul-mulku wa lahul-ḥamdu wa huwa ‘alā kulli syai’in qadīr.",
+      "translation": "Baca “Subhanallah” 33 kali, “Alhamdulillah” 33 kali, dan “Allahu akbar” 33 kali. Untuk melengkapi hitungan menjadi 100, baca tahlil lengkap yang disebutkan pada hadis. Jangan menggabungkan hitungan dari varian berbeda seolah satu paket yang sama.",
+      "count": "33 + 33 + 33; tahlil 1×",
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sahih Muslim 597a",
+      "hadith": "Hadis sahih menjelaskan dzikir 33 kali masing-masing, kemudian melengkapi seratus dengan tahlil. Disebutkan keutamaan diampuni kesalahan walaupun seperti buih di lautan.",
+      "reference_url": "https://sunnah.com/muslim:597a",
+      "extra_refs": [
+        {
+          "label": "Rumaysho: Dzikir bakda shalat",
+          "url": "https://rumaysho.com/23011-manhajus-salikin-dzikir-bakda-shalat.html"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "ba-da-shalat-05-tasbih-34",
+      "category": "dzikir-setelah-shalat",
+      "title": "Varian sahih: tasbih 33, tahmid 33, takbir 34",
+      "subtitle": "Alternatif dari riwayat sahih",
+      "arabic": "سُبْحَانَ اللَّهِ • الْحَمْدُ لِلَّهِ • اللَّهُ أَكْبَرُ",
+      "latin": "Subḥānallāh (33×), Alḥamdulillāh (33×), Allāhu akbar (34×).",
+      "translation": "Ini adalah varian dzikir lain yang juga memiliki dasar hadis sahih. Boleh mengamalkan varian ini pada kesempatan lain. Jangan mengubahnya menjadi kewajiban atau menganggap hanya satu susunan yang benar.",
+      "count": "33 + 33 + 34",
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sahih Muslim 596a–b",
+      "hadith": "Ka‘b bin ‘Ujrah meriwayatkan tasbih 33 kali, tahmid 33 kali, dan takbir 34 kali setelah setiap shalat wajib. Hadis sahih.",
+      "reference_url": "https://sunnah.com/muslim:596a",
+      "extra_refs": [
+        {
+          "label": "Sahih Muslim 596b–c",
+          "url": "https://sunnah.com/muslim/5"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "ba-da-shalat-06-ayat-kursi",
+      "category": "dzikir-setelah-shalat",
+      "title": "Membaca Ayat Kursi",
+      "subtitle": "QS. Al-Baqarah: 255",
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "latin": "Allāhu lā ilāha illā huwa, al-ḥayyul-qayyūm. Lā ta’khudzuhū sinatun wa lā naum. Lahū mā fis-samāwāti wa mā fil-arḍ. Man dzalladzī yasyfa‘u ‘indahū illā bi-idznih. Ya‘lamu mā baina aidīhim wa mā khalfahum. Wa lā yuḥīṭūna bisyai’in min ‘ilmihī illā bimā syā’. Wasi‘a kursiyyuhus-samāwāti wal-arḍ. Wa lā ya’ūdūhū ḥifẓuhumā, wa huwal-‘aliyyul-‘aẓīm.",
+      "translation": "Baca Ayat Kursi setelah setiap shalat wajib. Riwayat keutamaannya diriwayatkan oleh an-Nasa’i dan dinilai sahih oleh Ibnu Hibban; tautan utama di bawah merangkum riwayat dan penilaian tersebut.",
+      "count": 1,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Riwayat an-Nasa’i; dinilai sahih oleh Ibnu Hibban",
+      "hadith": "Hadis Abu Umamah: siapa yang membaca Ayat Kursi setelah setiap shalat wajib, tidak ada yang menghalanginya masuk surga kecuali kematian. Penilaian kesahihan disebutkan dalam Bulugh al-Maram.",
+      "reference_url": "https://sunnah.com/bulugh/2/220",
+      "extra_refs": [
+        {
+          "label": "Al-Qur’an — QS. Al-Baqarah 2:255",
+          "url": "https://quran.com/2/255"
+        }
+      ],
+      "type": "quran-hadith"
+    },
+    {
+      "id": "ba-da-shalat-07-muawwidhat",
+      "category": "dzikir-setelah-shalat",
+      "title": "Membaca tiga surah perlindungan",
+      "subtitle": "Al-Ikhlas, Al-Falaq, dan An-Nas",
+      "arabic": "",
+      "latin": "Qul huwallāhu aḥad; Qul a‘ūdzu birabbil-falaq; Qul a‘ūdzu birabbin-nās.",
+      "translation": "Baca Surah Al-Ikhlas, Al-Falaq, dan An-Nas setelah shalat. Hadis menyebut al-mu‘awwidzāt setelah setiap shalat; riwayat ini dinilai sahih oleh Al-Albani. Lafaz surah bersumber dari Al-Qur’an.",
+      "count": 1,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sunan Abi Dawud 1523",
+      "hadith": "‘Uqbah bin ‘Amir meriwayatkan bahwa Rasulullah ﷺ memerintahkannya membaca al-mu‘awwidzāt setelah setiap shalat. Sunan Abi Dawud 1523; dinilai sahih oleh Al-Albani.",
+      "reference_url": "https://sunnah.com/abudawud:1523",
+      "extra_refs": [
+        {
+          "label": "Al-Qur’an — Al-Ikhlas 112",
+          "url": "https://quran.com/112"
+        },
+        {
+          "label": "Al-Qur’an — Al-Falaq 113",
+          "url": "https://quran.com/113"
+        },
+        {
+          "label": "Al-Qur’an — An-Nas 114",
+          "url": "https://quran.com/114"
+        }
+      ],
+      "type": "quran-hadith"
+    },
+    {
+      "id": "ba-da-shalat-08-doa-muadz",
+      "category": "dzikir-setelah-shalat",
+      "title": "Doa agar dibantu berdzikir dan beribadah",
+      "subtitle": "Wasiat Nabi ﷺ kepada Mu‘adz bin Jabal",
+      "arabic": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+      "latin": "Allāhumma a‘innī ‘alā dzikrika wa syukrika wa ḥusni ‘ibādatik.",
+      "translation": "“Ya Allah, bantulah aku untuk mengingat-Mu, bersyukur kepada-Mu, dan beribadah dengan baik kepada-Mu.”",
+      "count": 1,
+      "time": [
+        "setelah shalat fardhu"
+      ],
+      "source": "Sunan Abi Dawud 1522",
+      "hadith": "Nabi ﷺ berwasiat kepada Mu‘adz agar tidak meninggalkan doa ini di akhir setiap shalat wajib. Hadis dinilai sahih oleh Al-Albani.",
+      "reference_url": "https://sunnah.com/abudawud:1522",
+      "extra_refs": [
+        {
+          "label": "Rumaysho: Dzikir bakda shalat",
+          "url": "https://rumaysho.com/23011-manhajus-salikin-dzikir-bakda-shalat.html"
+        }
+      ],
+      "type": "hadith"
+    },
+    {
+      "id": "daily-08",
+      "category": "doa-harian",
+      "title": "Doa sebelum makan",
+      "subtitle": "Membaca basmalah sebelum makan",
+      "arabic": "بِسْمِ اللَّهِ",
+      "latin": "Bismillāh.",
+      "translation": "Dengan nama Allah.",
+      "count": 1,
+      "time": [
+        "sebelum-makan"
+      ],
+      "source": "Sahih al-Bukhari 5376; Sahih Muslim 2022",
+      "hadith": "Nabi ﷺ mengajarkan menyebut nama Allah ketika makan. Jika lupa di awal, terdapat doa: “Bismillāhi awwalahu wa ākhirahu” (Dengan nama Allah pada awal dan akhirnya), diriwayatkan dalam Sunan Abi Dawud 3767.",
+      "reference_url": "https://sunnah.com/bukhari:5376",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-09",
+      "category": "doa-harian",
+      "title": "Doa setelah makan",
+      "subtitle": "Memuji Allah setelah selesai makan",
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      "latin": "Alhamdu lillāhilladzī ath‘amanī hādzā wa razaqanīhi min ghairi haulin minnī wa lā quwwah.",
+      "translation": "Segala puji bagi Allah yang telah memberiku makanan ini dan menganugerahkannya kepadaku tanpa daya dan kekuatan dariku.",
+      "count": 1,
+      "time": [
+        "setelah-makan"
+      ],
+      "source": "Sunan Abi Dawud 4023; Jami‘ at-Tirmidhi 3458",
+      "hadith": "Doa pujian setelah makan; penomoran dapat berbeda antar edisi.",
+      "reference_url": "https://sunnah.com/abudawud:4023",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-10",
+      "category": "doa-harian",
+      "title": "Doa masuk toilet",
+      "subtitle": "Memohon perlindungan dari gangguan setan",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "latin": "Allāhumma innī a‘ūdzu bika minal-khubutsi wal-khabā’its.",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari setan laki-laki dan setan perempuan.",
+      "count": 1,
+      "time": [
+        "masuk-toilet"
+      ],
+      "source": "Sahih al-Bukhari 142; Sahih Muslim 375",
+      "hadith": "Dibaca sebelum masuk tempat buang hajat.",
+      "reference_url": "https://sunnah.com/bukhari:142",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-11",
+      "category": "doa-harian",
+      "title": "Doa keluar toilet",
+      "subtitle": "Memohon ampun kepada Allah",
+      "arabic": "غُفْرَانَكَ",
+      "latin": "Ghufrānak.",
+      "translation": "Aku memohon ampunan-Mu.",
+      "count": 1,
+      "time": [
+        "keluar-toilet"
+      ],
+      "source": "Sunan Abi Dawud 30; Jami‘ at-Tirmidhi 7",
+      "hadith": "Diriwayatkan bahwa Nabi ﷺ mengucapkan “Ghufrānak” ketika keluar dari tempat buang hajat.",
+      "reference_url": "https://sunnah.com/abudawud:30",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-12",
+      "category": "doa-harian",
+      "title": "Doa masuk masjid",
+      "subtitle": "Memohon rahmat Allah",
+      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "latin": "Allāhummaftah lī abwāba rahmatik.",
+      "translation": "Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.",
+      "count": 1,
+      "time": [
+        "masuk-masjid"
+      ],
+      "source": "Sahih Muslim 713",
+      "hadith": "Dibaca ketika masuk masjid.",
+      "reference_url": "https://sunnah.com/muslim:713",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-13",
+      "category": "doa-harian",
+      "title": "Doa keluar masjid",
+      "subtitle": "Memohon karunia Allah",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "latin": "Allāhumma innī as’aluka min fadhlik.",
+      "translation": "Ya Allah, sesungguhnya aku memohon karunia-Mu.",
+      "count": 1,
+      "time": [
+        "keluar-masjid"
+      ],
+      "source": "Sahih Muslim 713",
+      "hadith": "Dibaca ketika keluar masjid.",
+      "reference_url": "https://sunnah.com/muslim:713",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-14",
+      "category": "doa-harian",
+      "title": "Doa penutup majelis — termasuk setelah tilawah",
+      "subtitle": "Dzikir penutup pertemuan; bukan doa khusus yang diwajibkan setelah membaca Al-Qur’an",
+      "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+      "latin": "Subḥānaka Allāhumma wa biḥamdik, asyhadu an lā ilāha illā anta, astaghfiruka wa atūbu ilaik.",
+      "translation": "Mahasuci Engkau, ya Allah, dan dengan memuji-Mu. Aku bersaksi bahwa tidak ada sesembahan yang benar selain Engkau. Aku memohon ampun kepada-Mu dan bertobat kepada-Mu.",
+      "count": 1,
+      "time": [
+        "akhir-majelis",
+        "setelah-tilawah"
+      ],
+      "source": "Sunan Abi Dawud 4859; Jami‘ at-Tirmidhi 3433",
+      "hadith": "Doa ini diriwayatkan sebagai penutup majelis, termasuk dalam riwayat yang menyebut majelis membaca Al-Qur’an. Catatan penting: tidak ada satu doa khusus setelah setiap selesai membaca Al-Qur’an yang disepakati sahih berasal dari Nabi ﷺ. Doa ini ditampilkan sebagai dzikir penutup majelis, bukan formula wajib atau khusus khatam Al-Qur’an.",
+      "reference_url": "https://sunnah.com/abudawud:4859",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-15",
+      "category": "doa-harian",
+      "title": "Memohon ilmu yang bermanfaat setelah belajar atau membaca",
+      "subtitle": "Doa Al-Qur’an untuk memohon tambahan ilmu",
+      "arabic": "رَبِّ زِدْنِي عِلْمًا",
+      "latin": "Rabbi zidnī ‘ilmā.",
+      "translation": "Ya Tuhanku, tambahkanlah ilmu kepadaku.",
+      "count": 1,
+      "time": [
+        "setelah-belajar",
+        "setelah-tilawah"
+      ],
+      "source": "Al-Qur’an, QS. Taha 20:114",
+      "hadith": "Ini adalah doa dari Al-Qur’an yang boleh dibaca saat memohon tambahan ilmu, termasuk setelah membaca Al-Qur’an. Namun, tidak diklaim sebagai doa khusus yang ditetapkan Nabi ﷺ setelah tilawah.",
+      "reference_url": "https://quran.com/20/114",
+      "type": "quran"
+    },
+    {
+      "id": "daily-16",
+      "category": "doa-harian",
+      "title": "Doa memakai pakaian",
+      "subtitle": "Memakai Pakaian",
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      "latin": "Alhamdu lillahil-ladzi kasani hadzats-tsauba wa razaqanihi min ghairi haulin minni wa la quwwah.",
+      "translation": "Segala puji bagi Allah yang telah memberiku pakaian ini dan menganugerahkannya kepadaku tanpa daya dan kekuatan dariku.",
+      "count": 1,
+      "time": [
+        "memakai-pakaian"
+      ],
+      "source": "Hisn al-Muslim 5; diriwayatkan dalam Bukhari, Muslim dan lainnya",
+      "hadith": "Dibaca ketika mengenakan pakaian.",
+      "reference_url": "https://sunnah.com/hisn/5",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-17",
+      "category": "doa-harian",
+      "title": "Doa memakai pakaian baru",
+      "subtitle": "Pakaian Baru",
+      "arabic": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ",
+      "latin": "Allahumma lakal-hamdu anta kasautanihi, as’aluka khairahu wa khaira ma shuni’a lahu, wa a’udzu bika min syarrihi wa syarri ma shuni’a lah.",
+      "translation": "Ya Allah, segala puji bagi-Mu. Engkau yang memberiku pakaian ini. Aku memohon kebaikannya dan kebaikan tujuan pembuatannya, serta berlindung kepada-Mu dari keburukannya dan keburukan tujuan pembuatannya.",
+      "count": 1,
+      "time": [
+        "pakaian-baru"
+      ],
+      "source": "Hisn al-Muslim 6; Abu Dawud dan At-Tirmidzi",
+      "hadith": "Dibaca saat mengenakan pakaian baru.",
+      "reference_url": "https://sunnah.com/hisn/6",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-18",
+      "category": "doa-harian",
+      "title": "Doa sebelum melepas pakaian",
+      "subtitle": "Melepas Pakaian",
+      "arabic": "بِسْمِ اللَّهِ",
+      "latin": "Bismillah.",
+      "translation": "Dengan nama Allah.",
+      "count": 1,
+      "time": [
+        "melepas-pakaian"
+      ],
+      "source": "Hisn al-Muslim 9; At-Tirmidzi dan lainnya",
+      "hadith": "Disebut sebelum melepas pakaian.",
+      "reference_url": "https://sunnah.com/hisn/9",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-19",
+      "category": "doa-harian",
+      "title": "Doa setelah berwudu",
+      "subtitle": "Setelah Wudu",
+      "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "latin": "Asyhadu alla ilaha illallah wahdahu la syarika lah, wa asyhadu anna Muhammadan ‘abduhu wa rasuluh.",
+      "translation": "Aku bersaksi bahwa tidak ada sesembahan yang benar selain Allah semata, tiada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya.",
+      "count": 1,
+      "time": [
+        "setelah-wudu"
+      ],
+      "source": "Sahih Muslim 234",
+      "hadith": "Dibaca setelah menyempurnakan wudu.",
+      "reference_url": "https://sunnah.com/muslim:234",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-20",
+      "category": "doa-harian",
+      "title": "Doa tambahan setelah wudu",
+      "subtitle": "Setelah Wudu",
+      "arabic": "اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ",
+      "latin": "Allahummaj’alni minat-tawwabin waj’alni minal-mutathahhirin.",
+      "translation": "Ya Allah, jadikanlah aku termasuk orang-orang yang banyak bertobat dan orang-orang yang menyucikan diri.",
+      "count": 1,
+      "time": [
+        "setelah-wudu"
+      ],
+      "source": "Jami‘ at-Tirmidzi 55; dinilai hasan dalam sejumlah penilaian ulama",
+      "hadith": "Dibaca setelah syahadat usai wudu; penilaian riwayat tambahan ini dibahas ulama.",
+      "reference_url": "https://sunnah.com/tirmidhi:55",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-21",
+      "category": "doa-harian",
+      "title": "Doa setelah mendengar azan",
+      "subtitle": "Setelah Azan",
+      "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+      "latin": "Allahumma rabba hadzihid-da‘watit-tammah wash-shalatil-qa’imah, ati Muhammadanil-wasilata wal-fadhilah, wab‘atshu maqaman mahmudanilladzi wa‘adtah.",
+      "translation": "Ya Allah, Tuhan seruan yang sempurna dan salat yang akan didirikan, berilah Muhammad al-wasilah dan keutamaan serta tempat terpuji yang Engkau janjikan.",
+      "count": 1,
+      "time": [
+        "setelah-azan"
+      ],
+      "source": "Sahih al-Bukhari 614",
+      "hadith": "Dibaca setelah menjawab azan.",
+      "reference_url": "https://sunnah.com/bukhari:614",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-22",
+      "category": "doa-harian",
+      "title": "Doa ketika keluar menuju masjid",
+      "subtitle": "Menuju Masjid",
+      "arabic": "اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا وَفِي لِسَانِي نُورًا وَاجْعَلْ فِي سَمْعِي نُورًا وَاجْعَلْ فِي بَصَرِي نُورًا",
+      "latin": "Allahummaj’al fi qalbi nuran, wa fi lisani nuran, waj’al fi sam‘i nuran, waj’al fi bashari nuran.",
+      "translation": "Ya Allah, jadikan cahaya dalam hatiku, lisanku, pendengaranku, dan penglihatanku.",
+      "count": 1,
+      "time": [
+        "menuju-masjid"
+      ],
+      "source": "Sahih Muslim 763; bagian dari doa Nabi ketika menuju salat",
+      "hadith": "Ini petikan doa yang lebih panjang; lafaz lengkap terdapat pada rujukan.",
+      "reference_url": "https://sunnah.com/muslim:763",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-23",
+      "category": "doa-harian",
+      "title": "Doa ketika naik kendaraan",
+      "subtitle": "Naik Kendaraan",
+      "arabic": "بِسْمِ اللَّهِ، الْحَمْدُ لِلَّهِ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ",
+      "latin": "Bismillah, alhamdulillah, subhanalladzi sakhkhara lana hadza wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun.",
+      "translation": "Dengan nama Allah, segala puji bagi Allah. Mahasuci Allah yang menundukkan kendaraan ini bagi kami, padahal kami tidak mampu menguasainya sendiri; dan sesungguhnya kepada Tuhan kami akan kembali.",
+      "count": 1,
+      "time": [
+        "naik-kendaraan"
+      ],
+      "source": "QS. Az-Zukhruf 43:13–14; doa naik kendaraan dalam Hisn al-Muslim",
+      "hadith": "Baca ayat ini saat menaiki kendaraan; doa perjalanan lengkap ada pada sumber.",
+      "reference_url": "https://quran.com/43/13-14",
+      "type": "quran"
+    },
+    {
+      "id": "daily-24",
+      "category": "doa-harian",
+      "title": "Doa ketika memulai perjalanan",
+      "subtitle": "Perjalanan",
+      "arabic": "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى",
+      "latin": "Allahumma inna nas’aluka fi safarina hadzal-birra wat-taqwa wa minal-‘amali ma tardha.",
+      "translation": "Ya Allah, kami memohon kepada-Mu dalam perjalanan ini kebaikan, ketakwaan, dan amal yang Engkau ridai.",
+      "count": 1,
+      "time": [
+        "perjalanan"
+      ],
+      "source": "Sahih Muslim 1342; doa perjalanan Nabi (petikan)",
+      "hadith": "Petikan awal doa perjalanan; lanjutkan dengan lafaz lengkap sesuai referensi.",
+      "reference_url": "https://sunnah.com/muslim:1342",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-25",
+      "category": "doa-harian",
+      "title": "Doa saat singgah di suatu tempat",
+      "subtitle": "Singgah",
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "latin": "A‘udzu bi kalimatillahit-tammati min syarri ma khalaq.",
+      "translation": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang Dia ciptakan.",
+      "count": 1,
+      "time": [
+        "singgah"
+      ],
+      "source": "Sahih Muslim 2708; Hisn al-Muslim, doa saat singgah",
+      "hadith": "Dianjurkan saat singgah di suatu tempat dalam perjalanan atau selainnya.",
+      "reference_url": "https://sunnah.com/muslim:2708",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-26",
+      "category": "doa-harian",
+      "title": "Doa ketika turun hujan",
+      "subtitle": "Hujan",
+      "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+      "latin": "Allahumma shayyiban nafi‘a.",
+      "translation": "Ya Allah, jadikanlah hujan ini hujan yang bermanfaat.",
+      "count": 1,
+      "time": [
+        "hujan"
+      ],
+      "source": "Sahih al-Bukhari 1032",
+      "hadith": "Dibaca ketika melihat atau mengalami turunnya hujan.",
+      "reference_url": "https://sunnah.com/bukhari:1032",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-27",
+      "category": "doa-harian",
+      "title": "Doa setelah hujan turun",
+      "subtitle": "Setelah Hujan",
+      "arabic": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+      "latin": "Muthirna bi fadhlillahi wa rahmatih.",
+      "translation": "Kami diberi hujan karena karunia dan rahmat Allah.",
+      "count": 1,
+      "time": [
+        "setelah-hujan"
+      ],
+      "source": "Sahih al-Bukhari 846; Sahih Muslim 71",
+      "hadith": "Ucapan syukur atas hujan, bukan mengaitkannya kepada bintang.",
+      "reference_url": "https://sunnah.com/bukhari:846",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-28",
+      "category": "doa-harian",
+      "title": "Doa ketika marah",
+      "subtitle": "Marah",
+      "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "latin": "A‘udzu billahi minasy-syaithanir-rajim.",
+      "translation": "Aku berlindung kepada Allah dari setan yang terkutuk.",
+      "count": 1,
+      "time": [
+        "marah"
+      ],
+      "source": "Sahih al-Bukhari 3282; Sahih Muslim 2610",
+      "hadith": "Nabi mengajarkan isti‘adzah ketika seseorang marah.",
+      "reference_url": "https://sunnah.com/bukhari:3282",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-29",
+      "category": "doa-harian",
+      "title": "Doa ketika gelisah dan bersedih",
+      "subtitle": "Gelisah",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَالْعَجْزِ وَالْكَسَلِ وَالْبُخْلِ وَالْجُبْنِ وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+      "latin": "Allahumma inni a‘udzu bika minal-hammi wal-hazan, wal-‘ajzi wal-kasal, wal-bukhli wal-jubn, wa dhala‘id-dayni wa ghalabatir-rijal.",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari kegelisahan dan kesedihan, kelemahan dan kemalasan, kekikiran dan sifat pengecut, lilitan utang dan tekanan orang lain.",
+      "count": 1,
+      "time": [
+        "gelisah"
+      ],
+      "source": "Sahih al-Bukhari 6369",
+      "hadith": "Doa perlindungan dari berbagai beban batin dan kesulitan.",
+      "reference_url": "https://sunnah.com/bukhari:6369",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-30",
+      "category": "doa-harian",
+      "title": "Doa memohon perlindungan dari utang",
+      "subtitle": "Utang",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ",
+      "latin": "Allahumma inni a‘udzu bika minal-ma’tsami wal-maghram.",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari dosa dan beban utang.",
+      "count": 1,
+      "time": [
+        "utang"
+      ],
+      "source": "Sahih al-Bukhari 832; Sahih Muslim 589",
+      "hadith": "Termasuk doa Nabi dalam salat.",
+      "reference_url": "https://sunnah.com/bukhari:832",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-31",
+      "category": "doa-harian",
+      "title": "Ucapan saat bersin",
+      "subtitle": "Bersin",
+      "arabic": "الْحَمْدُ لِلَّهِ",
+      "latin": "Alhamdulillah.",
+      "translation": "Segala puji bagi Allah.",
+      "count": 1,
+      "time": [
+        "bersin"
+      ],
+      "source": "Sahih al-Bukhari 6224",
+      "hadith": "Orang yang bersin mengucapkan hamdalah; yang mendengar mendoakan yarhamukallah.",
+      "reference_url": "https://sunnah.com/bukhari:6224",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-32",
+      "category": "doa-harian",
+      "title": "Doa untuk orang yang bersin",
+      "subtitle": "Orang Bersin",
+      "arabic": "يَرْحَمُكَ اللَّهُ",
+      "latin": "Yarhamukallah.",
+      "translation": "Semoga Allah merahmatimu.",
+      "count": 1,
+      "time": [
+        "orang-bersin"
+      ],
+      "source": "Sahih al-Bukhari 6224; Sahih Muslim 2991",
+      "hadith": "Diucapkan ketika mendengar sesama muslim bersin lalu memuji Allah.",
+      "reference_url": "https://sunnah.com/bukhari:6224",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-33",
+      "category": "doa-harian",
+      "title": "Menjawab doa setelah bersin",
+      "subtitle": "Jawaban Bersin",
+      "arabic": "يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+      "latin": "Yahdikumullahu wa yushlihu balakum.",
+      "translation": "Semoga Allah memberimu petunjuk dan memperbaiki keadaanmu.",
+      "count": 1,
+      "time": [
+        "jawaban-bersin"
+      ],
+      "source": "Sahih al-Bukhari 6224",
+      "hadith": "Jawaban orang yang bersin setelah didoakan yarhamukallah.",
+      "reference_url": "https://sunnah.com/bukhari:6224",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-34",
+      "category": "doa-harian",
+      "title": "Doa menjenguk orang sakit",
+      "subtitle": "Menjenguk Sakit",
+      "arabic": "لَا بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+      "latin": "La ba’sa thahurun in sya Allah.",
+      "translation": "Tidak mengapa, semoga sakit ini menjadi pembersih dosa, jika Allah menghendaki.",
+      "count": 1,
+      "time": [
+        "menjenguk-sakit"
+      ],
+      "source": "Sahih al-Bukhari 5656",
+      "hadith": "Diucapkan kepada orang sakit sebagai penghiburan dan doa.",
+      "reference_url": "https://sunnah.com/bukhari:5656",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-35",
+      "category": "doa-harian",
+      "title": "Doa memohon kesembuhan untuk orang sakit",
+      "subtitle": "Kesembuhan",
+      "arabic": "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ",
+      "latin": "As’alullaha al-‘azhima rabbal-‘arsyil-‘azhimi an yasyfiyak.",
+      "translation": "Aku memohon kepada Allah Yang Mahaagung, Tuhan Arasy yang agung, agar menyembuhkanmu.",
+      "count": 1,
+      "time": [
+        "kesembuhan"
+      ],
+      "source": "Sunan Abi Dawud 3106; Jami‘ at-Tirmidzi 2083; Hisn al-Muslim 148",
+      "hadith": "Dalam riwayat disebut dibaca tujuh kali ketika menjenguk orang sakit.",
+      "reference_url": "https://sunnah.com/hisn/148",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-36",
+      "category": "doa-harian",
+      "title": "Doa ketika melihat orang tertimpa musibah",
+      "subtitle": "Melihat Musibah",
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي مِمَّا ابْتَلَاكَ بِهِ وَفَضَّلَنِي عَلَى كَثِيرٍ مِمَّنْ خَلَقَ تَفْضِيلًا",
+      "latin": "Alhamdu lillahil-ladzi ‘afani mimma ibtalaka bihi wa fadhdhalani ‘ala katsirin mimman khalaqa tafdhila.",
+      "translation": "Segala puji bagi Allah yang menyelamatkanku dari ujian yang menimpamu dan memberiku kelebihan atas banyak makhluk-Nya.",
+      "count": 1,
+      "time": [
+        "melihat-musibah"
+      ],
+      "source": "Jami‘ at-Tirmidzi 3431; Hisn al-Muslim 150",
+      "hadith": "Dibaca pelan untuk diri sendiri, tidak dilafalkan di hadapan orang yang sedang diuji.",
+      "reference_url": "https://sunnah.com/hisn/150",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-37",
+      "category": "doa-harian",
+      "title": "Doa saat mendengar petir",
+      "subtitle": "Petir",
+      "arabic": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ",
+      "latin": "Subhanalladzi yusabbihur-ra‘du bihamdihi wal-mala’ikatu min khifatih.",
+      "translation": "Mahasuci Allah yang petir bertasbih dengan memuji-Nya, demikian pula para malaikat karena takut kepada-Nya.",
+      "count": 1,
+      "time": [
+        "petir"
+      ],
+      "source": "QS. Ar-Ra‘d 13:13",
+      "hadith": "Ini adalah makna ayat Al-Qur’an; tidak dinyatakan sebagai doa khusus Nabi yang sahih untuk setiap mendengar petir.",
+      "reference_url": "https://quran.com/13/13",
+      "type": "quran"
+    },
+    {
+      "id": "daily-38",
+      "category": "doa-harian",
+      "title": "Doa memohon kebaikan akhlak",
+      "subtitle": "Akhlak",
+      "arabic": "اللَّهُمَّ كَمَا أَحْسَنْتَ خَلْقِي فَأَحْسِنْ خُلُقِي",
+      "latin": "Allahumma kama ahsanta khalqi fa ahsin khuluqi.",
+      "translation": "Ya Allah, sebagaimana Engkau telah memperindah penciptaanku, maka perindahlah akhlakku.",
+      "count": 1,
+      "time": [
+        "akhlak"
+      ],
+      "source": "Musnad Ahmad; penilaian sanad diperselisihkan ulama",
+      "hadith": "Doa masyhur dengan pembahasan kualitas sanad; jangan dipastikan sahih tanpa catatan.",
+      "reference_url": "https://sunnah.com/hisn",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-39",
+      "category": "doa-harian",
+      "title": "Doa sebelum berhubungan suami istri",
+      "subtitle": "Suami Istri",
+      "arabic": "بِسْمِ اللَّهِ، اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا",
+      "latin": "Bismillah, Allahumma jannibnasy-syaithana wa jannibisy-syaithana ma razaqtana.",
+      "translation": "Dengan nama Allah. Ya Allah, jauhkanlah kami dari setan dan jauhkan setan dari rezeki (anak) yang Engkau anugerahkan kepada kami.",
+      "count": 1,
+      "time": [
+        "suami-istri"
+      ],
+      "source": "Sahih al-Bukhari 6388; Sahih Muslim 1434",
+      "hadith": "Doa ini diajarkan untuk pasangan suami istri sebelum berhubungan.",
+      "reference_url": "https://sunnah.com/bukhari:6388",
+      "type": "hadith"
+    },
+    {
+      "id": "daily-40",
+      "category": "doa-harian",
+      "title": "Doa ketika bercermin",
+      "subtitle": "Bercermin",
+      "arabic": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+      "latin": "Allahumma kama hassanta khalqi fa hassin khuluqi.",
+      "translation": "Ya Allah, sebagaimana Engkau telah memperindah rupaku, perindahlah akhlakku.",
+      "count": 1,
+      "time": [
+        "bercermin"
+      ],
+      "source": "Riwayat doa bercermin diperselisihkan kualitasnya; tidak ditetapkan sebagai hadis sahih secara pasti",
+      "hadith": "Dicantumkan dengan catatan kehati-hatian: jangan dinisbatkan secara pasti kepada Nabi ﷺ.",
+      "reference_url": "https://sunnah.com/hisn",
+      "type": "hadith"
     }
-  ]
+  ],
+  "count": 62
 }
