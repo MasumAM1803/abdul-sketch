@@ -1,0 +1,1363 @@
+{
+  "meta": {
+    "title": {
+      "id": "Workout Guide",
+      "en": "Workout Guide"
+    },
+    "version": "1.0",
+    "description": {
+      "id": "Panduan latihan fleksibel untuk gym, rumah, dumbbell/barbell, dan bodyweight.",
+      "en": "A flexible workout guide for gym, home, dumbbells/barbells, and bodyweight training."
+    }
+  },
+  "options": {
+    "goals": [
+      {
+        "id": "muscle",
+        "label": {
+          "id": "Membentuk otot dan badan atletis",
+          "en": "Build muscle and an athletic physique"
+        }
+      },
+      {
+        "id": "fat_loss",
+        "label": {
+          "id": "Mengurangi lemak dan lebih ramping",
+          "en": "Lose fat and get leaner"
+        }
+      },
+      {
+        "id": "recomp",
+        "label": {
+          "id": "Membentuk otot sekaligus mengurangi lemak",
+          "en": "Build muscle while losing fat"
+        }
+      },
+      {
+        "id": "strength",
+        "label": {
+          "id": "Meningkatkan kekuatan tubuh",
+          "en": "Increase strength"
+        }
+      }
+    ],
+    "levels": [
+      {
+        "id": "beginner",
+        "label": {
+          "id": "Pemula / baru mulai rutin",
+          "en": "Beginner / just starting"
+        }
+      },
+      {
+        "id": "intermediate",
+        "label": {
+          "id": "Menengah / rutin 6–12 bulan",
+          "en": "Intermediate / training 6–12 months"
+        }
+      },
+      {
+        "id": "advanced",
+        "label": {
+          "id": "Lanjutan / lebih dari 1 tahun",
+          "en": "Advanced / over 1 year"
+        }
+      }
+    ],
+    "days": [
+      {
+        "id": "2",
+        "label": {
+          "id": "2 hari per minggu",
+          "en": "2 days per week"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "id": "3 hari per minggu",
+          "en": "3 days per week"
+        }
+      },
+      {
+        "id": "4",
+        "label": {
+          "id": "4 hari per minggu",
+          "en": "4 days per week"
+        }
+      },
+      {
+        "id": "5",
+        "label": {
+          "id": "5 hari per minggu",
+          "en": "5 days per week"
+        }
+      },
+      {
+        "id": "6",
+        "label": {
+          "id": "6 hari per minggu",
+          "en": "6 days per week"
+        }
+      }
+    ],
+    "equipment": [
+      {
+        "id": "mixed",
+        "label": {
+          "id": "Gym dan rumah (dumbbell/barbell/bodyweight)",
+          "en": "Gym and home (dumbbells/barbells/bodyweight)"
+        }
+      },
+      {
+        "id": "gym",
+        "label": {
+          "id": "Gym lengkap (mesin dan free weights)",
+          "en": "Full gym (machines and free weights)"
+        }
+      },
+      {
+        "id": "home_weights",
+        "label": {
+          "id": "Di rumah dengan dumbbell/barbell",
+          "en": "At home with dumbbells/barbells"
+        }
+      },
+      {
+        "id": "bodyweight",
+        "label": {
+          "id": "Bodyweight tanpa alat",
+          "en": "Bodyweight, no equipment"
+        }
+      }
+    ],
+    "durations": [
+      {
+        "id": "short",
+        "label": {
+          "id": "20–30 menit",
+          "en": "20–30 minutes"
+        }
+      },
+      {
+        "id": "medium",
+        "label": {
+          "id": "45–60 menit",
+          "en": "45–60 minutes"
+        }
+      },
+      {
+        "id": "long",
+        "label": {
+          "id": "60–90 menit",
+          "en": "60–90 minutes"
+        }
+      }
+    ],
+    "muscles": [
+      {
+        "id": "chest",
+        "label": {
+          "id": "Dada",
+          "en": "Chest"
+        }
+      },
+      {
+        "id": "back",
+        "label": {
+          "id": "Punggung",
+          "en": "Back"
+        }
+      },
+      {
+        "id": "shoulders",
+        "label": {
+          "id": "Bahu",
+          "en": "Shoulders"
+        }
+      },
+      {
+        "id": "biceps",
+        "label": {
+          "id": "Bisep",
+          "en": "Biceps"
+        }
+      },
+      {
+        "id": "triceps",
+        "label": {
+          "id": "Trisep",
+          "en": "Triceps"
+        }
+      },
+      {
+        "id": "legs",
+        "label": {
+          "id": "Kaki",
+          "en": "Legs"
+        }
+      },
+      {
+        "id": "glutes",
+        "label": {
+          "id": "Glutes / bokong",
+          "en": "Glutes"
+        }
+      },
+      {
+        "id": "core",
+        "label": {
+          "id": "Perut / core",
+          "en": "Abs / core"
+        }
+      },
+      {
+        "id": "full_body",
+        "label": {
+          "id": "Seluruh tubuh",
+          "en": "Full body"
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "push-up",
+      "name": {
+        "id": "Push-up",
+        "en": "Push-up"
+      },
+      "muscle": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "fat_loss",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–15",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Letakkan telapak tangan sedikit lebih lebar dari bahu.",
+          "Jaga tubuh lurus dari kepala hingga tumit dan kencangkan core.",
+          "Turunkan dada secara terkendali, lalu dorong kembali ke atas."
+        ],
+        "en": [
+          "Place your hands slightly wider than shoulder-width.",
+          "Keep a straight line from head to heels and brace your core.",
+          "Lower your chest with control, then push back up."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Pinggul turun atau terangkat berlebihan.",
+          "Siku melebar terlalu jauh."
+        ],
+        "en": [
+          "Letting the hips sag or rise too much.",
+          "Flaring the elbows excessively."
+        ]
+      }
+    },
+    {
+      "id": "dumbbell-bench-press",
+      "name": {
+        "id": "Dumbbell Bench Press",
+        "en": "Dumbbell Bench Press"
+      },
+      "muscle": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 90,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1534368270820-9de3d8053204?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berbaring di bangku dengan dumbbell di sisi dada.",
+          "Jaga pergelangan tangan stabil dan kaki menapak.",
+          "Dorong beban ke atas tanpa membenturkan dumbbell, lalu turunkan perlahan."
+        ],
+        "en": [
+          "Lie on a bench with dumbbells beside your chest.",
+          "Keep wrists stable and feet planted.",
+          "Press up without banging the dumbbells together, then lower slowly."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Memantulkan beban di bagian bawah.",
+          "Melengkungkan punggung secara berlebihan."
+        ],
+        "en": [
+          "Bouncing at the bottom.",
+          "Overarching the lower back."
+        ]
+      }
+    },
+    {
+      "id": "incline-push-up",
+      "name": {
+        "id": "Incline Push-up",
+        "en": "Incline Push-up"
+      },
+      "muscle": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "8–15",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Letakkan tangan pada meja atau bangku yang kokoh.",
+          "Buat tubuh lurus dan tekuk siku untuk mendekatkan dada ke permukaan.",
+          "Dorong kembali sambil menjaga core tetap aktif."
+        ],
+        "en": [
+          "Place hands on a sturdy bench or counter.",
+          "Keep your body straight and bend your elbows to bring your chest toward the surface.",
+          "Push back while keeping your core engaged."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Menggunakan permukaan yang tidak stabil.",
+          "Membiarkan pinggul turun."
+        ],
+        "en": [
+          "Using an unstable surface.",
+          "Allowing the hips to sag."
+        ]
+      }
+    },
+    {
+      "id": "one-arm-dumbbell-row",
+      "name": {
+        "id": "One-arm Dumbbell Row",
+        "en": "One-arm Dumbbell Row"
+      },
+      "muscle": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–12 each side",
+      "rest": 75,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Sangga satu tangan pada bangku atau permukaan stabil.",
+          "Jaga punggung netral, tarik dumbbell ke arah pinggul.",
+          "Turunkan perlahan tanpa memutar badan."
+        ],
+        "en": [
+          "Support one hand on a bench or stable surface.",
+          "Keep your back neutral and pull the dumbbell toward your hip.",
+          "Lower slowly without rotating your torso."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Memutar badan untuk mengayunkan beban.",
+          "Membungkukkan punggung."
+        ],
+        "en": [
+          "Twisting to swing the weight.",
+          "Rounding the back."
+        ]
+      }
+    },
+    {
+      "id": "lat-pulldown",
+      "name": {
+        "id": "Lat Pulldown",
+        "en": "Lat Pulldown"
+      },
+      "muscle": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "equipment": [
+        "gym"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 75,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Atur bantalan paha dan pegang bar sedikit lebih lebar dari bahu.",
+          "Tarik bar ke arah dada atas sambil menjaga dada terangkat.",
+          "Kembalikan bar secara terkendali."
+        ],
+        "en": [
+          "Adjust the thigh pad and grip the bar slightly wider than shoulder-width.",
+          "Pull the bar toward your upper chest while keeping your chest lifted.",
+          "Return the bar under control."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Menarik bar ke belakang leher.",
+          "Mengayunkan tubuh berlebihan."
+        ],
+        "en": [
+          "Pulling the bar behind the neck.",
+          "Excessive body swinging."
+        ]
+      }
+    },
+    {
+      "id": "pull-up",
+      "name": {
+        "id": "Pull-up",
+        "en": "Pull-up"
+      },
+      "muscle": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed",
+        "gym"
+      ],
+      "level": "advanced",
+      "goals": [
+        "muscle",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "4–10",
+      "rest": 120,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Genggam palang dengan telapak menghadap menjauh.",
+          "Mulai dengan bahu aktif, lalu tarik tubuh hingga dagu melewati palang jika mampu.",
+          "Turun perlahan sampai lengan hampir lurus."
+        ],
+        "en": [
+          "Grip the bar with palms facing away.",
+          "Engage your shoulders, then pull until your chin clears the bar if able.",
+          "Lower slowly until your arms are nearly straight."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mengayun untuk mendapat momentum.",
+          "Memaksakan repetisi dengan teknik buruk."
+        ],
+        "en": [
+          "Swinging for momentum.",
+          "Forcing reps with poor form."
+        ]
+      }
+    },
+    {
+      "id": "dumbbell-shoulder-press",
+      "name": {
+        "id": "Dumbbell Shoulder Press",
+        "en": "Dumbbell Shoulder Press"
+      },
+      "muscle": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 90,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Mulai dengan dumbbell setinggi bahu dan pergelangan tangan netral.",
+          "Kencangkan perut, dorong beban ke atas tanpa memaksa punggung.",
+          "Turunkan kembali ke posisi awal secara perlahan."
+        ],
+        "en": [
+          "Start with dumbbells at shoulder height and wrists neutral.",
+          "Brace your abdomen and press overhead without forcing your back.",
+          "Lower slowly to the starting position."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Melengkungkan punggung bawah berlebihan.",
+          "Menjatuhkan beban terlalu cepat."
+        ],
+        "en": [
+          "Excessively arching the lower back.",
+          "Dropping the weights too quickly."
+        ]
+      }
+    },
+    {
+      "id": "lateral-raise",
+      "name": {
+        "id": "Lateral Raise",
+        "en": "Lateral Raise"
+      },
+      "muscle": "shoulders",
+      "secondary": [],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "10–15",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Pegang dumbbell di sisi tubuh dengan siku sedikit ditekuk.",
+          "Angkat lengan ke samping hingga sekitar setinggi bahu.",
+          "Turunkan perlahan dan hindari mengayunkan badan."
+        ],
+        "en": [
+          "Hold dumbbells at your sides with elbows slightly bent.",
+          "Raise your arms out to the sides to about shoulder height.",
+          "Lower slowly and avoid swinging your body."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mengangkat beban terlalu berat.",
+          "Mengangkat bahu ke arah telinga."
+        ],
+        "en": [
+          "Using weights that are too heavy.",
+          "Shrugging your shoulders toward your ears."
+        ]
+      }
+    },
+    {
+      "id": "bicep-curl",
+      "name": {
+        "id": "Dumbbell Biceps Curl",
+        "en": "Dumbbell Biceps Curl"
+      },
+      "muscle": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berdiri tegak dengan siku dekat sisi tubuh.",
+          "Tekuk siku untuk mengangkat dumbbell tanpa mengayunkan badan.",
+          "Turunkan beban perlahan sampai lengan hampir lurus."
+        ],
+        "en": [
+          "Stand tall with elbows close to your sides.",
+          "Curl the dumbbells without swinging your torso.",
+          "Lower slowly until your arms are nearly straight."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mengayunkan pinggul atau punggung.",
+          "Menggerakkan siku jauh ke depan."
+        ],
+        "en": [
+          "Swinging the hips or back.",
+          "Letting the elbows drift far forward."
+        ]
+      }
+    },
+    {
+      "id": "hammer-curl",
+      "name": {
+        "id": "Hammer Curl",
+        "en": "Hammer Curl"
+      },
+      "muscle": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Pegang dumbbell dengan telapak saling berhadapan.",
+          "Jaga siku di dekat badan dan angkat beban.",
+          "Turunkan perlahan dengan posisi pergelangan netral."
+        ],
+        "en": [
+          "Hold dumbbells with palms facing each other.",
+          "Keep elbows close to your body and curl the weights.",
+          "Lower slowly with neutral wrists."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mengayunkan tubuh.",
+          "Menekuk pergelangan tangan berlebihan."
+        ],
+        "en": [
+          "Swinging the body.",
+          "Excessively bending the wrists."
+        ]
+      }
+    },
+    {
+      "id": "triceps-extension",
+      "name": {
+        "id": "Dumbbell Overhead Triceps Extension",
+        "en": "Dumbbell Overhead Triceps Extension"
+      },
+      "muscle": "triceps",
+      "secondary": [
+        "shoulders"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "10–12",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Pegang satu dumbbell di atas kepala dengan kedua tangan.",
+          "Tekuk siku untuk menurunkan beban di belakang kepala.",
+          "Luruskan siku kembali tanpa menggerakkan lengan atas berlebihan."
+        ],
+        "en": [
+          "Hold one dumbbell overhead with both hands.",
+          "Bend your elbows to lower the weight behind your head.",
+          "Extend your elbows without moving your upper arms excessively."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Membuka siku terlalu lebar jika membuat tidak nyaman.",
+          "Melengkungkan punggung."
+        ],
+        "en": [
+          "Flaring elbows excessively if uncomfortable.",
+          "Arching the back."
+        ]
+      }
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": {
+        "id": "Bodyweight Squat",
+        "en": "Bodyweight Squat"
+      },
+      "muscle": "legs",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "10–15",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berdiri dengan kaki sekitar selebar bahu.",
+          "Dorong pinggul ke belakang dan tekuk lutut sesuai mobilitas.",
+          "Dorong lantai untuk kembali berdiri sambil menjaga lutut searah jari kaki."
+        ],
+        "en": [
+          "Stand with feet about shoulder-width apart.",
+          "Send hips back and bend knees as your mobility allows.",
+          "Push through the floor to stand, keeping knees aligned with toes."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Tumit terangkat tanpa disengaja.",
+          "Lutut jatuh ke dalam."
+        ],
+        "en": [
+          "Heels lifting unintentionally.",
+          "Knees collapsing inward."
+        ]
+      }
+    },
+    {
+      "id": "goblet-squat",
+      "name": {
+        "id": "Goblet Squat",
+        "en": "Goblet Squat"
+      },
+      "muscle": "legs",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 90,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Pegang satu dumbbell di depan dada.",
+          "Turun dengan kontrol, jaga dada terbuka dan lutut mengikuti arah jari kaki.",
+          "Dorong melalui seluruh telapak kaki untuk berdiri."
+        ],
+        "en": [
+          "Hold one dumbbell in front of your chest.",
+          "Descend with control, chest open and knees tracking over toes.",
+          "Drive through the whole foot to stand."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Membulatkan punggung.",
+          "Terburu-buru memantul dari posisi bawah."
+        ],
+        "en": [
+          "Rounding the back.",
+          "Bouncing quickly out of the bottom position."
+        ]
+      }
+    },
+    {
+      "id": "reverse-lunge",
+      "name": {
+        "id": "Reverse Lunge",
+        "en": "Reverse Lunge"
+      },
+      "muscle": "legs",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "equipment": [
+        "bodyweight",
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "8–10 each side",
+      "rest": 60,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berdiri tegak, lalu langkahkan satu kaki ke belakang.",
+          "Turunkan tubuh dengan kedua lutut menekuk sesuai kemampuan.",
+          "Dorong melalui kaki depan untuk kembali berdiri, lalu ganti sisi."
+        ],
+        "en": [
+          "Stand tall and step one foot backward.",
+          "Lower with both knees bending as comfortable.",
+          "Push through the front foot to return, then switch sides."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Kehilangan keseimbangan karena langkah terlalu sempit.",
+          "Membiarkan lutut depan jatuh ke dalam."
+        ],
+        "en": [
+          "Losing balance due to a too-narrow stance.",
+          "Letting the front knee collapse inward."
+        ]
+      }
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": {
+        "id": "Dumbbell Romanian Deadlift",
+        "en": "Dumbbell Romanian Deadlift"
+      },
+      "muscle": "legs",
+      "secondary": [
+        "glutes",
+        "back"
+      ],
+      "equipment": [
+        "home_weights",
+        "gym",
+        "mixed"
+      ],
+      "level": "intermediate",
+      "goals": [
+        "muscle",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–12",
+      "rest": 90,
+      "duration": "medium",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Pegang dumbbell di depan paha, lutut sedikit ditekuk.",
+          "Dorong pinggul ke belakang sambil menurunkan beban dekat kaki dan menjaga punggung netral.",
+          "Dorong pinggul ke depan untuk kembali berdiri."
+        ],
+        "en": [
+          "Hold dumbbells in front of your thighs with knees slightly bent.",
+          "Push hips back, lowering weights close to your legs while keeping a neutral back.",
+          "Drive hips forward to stand tall."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mengubah gerakan menjadi squat.",
+          "Membulatkan punggung atau menurunkan beban terlalu jauh."
+        ],
+        "en": [
+          "Turning the movement into a squat.",
+          "Rounding the back or lowering the weights too far."
+        ]
+      }
+    },
+    {
+      "id": "glute-bridge",
+      "name": {
+        "id": "Glute Bridge",
+        "en": "Glute Bridge"
+      },
+      "muscle": "glutes",
+      "secondary": [
+        "legs",
+        "core"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "muscle",
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "12–15",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berbaring telentang, lutut ditekuk dan telapak kaki menapak.",
+          "Kencangkan bokong untuk mengangkat pinggul.",
+          "Berhenti sejenak di atas tanpa melengkungkan punggung, lalu turunkan."
+        ],
+        "en": [
+          "Lie on your back with knees bent and feet flat.",
+          "Squeeze your glutes to lift your hips.",
+          "Pause at the top without arching your back, then lower."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Mendorong gerakan dari punggung bawah.",
+          "Kaki terlalu jauh dari bokong."
+        ],
+        "en": [
+          "Driving the movement from the lower back.",
+          "Placing feet too far from the glutes."
+        ]
+      }
+    },
+    {
+      "id": "plank",
+      "name": {
+        "id": "Plank",
+        "en": "Plank"
+      },
+      "muscle": "core",
+      "secondary": [
+        "shoulders",
+        "glutes"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "fat_loss",
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "20–45 sec",
+      "rest": 45,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Sangga tubuh pada siku dan ujung kaki.",
+          "Jaga kepala, pinggul, dan tumit membentuk garis lurus.",
+          "Bernapas teratur sambil mengencangkan perut dan bokong."
+        ],
+        "en": [
+          "Support your body on elbows and toes.",
+          "Keep head, hips, and heels in a straight line.",
+          "Breathe steadily while bracing your abs and glutes."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Pinggul turun atau terlalu tinggi.",
+          "Menahan napas."
+        ],
+        "en": [
+          "Letting hips sag or rise too high.",
+          "Holding your breath."
+        ]
+      }
+    },
+    {
+      "id": "dead-bug",
+      "name": {
+        "id": "Dead Bug",
+        "en": "Dead Bug"
+      },
+      "muscle": "core",
+      "secondary": [],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "beginner",
+      "goals": [
+        "recomp",
+        "strength"
+      ],
+      "sets": 3,
+      "reps": "8–10 each side",
+      "rest": 45,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Berbaring telentang dengan tangan ke atas dan lutut diangkat 90 derajat.",
+          "Jaga punggung bawah tetap dekat lantai.",
+          "Turunkan lengan dan kaki berlawanan secara perlahan, lalu berganti sisi."
+        ],
+        "en": [
+          "Lie on your back with arms up and knees at 90 degrees.",
+          "Keep your lower back close to the floor.",
+          "Slowly extend the opposite arm and leg, then switch sides."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Punggung bawah terangkat dari lantai.",
+          "Bergerak terlalu cepat."
+        ],
+        "en": [
+          "Allowing the lower back to lift.",
+          "Moving too quickly."
+        ]
+      }
+    },
+    {
+      "id": "mountain-climber",
+      "name": {
+        "id": "Mountain Climber",
+        "en": "Mountain Climber"
+      },
+      "muscle": "full_body",
+      "secondary": [
+        "core",
+        "shoulders",
+        "legs"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "intermediate",
+      "goals": [
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "20–40 sec",
+      "rest": 60,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Mulai dari posisi high plank dengan bahu di atas pergelangan tangan.",
+          "Bawa lutut bergantian ke arah dada.",
+          "Jaga pinggul relatif stabil dan pilih kecepatan yang bisa dikontrol."
+        ],
+        "en": [
+          "Start in a high plank with shoulders over wrists.",
+          "Drive knees alternately toward your chest.",
+          "Keep hips relatively steady and use a controllable pace."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Pinggul memantul terlalu tinggi.",
+          "Mengorbankan posisi punggung demi kecepatan."
+        ],
+        "en": [
+          "Bouncing hips too high.",
+          "Sacrificing back position for speed."
+        ]
+      }
+    },
+    {
+      "id": "burpee",
+      "name": {
+        "id": "Burpee",
+        "en": "Burpee"
+      },
+      "muscle": "full_body",
+      "secondary": [
+        "chest",
+        "legs",
+        "core"
+      ],
+      "equipment": [
+        "bodyweight",
+        "mixed"
+      ],
+      "level": "advanced",
+      "goals": [
+        "fat_loss",
+        "recomp"
+      ],
+      "sets": 3,
+      "reps": "6–10",
+      "rest": 90,
+      "duration": "short",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Mulai berdiri, jongkok dan letakkan tangan di lantai.",
+          "Langkahkan atau lompatkan kaki ke posisi plank.",
+          "Kembalikan kaki ke depan lalu berdiri; lompatan akhir bersifat opsional."
+        ],
+        "en": [
+          "Start standing, squat, and place hands on the floor.",
+          "Step or jump feet back into a plank.",
+          "Bring feet forward and stand; the final jump is optional."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Memaksakan lompatan saat teknik mulai rusak.",
+          "Mendarat dengan keras."
+        ],
+        "en": [
+          "Forcing jumps when form breaks down.",
+          "Landing heavily."
+        ]
+      }
+    },
+    {
+      "id": "barbell-bench-press",
+      "name": {
+        "id": "Barbell Bench Press",
+        "en": "Barbell Bench Press"
+      },
+      "muscle": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "gym"
+      ],
+      "level": "intermediate",
+      "goals": [
+        "muscle",
+        "strength"
+      ],
+      "sets": 4,
+      "reps": "5–8",
+      "rest": 120,
+      "duration": "long",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1534368270820-9de3d8053204?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Atur posisi mata di bawah bar dan kaki stabil di lantai.",
+          "Pegang bar dengan pergelangan netral, turunkan ke area dada secara terkendali.",
+          "Dorong bar ke atas; gunakan spotter atau safety arms saat beban berat."
+        ],
+        "en": [
+          "Set your eyes under the bar and plant your feet firmly.",
+          "Grip with neutral wrists and lower the bar under control toward your chest.",
+          "Press up; use a spotter or safety arms for heavy loads."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Berlatih beban berat tanpa pengaman.",
+          "Memantulkan bar dari dada."
+        ],
+        "en": [
+          "Lifting heavy without safety support.",
+          "Bouncing the bar off the chest."
+        ]
+      }
+    },
+    {
+      "id": "barbell-deadlift",
+      "name": {
+        "id": "Barbell Deadlift",
+        "en": "Barbell Deadlift"
+      },
+      "muscle": "back",
+      "secondary": [
+        "legs",
+        "glutes",
+        "core"
+      ],
+      "equipment": [
+        "gym"
+      ],
+      "level": "advanced",
+      "goals": [
+        "strength",
+        "muscle"
+      ],
+      "sets": 3,
+      "reps": "3–6",
+      "rest": 150,
+      "duration": "long",
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
+      },
+      "instructions": {
+        "id": [
+          "Posisikan kaki di bawah bar dan bar dekat tulang kering.",
+          "Kencangkan core, jaga punggung netral dan pegang bar dengan mantap.",
+          "Dorong lantai untuk berdiri; turunkan bar dengan kontrol."
+        ],
+        "en": [
+          "Position feet under the bar with the bar close to your shins.",
+          "Brace your core, keep a neutral back, and grip the bar securely.",
+          "Push the floor away to stand; lower the bar with control."
+        ]
+      },
+      "mistakes": {
+        "id": [
+          "Menarik dengan punggung membulat.",
+          "Menjauhkan bar dari tubuh."
+        ],
+        "en": [
+          "Pulling with a rounded back.",
+          "Letting the bar drift away from the body."
+        ]
+      }
+    }
+  ],
+  "programGuidance": {
+    "id": "Mulai dengan beban yang memungkinkan teknik tetap rapi dan sisakan sekitar 2–3 repetisi sebelum gagal. Tambah repetisi atau beban secara bertahap setelah semua set terasa terkontrol. Pemanasan 5–10 menit dianjurkan.",
+    "en": "Start with a load that allows good technique and leave about 2–3 reps in reserve. Gradually add reps or weight once all sets feel controlled. A 5–10 minute warm-up is recommended."
+  }
+}
