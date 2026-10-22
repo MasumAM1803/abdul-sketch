@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Doa Harian, Dzikir, Sifat Shalat Nabi & Belajar Al-Qur’an",
-    "description": "Doa harian, dzikir, panduan shalat, serta kurikulum tajwid dan makharijul huruf bertahap dari dasar hingga mahir.",
-    "version": "3.1.0",
-    "notes": "Panduan shalat ditambahkan sebagai materi edukasi. Rumaysho digunakan sebagai titik awal penelusuran; tautan dalil pada tiap langkah diarahkan ke ayat Al-Qur’an atau koleksi hadis. Perbedaan ulama dicatat ringkas; rincian yang sanadnya diperselisihkan tidak boleh dianggap setingkat hadis sahih. Penomoran hadis dapat berbeda menurut edisi. Bagian dzikir setelah shalat mencantumkan beberapa varian dzikir yang sama-sama memiliki dalil; varian hitungan disajikan terpisah dan tidak digabungkan. Doa keseharian diperluas. Untuk selesai membaca Al-Qur’an, aplikasi membedakan dzikir penutup majelis yang memiliki riwayat dari doa khusus setelah tilawah/khatam: tidak ditetapkan satu lafaz khusus yang sahih dari Nabi ﷺ untuk setiap selesai membaca atau khatam; pengguna tetap boleh berdoa dengan doa umum yang baik. Perbaikan versi 3.0.1: transliterasi latin pada dzikir pagi dan petang yang sebelumnya terpotong dengan tanda elipsis dilengkapi agar sesuai dengan teks Arab yang tersedia.",
+    "title": "Doa Harian, Dzikir, Sifat Shalat Nabi, Belajar Al-Qur’an & Ruqyah Mandiri",
+    "description": "Kumpulan doa harian, dzikir, panduan shalat, pembelajaran Al-Qur’an, dan ruqyah mandiri dengan kelompok umum, ruqyah bagian tubuh yang sakit, serta pemaparan perbedaannya.",
+    "version": "3.3.0",
+    "notes": "Panduan shalat ditambahkan sebagai materi edukasi. Rumaysho digunakan sebagai titik awal penelusuran; tautan dalil pada tiap langkah diarahkan ke ayat Al-Qur’an atau koleksi hadis. Perbedaan ulama dicatat ringkas; rincian yang sanadnya diperselisihkan tidak boleh dianggap setingkat hadis sahih. Penomoran hadis dapat berbeda menurut edisi. Bagian dzikir setelah shalat mencantumkan beberapa varian dzikir yang sama-sama memiliki dalil; varian hitungan disajikan terpisah dan tidak digabungkan. Doa keseharian diperluas. Untuk selesai membaca Al-Qur’an, aplikasi membedakan dzikir penutup majelis yang memiliki riwayat dari doa khusus setelah tilawah/khatam: tidak ditetapkan satu lafaz khusus yang sahih dari Nabi ﷺ untuk setiap selesai membaca atau khatam; pengguna tetap boleh berdoa dengan doa umum yang baik. Perbaikan versi 3.0.1: transliterasi latin pada dzikir pagi dan petang yang sebelumnya terpotong dengan tanda elipsis dilengkapi agar sesuai dengan teks Arab yang tersedia. Bagian Ruqyah Mandiri ditambahkan dengan ayat Al-Qur’an, doa kesembuhan, panduan praktik umum, dan catatan menghindari syirik serta tidak menggantikan perawatan medis. Versi 3.3.0: Ruqyah Mandiri dibagi menjadi Umum, Mengobati Bagian Tubuh yang Sakit, dan Pemaparan. Doa khusus sakit anggota tubuh merujuk Sahih Muslim 2202; perbedaan kelompok dijelaskan terpisah.",
     "sources": [
       {
         "name": "Al-Qur'an – Quran.com",
@@ -31,7 +31,7 @@
       }
     ],
     "ordering_note": "Bagian utama: Doa Harian, Dzikir (pagi, petang, setelah shalat), Sifat Shalat Nabi, dan Belajar Al-Qur’an (petunjuk tajwid, makharijul huruf, kurikulum belajar tajwid).",
-    "last_updated": "2026-10-20"
+    "last_updated": "2026-10-22"
   },
   "items": [
     {
@@ -1901,9 +1901,135 @@
       "hadith": "Dicantumkan dengan catatan kehati-hatian: jangan dinisbatkan secara pasti kepada Nabi ﷺ.",
       "reference_url": "https://sunnah.com/hisn",
       "type": "hadith"
+    },
+    {
+      "id": "ruqyah-mandiri-fatihah",
+      "category": "ruqyah-mandiri",
+      "title": "Surah Al-Fatihah",
+      "subtitle": "Bacaan utama ruqyah",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ۝ الرَّحْمَٰنِ الرَّحِيمِ ۝ مَالِكِ يَوْمِ الدِّينِ ۝ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ۝ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "latin": "Bismillāhir-raḥmānir-raḥīm. Al-ḥamdu lillāhi rabbil-‘ālamīn. Ar-raḥmānir-raḥīm. Māliki yaumid-dīn. Iyyāka na‘budu wa iyyāka nasta‘īn. Ihdinaṣ-ṣirāṭal-mustaqīm. Ṣirāṭallażīna an‘amta ‘alaihim gairil-maghdūbi ‘alaihim wa laḍ-ḍāllīn.",
+      "translation": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam, dan seterusnya hingga akhir Surah Al-Fatihah.",
+      "count": 1,
+      "time": [
+        "ruqyah mandiri"
+      ],
+      "source": "Al-Qur’an, QS. Al-Fatihah: 1–7; Sahih al-Bukhari 5736",
+      "hadith": "Dalam hadis Abu Sa‘id al-Khudri, Al-Fatihah dibacakan sebagai ruqyah dan Nabi ﷺ membenarkan praktik tersebut. Baca dengan keyakinan bahwa kesembuhan datang dari Allah.",
+      "reference_url": "https://sunnah.com/bukhari:5736",
+      "type": "quran",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-ayat-kursi",
+      "category": "ruqyah-mandiri",
+      "title": "Ayat Kursi",
+      "subtitle": "QS. Al-Baqarah: 255",
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "latin": "Allāhu lā ilāha illā huwal-ḥayyul-qayyūm. Lā ta’khużuhū sinatuw wa lā naum. Lahū mā fis-samāwāti wa mā fil-arḍ...",
+      "translation": "Allah, tidak ada tuhan selain Dia, Yang Mahahidup, Yang terus-menerus mengurus makhluk-Nya... (baca ayat hingga selesai).",
+      "count": 1,
+      "time": [
+        "ruqyah mandiri"
+      ],
+      "source": "Al-Qur’an, QS. Al-Baqarah: 255",
+      "hadith": "Ayat ini merupakan ayat agung. Dapat dibaca dalam ruqyah sebagai bagian dari membaca Al-Qur’an; jangan menganggap setiap rincian tata cara atau jumlah tertentu wajib tanpa dalil khusus.",
+      "reference_url": "https://quran.com/2/255",
+      "type": "quran",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-last-baqarah",
+      "category": "ruqyah-mandiri",
+      "title": "Dua ayat terakhir Surah Al-Baqarah",
+      "subtitle": "QS. Al-Baqarah: 285–286",
+      "arabic": "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ ۝ لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا...",
+      "latin": "Āmanar-rasūlu bimā unzila ilaihi mir-rabbihī wal-mu’minūn... (lanjutkan membaca QS. Al-Baqarah: 285–286 sampai selesai).",
+      "translation": "Rasul telah beriman kepada apa yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang beriman... (terjemahan lengkap terdapat pada ayat).",
+      "count": 1,
+      "time": [
+        "ruqyah mandiri"
+      ],
+      "source": "Al-Qur’an, QS. Al-Baqarah: 285–286; Sahih al-Bukhari 5009; Sahih Muslim 808",
+      "hadith": "Dua ayat terakhir Al-Baqarah memiliki keutamaan dibaca pada malam hari. Keduanya juga dapat dibaca sebagai bagian dari ruqyah dengan membaca Al-Qur’an secara umum.",
+      "reference_url": "https://quran.com/2/285-286",
+      "type": "quran",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-muawwidhat",
+      "category": "ruqyah-mandiri",
+      "title": "Surah Al-Ikhlas, Al-Falaq, dan An-Nas",
+      "subtitle": "Tiga surah perlindungan",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ ۝ ...\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَٰهِ النَّاسِ ۝ ...",
+      "latin": "Qul huwallāhu aḥad...; Qul a‘ūżu birabbil-falaq...; Qul a‘ūżu birabbin-nās... Bacalah setiap surah sampai selesai.",
+      "translation": "Katakanlah: Dialah Allah Yang Maha Esa...; Katakanlah: Aku berlindung kepada Tuhan yang menguasai subuh...; Katakanlah: Aku berlindung kepada Tuhan manusia...",
+      "count": 3,
+      "time": [
+        "ruqyah mandiri"
+      ],
+      "source": "Al-Qur’an, QS. Al-Ikhlas 112, Al-Falaq 113, An-Nas 114; Sahih al-Bukhari 5017",
+      "hadith": "Nabi ﷺ membaca tiga surah ini, meniup ringan ke telapak tangan, lalu mengusapkannya ke tubuh ketika hendak tidur. Untuk ruqyah, bacalah dengan memahami bahwa perlindungan dan kesembuhan berasal dari Allah.",
+      "reference_url": "https://sunnah.com/bukhari:5017",
+      "type": "quran",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-doa-sakit",
+      "category": "ruqyah-mandiri",
+      "title": "Doa ruqyah ketika sakit",
+      "subtitle": "Memohon kesembuhan kepada Allah",
+      "arabic": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا",
+      "latin": "Allāhumma Rabban-nās, ażhib al-ba’s, isyfi Antasy-Syāfī, lā syifā’a illā syifā’uk, syifā’an lā yugādiru saqaman.",
+      "translation": "Ya Allah, Tuhan manusia, hilangkanlah penyakit ini. Sembuhkanlah, Engkaulah Maha Penyembuh. Tidak ada kesembuhan kecuali kesembuhan dari-Mu, kesembuhan yang tidak meninggalkan penyakit.",
+      "count": 1,
+      "time": [
+        "saat sakit"
+      ],
+      "source": "Sahih al-Bukhari 5743; Sahih Muslim 2191",
+      "hadith": "Doa yang diajarkan Nabi ﷺ untuk memohon kesembuhan. Boleh diulang tanpa meyakini angka tertentu sebagai kewajiban.",
+      "reference_url": "https://sunnah.com/muslim:2191",
+      "type": "dua",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-procedure",
+      "category": "ruqyah-mandiri",
+      "title": "Panduan singkat melakukan ruqyah mandiri",
+      "subtitle": "Langkah praktis sesuai tuntunan umum",
+      "arabic": "بِسْمِ اللَّهِ",
+      "latin": "Bismillāh.",
+      "translation": "Mulai dengan menyebut nama Allah. Bacalah Al-Fatihah, Ayat Kursi, dua ayat terakhir Al-Baqarah, serta Al-Ikhlas, Al-Falaq, dan An-Nas. Boleh membaca doa-doa sahih untuk kesembuhan. Tiup ringan ke telapak tangan lalu usapkan ke tubuh sebagaimana riwayat tentang tiga surah sebelum tidur. Berdoa dengan ikhlas, menjaga shalat dan dzikir, serta bertawakal kepada Allah.",
+      "count": 1,
+      "time": [
+        "panduan"
+      ],
+      "source": "QS. Al-Isra’: 82; Sahih al-Bukhari 5017, 5736; Sahih Muslim 2191",
+      "hadith": "Ruqyah yang dibolehkan tidak mengandung syirik. Hindari jimat, mantra yang tidak dipahami, permintaan kepada jin, serta klaim pasti sembuh atau penetapan bilangan/waktu khusus tanpa dalil. Ruqyah tidak menggantikan pemeriksaan dan pengobatan medis bila diperlukan.",
+      "reference_url": "https://sunnah.com/muslim:2200",
+      "type": "guide",
+      "ruqyah_group": "umum"
+    },
+    {
+      "id": "ruqyah-mandiri-anggota-tubuh-sakit",
+      "category": "ruqyah-mandiri",
+      "ruqyah_group": "sakit",
+      "title": "Ruqyah untuk bagian tubuh yang sakit",
+      "subtitle": "Letakkan tangan pada bagian yang terasa sakit",
+      "arabic": "بِسْمِ اللَّهِ\n\nأَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+      "latin": "Bismillāh. (3 kali)\nA‘ūdzu billāhi wa qudratihi min syarri mā ajidu wa uḥāżir. (7 kali)",
+      "translation": "Letakkan tangan pada bagian tubuh yang sakit. Ucapkan “Bismillah” sebanyak tiga kali. Kemudian baca “A‘ūdzu billāhi wa qudratihi min syarri mā ajidu wa uḥāżir” sebanyak tujuh kali. Artinya: Aku berlindung kepada Allah dan kekuasaan-Nya dari keburukan yang aku rasakan dan yang aku khawatirkan.",
+      "count": "3 kali lalu 7 kali",
+      "time": [
+        "ketika bagian tubuh terasa sakit"
+      ],
+      "source": "Sahih Muslim 2202",
+      "hadith": "Utsman bin Abil ‘Ash mengadukan rasa sakit kepada Nabi ﷺ; beliau mengajarkan langkah ini. Ikuti jumlah yang disebut dalam hadis untuk amalan khusus ini.",
+      "reference_url": "https://sunnah.com/muslim:2202",
+      "type": "dua"
     }
   ],
-  "count": 62,
+  "count": 102,
   "quran_learning": {
     "title": "Belajar Al-Qur’an: Tajwid & Makharijul Huruf",
     "intro": "Kurikulum bertahap dari dasar hingga mahir untuk bacaan riwayat Hafsh ‘an ‘Ashim yang umum dipakai di Indonesia. Pelajari teori, amati contoh, lalu praktikkan dengan talaqqi dan koreksi guru yang kompeten.",

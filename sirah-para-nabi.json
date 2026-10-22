@@ -1,0 +1,1271 @@
+{
+  "meta": {
+    "title": {
+      "id": "Sirah Para Nabi",
+      "en": "Stories of the Prophets"
+    },
+    "description": {
+      "id": "Pembelajaran kronologis berdasarkan Al-Qur’an dan hadis yang dapat diverifikasi. Bagian yang tidak dijelaskan wahyu tidak dipastikan.",
+      "en": "A chronological study based on the Qur’an and verifiable hadith. Details not established by revelation are not asserted."
+    },
+    "method": {
+      "id": "Urutan para nabi sebelum Nabi Muhammad ﷺ bersifat perkiraan tematis, bukan kronologi tanggal yang pasti. Al-Qur’an menyebut 25 nabi/rasul dengan nama; tidak semua memiliki biografi panjang. Rujukan ayat dapat diperiksa melalui mushaf tepercaya. Untuk hadis, nama kitab/bab dicantumkan bila nomor berbeda antar-edisi. Jangan menganggap setiap narasi dalam kitab sirah otomatis sahih.",
+      "en": "The order of prophets before Muhammad ﷺ is an approximate thematic sequence, not a precise dated chronology. The Qur’an names 25 prophets/messengers; not all have long biographies. Verify verse references in a trusted Qur’an. For hadith, book/section names are supplied where numbering varies by edition. Not every narrative in sira literature is automatically authentic."
+    },
+    "principles": [
+      {
+        "id": "Tauhid adalah inti dakwah para nabi.",
+        "en": "Tawhid is central to the mission of all prophets."
+      },
+      {
+        "id": "Kisah Al-Qur’an bertujuan memberi petunjuk, bukan memenuhi rasa ingin tahu dengan detail yang tidak terbukti.",
+        "en": "Qur’anic narratives guide; they are not meant to satisfy curiosity with unverified details."
+      },
+      {
+        "id": "Jangan menggambarkan nabi. Ilustrasi komik aplikasi menggunakan lanskap, benda, arsitektur, dan siluet tokoh non-nabi tanpa wajah.",
+        "en": "Never depict prophets. Comic illustrations use landscapes, objects, architecture, and faceless silhouettes of non-prophet figures."
+      },
+      {
+        "id": "Pemahaman mengikuti makna zahir wahyu dan penjelasan ulama Ahlus Sunnah/Salaf yang dapat dipertanggungjawabkan; perbedaan tafsir disebutkan bila relevan.",
+        "en": "Interpretation follows revelation and accountable explanations from Sunni/Salaf scholarship; interpretive differences are noted where relevant."
+      }
+    ],
+    "references": [
+      {
+        "title": "Al-Qur’an",
+        "detail": "Rujukan surah dan ayat dicantumkan pada setiap bab; periksa mushaf/tafsir tepercaya.",
+        "url": "https://quran.com/"
+      },
+      {
+        "title": "Sahih al-Bukhari",
+        "detail": "Kumpulan hadis sahih; nomor dapat berbeda menurut edisi dan sistem penomoran.",
+        "url": "https://sunnah.com/bukhari"
+      },
+      {
+        "title": "Sahih Muslim",
+        "detail": "Kumpulan hadis sahih; nomor dapat berbeda menurut edisi dan sistem penomoran.",
+        "url": "https://sunnah.com/muslim"
+      },
+      {
+        "title": "Tafsir Ibn Kathir (Qur’an)",
+        "detail": "Tafsir klasik; bandingkan dengan teks ayat dan penjelasan ulama yang tepercaya.",
+        "url": "https://www.qtafsir.com/"
+      },
+      {
+        "title": "Encyclopaedia of Islam / sumber sirah akademik",
+        "detail": "Gunakan untuk konteks sejarah, bukan menggantikan verifikasi dalil.",
+        "url": "https://www.britannica.com/topic/prophet"
+      }
+    ]
+  },
+  "prophets": [
+    {
+      "id": "adam",
+      "order": 1,
+      "name": {
+        "id": "Adam",
+        "en": "Adam"
+      },
+      "arabic": "آدم",
+      "subtitle": {
+        "id": "Permulaan penciptaan manusia",
+        "en": "The beginning of humanity"
+      },
+      "chapters": [
+        {
+          "id": "adam-1",
+          "title": {
+            "id": "Penciptaan dan pemuliaan Adam",
+            "en": "Creation and the honor of Adam"
+          },
+          "body": {
+            "id": "Allah mengabarkan penciptaan manusia pertama dari tanah, lalu mengajarkan kepada Adam nama-nama. Para malaikat diperintah bersujud sebagai penghormatan yang Allah tetapkan, bukan ibadah kepada Adam. Iblis menolak karena kesombongan. Al-Qur’an tidak merinci seluruh urutan biologis penciptaan, sehingga rincian di luar wahyu tidak dipastikan.",
+            "en": "Allah tells of the first human being created from clay and taught the names. The angels were commanded to prostrate as an honor ordained by Allah, not as worship of Adam. Iblis refused out of arrogance. The Qur’an does not detail every biological step, so details beyond revelation are not asserted."
+          },
+          "references": [
+            "Al-Baqarah 2:30–34",
+            "Al-Hijr 15:26–31",
+            "Sad 38:71–76"
+          ]
+        },
+        {
+          "id": "adam-2",
+          "title": {
+            "id": "Kesalahan, taubat, dan petunjuk",
+            "en": "The lapse, repentance, and guidance"
+          },
+          "body": {
+            "id": "Adam dan istrinya dilarang mendekati sebuah pohon. Setelah tergelincir, keduanya mengakui kesalahan dan memohon ampun; Allah menerima taubat Adam. Kisah ini menegaskan bahwa manusia dapat salah, dan jalan yang benar ialah kembali kepada Allah serta mengikuti petunjuk-Nya. Nama pohon dan rincian yang tidak disebutkan wahyu tidak perlu ditetapkan.",
+            "en": "Adam and his wife were told not to approach a tree. After their lapse, they acknowledged their wrong and sought forgiveness; Allah accepted Adam’s repentance. The account teaches that humans may err, and the right path is to return to Allah and follow His guidance. The tree’s identity and other unrevealed details should not be asserted."
+          },
+          "references": [
+            "Al-Baqarah 2:35–39",
+            "Al-A‘raf 7:19–27",
+            "Taha 20:115–123"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idris",
+      "order": 2,
+      "name": {
+        "id": "Idris",
+        "en": "Idris"
+      },
+      "arabic": "إدريس",
+      "subtitle": {
+        "id": "Nabi yang disebut benar dan sabar",
+        "en": "A prophet described as truthful and patient"
+      },
+      "chapters": [
+        {
+          "id": "idris-1",
+          "title": {
+            "id": "Kedudukan Idris dalam wahyu",
+            "en": "Idris in revelation"
+          },
+          "body": {
+            "id": "Al-Qur’an menyebut Idris sebagai seorang yang sangat benar dan seorang nabi, serta menyatakan bahwa Allah mengangkatnya ke tempat yang tinggi. Al-Qur’an tidak memberikan kronologi panjang tentang kehidupannya. Karena itu, kisah populer tentang profesi, tulisan, atau rincian perjalanan hidupnya tidak dipastikan tanpa dalil sahih.",
+            "en": "The Qur’an describes Idris as profoundly truthful and a prophet, and says Allah raised him to a high station. It gives no extended chronology of his life. Popular stories about his occupation, writing, or life details should therefore not be treated as established without sound evidence."
+          },
+          "references": [
+            "Maryam 19:56–57",
+            "Al-Anbiya 21:85–86"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuh",
+      "order": 3,
+      "name": {
+        "id": "Nuh",
+        "en": "Noah (Nuh)"
+      },
+      "arabic": "نوح",
+      "subtitle": {
+        "id": "Dakwah panjang dan keselamatan orang beriman",
+        "en": "Long preaching and the rescue of believers"
+      },
+      "chapters": [
+        {
+          "id": "nuh-1",
+          "title": {
+            "id": "Seruan tauhid dan kesabaran",
+            "en": "Calling to tawhid and patience"
+          },
+          "body": {
+            "id": "Nuh menyeru kaumnya agar menyembah Allah semata, siang dan malam, secara terbuka maupun pribadi. Kaumnya menolak dan para pemuka mereka merendahkan pengikutnya. Al-Qur’an menyebut Nuh tinggal di tengah kaumnya selama seribu tahun kurang lima puluh tahun; angka ini adalah masa tinggal, bukan penjelasan lengkap tentang seluruh umur atau masa kenabiannya.",
+            "en": "Nuh called his people to worship Allah alone by night and day, openly and privately. His people rejected him and their leaders belittled his followers. The Qur’an says he remained among his people for a thousand years less fifty; this is the period stated, not a complete account of his entire lifespan or prophethood."
+          },
+          "references": [
+            "Nuh 71:1–28",
+            "Al-‘Ankabut 29:14",
+            "Hud 11:25–49"
+          ]
+        },
+        {
+          "id": "nuh-2",
+          "title": {
+            "id": "Banjir, bahtera, dan keluarga",
+            "en": "The flood, the Ark, and family"
+          },
+          "body": {
+            "id": "Allah memerintahkan Nuh membuat bahtera. Ketika perintah datang, orang beriman diselamatkan, sedangkan anak Nuh yang menolak iman tidak diselamatkan. Hubungan keluarga tidak menggantikan iman dan ketaatan. Al-Qur’an tidak mendukung penambahan detail dramatis yang tidak memiliki landasan.",
+            "en": "Allah commanded Nuh to build the Ark. When the command came, the believers were saved, while Nuh’s son who rejected faith was not. Family ties do not replace faith and obedience. Dramatic additions without a basis in revelation should be avoided."
+          },
+          "references": [
+            "Hud 11:36–49",
+            "Al-Mu’minun 23:23–30",
+            "Al-Qamar 54:9–15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "order": 4,
+      "name": {
+        "id": "Hud",
+        "en": "Hud"
+      },
+      "arabic": "هود",
+      "subtitle": {
+        "id": "Peringatan kepada kaum ‘Ad",
+        "en": "Warning to the people of ‘Ad"
+      },
+      "chapters": [
+        {
+          "id": "hud-1",
+          "title": {
+            "id": "Dakwah kepada kaum ‘Ad",
+            "en": "Calling the people of ‘Ad"
+          },
+          "body": {
+            "id": "Hud menyeru kaum ‘Ad untuk menyembah Allah dan memohon ampun kepada-Nya. Kaumnya membanggakan kekuatan dan menuduhnya membawa keburukan. Hud menegaskan tawakal kepada Allah. Al-Qur’an menggambarkan ‘Ad sebagai kaum yang kuat, tetapi kekuatan tidak menyelamatkan mereka dari kesombongan dan penolakan.",
+            "en": "Hud called ‘Ad to worship Allah and seek His forgiveness. His people boasted of their strength and accused him of bringing harm. Hud affirmed his reliance upon Allah. The Qur’an portrays ‘Ad as powerful, yet strength could not save them from arrogance and rejection."
+          },
+          "references": [
+            "Hud 11:50–60",
+            "Al-A‘raf 7:65–72",
+            "Fussilat 41:15–16"
+          ]
+        },
+        {
+          "id": "hud-2",
+          "title": {
+            "id": "Angin yang membinasakan",
+            "en": "The devastating wind"
+          },
+          "body": {
+            "id": "Kaum ‘Ad dibinasakan dengan angin yang sangat dahsyat setelah terus menolak peringatan. Al-Qur’an menyebut azab itu sebagai pelajaran bagi generasi setelah mereka. Rincian populer tentang lokasi tepat, bentuk bangunan, atau artefak tertentu tidak boleh dipastikan hanya berdasarkan dugaan.",
+            "en": "‘Ad were destroyed by a furious wind after persisting in rejection. The Qur’an presents their fate as a lesson for later generations. Popular claims about exact locations, buildings, or artifacts should not be asserted on conjecture alone."
+          },
+          "references": [
+            "Al-Haqqah 69:6–8",
+            "Al-Qamar 54:18–21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salih",
+      "order": 5,
+      "name": {
+        "id": "Shalih",
+        "en": "Salih"
+      },
+      "arabic": "صالح",
+      "subtitle": {
+        "id": "Mukjizat unta dan kaum Tsamud",
+        "en": "The she-camel sign and Thamud"
+      },
+      "chapters": [
+        {
+          "id": "salih-1",
+          "title": {
+            "id": "Seruan dan tanda unta",
+            "en": "The call and the sign of the she-camel"
+          },
+          "body": {
+            "id": "Shalih menyeru Tsamud untuk bertauhid. Sebagai tanda, Allah memberikan unta betina yang harus dibiarkan makan dan minum sesuai ketentuan yang disebutkan. Mereka diperingatkan agar tidak menyakitinya, tetapi para pembangkang menyembelihnya.",
+            "en": "Shalih called Thamud to worship Allah alone. Allah gave them the she-camel as a sign, with a prescribed share of water and grazing. They were warned not to harm her, but the rebels hamstrung her."
+          },
+          "references": [
+            "Hud 11:61–68",
+            "Al-A‘raf 7:73–79",
+            "Asy-Syams 91:11–15"
+          ]
+        },
+        {
+          "id": "salih-2",
+          "title": {
+            "id": "Akhir kaum Tsamud",
+            "en": "The end of Thamud"
+          },
+          "body": {
+            "id": "Setelah pembunuhan unta dan penolakan mereka, azab menimpa Tsamud. Orang-orang yang beriman diselamatkan oleh Allah. Kisah ini memperingatkan agar tanda-tanda Allah tidak dipermainkan dan larangan-Nya tidak dilanggar.",
+            "en": "After the she-camel was killed and the people persisted in rejection, punishment struck Thamud. Allah saved the believers. The account warns against mocking Allah’s signs and violating His limits."
+          },
+          "references": [
+            "Hud 11:66–68",
+            "Al-A‘raf 7:78–79",
+            "Al-Qamar 54:23–31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ibrahim",
+      "order": 6,
+      "name": {
+        "id": "Ibrahim",
+        "en": "Abraham (Ibrahim)"
+      },
+      "arabic": "إبراهيم",
+      "subtitle": {
+        "id": "Tauhid, ujian, dan pembangunan Ka‘bah",
+        "en": "Tawhid, trials, and the building of the Ka‘bah"
+      },
+      "chapters": [
+        {
+          "id": "ibrahim-1",
+          "title": {
+            "id": "Mencari kebenaran dan menentang syirik",
+            "en": "Seeking truth and opposing shirk"
+          },
+          "body": {
+            "id": "Ibrahim berdialog dengan kaumnya dan ayahnya tentang penyembahan berhala. Al-Qur’an menampilkan argumentasinya tentang benda langit yang terbenam: sesuatu yang berubah dan tenggelam tidak layak menjadi sesembahan. Ia menyeru kepada Allah semata dan menghadapi penolakan kaumnya.",
+            "en": "Ibrahim reasoned with his people and father about idol worship. The Qur’an presents his argument concerning celestial bodies that set: what changes and disappears is not worthy of worship. He called to Allah alone and faced his people’s rejection."
+          },
+          "references": [
+            "Al-An‘am 6:74–83",
+            "Maryam 19:41–50",
+            "Al-Anbiya 21:51–70"
+          ]
+        },
+        {
+          "id": "ibrahim-2",
+          "title": {
+            "id": "Api, hijrah, dan tawakal",
+            "en": "The fire, migration, and reliance on Allah"
+          },
+          "body": {
+            "id": "Kaumnya hendak membakar Ibrahim, tetapi Allah menjadikan api itu dingin dan menyelamatkan. Ibrahim kemudian berhijrah atas perintah Allah. Al-Qur’an menegaskan keselamatan dan pertolongan Allah; detail tambahan yang tidak sahih tidak dijadikan bagian dari kronologi pasti.",
+            "en": "His people sought to burn Ibrahim, but Allah made the fire cool and safe. Ibrahim later migrated for Allah. The Qur’an emphasizes Allah’s rescue and help; unsound extra details are not treated as certain chronology."
+          },
+          "references": [
+            "Al-Anbiya 21:68–71",
+            "Al-‘Ankabut 29:24–27",
+            "As-Saffat 37:97–99"
+          ]
+        },
+        {
+          "id": "ibrahim-3",
+          "title": {
+            "id": "Keluarga, pengorbanan, dan Ka‘bah",
+            "en": "Family, sacrifice, and the Ka‘bah"
+          },
+          "body": {
+            "id": "Ibrahim berdoa agar keturunannya menegakkan salat dan dijauhkan dari penyembahan berhala. Bersama Isma‘il, ia meninggikan fondasi Ka‘bah dan berdoa agar amal itu diterima. Kisah perintah penyembelihan menunjukkan ketundukan ayah dan anak kepada Allah; Al-Qur’an tidak menyebut nama anak pada ayat itu, sedangkan banyak ulama menafsirkan anak tersebut sebagai Isma‘il berdasarkan dalil lain.",
+            "en": "Ibrahim prayed that his descendants establish prayer and be protected from idol worship. With Isma‘il, he raised the foundations of the Ka‘bah and asked Allah to accept their work. The command to sacrifice shows the father and son’s submission; the Qur’anic passage itself does not name the son, while many scholars identify him as Isma‘il based on other evidence."
+          },
+          "references": [
+            "Ibrahim 14:35–41",
+            "Al-Baqarah 2:125–129",
+            "As-Saffat 37:100–113",
+            "Sahih al-Bukhari, Kitab Ahadith al-Anbiya’ (the account of Ibrahim and Hajar; verify edition numbering)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lut",
+      "order": 7,
+      "name": {
+        "id": "Luth",
+        "en": "Lot (Lut)"
+      },
+      "arabic": "لوط",
+      "subtitle": {
+        "id": "Menyeru kaum kepada kesucian",
+        "en": "Calling his people to righteousness"
+      },
+      "chapters": [
+        {
+          "id": "lut-1",
+          "title": {
+            "id": "Peringatan kepada kaumnya",
+            "en": "Warning his people"
+          },
+          "body": {
+            "id": "Luth menyeru kaumnya meninggalkan perbuatan keji yang belum pernah dilakukan seperti itu oleh umat sebelumnya. Para utusan Allah datang kepadanya, dan kaumnya berusaha melakukan kejahatan terhadap tamunya. Kisah ini menegaskan kemuliaan tamu, larangan kezaliman, dan penolakan terhadap perbuatan seksual yang diharamkan.",
+            "en": "Lut called his people away from a grave indecency not previously practiced in that manner. Allah’s messengers came to him, and his people sought to abuse his guests. The account highlights the honor of guests, the prohibition of oppression, and the rejection of forbidden sexual acts."
+          },
+          "references": [
+            "Hud 11:77–83",
+            "Al-A‘raf 7:80–84",
+            "Al-Hijr 15:57–77"
+          ]
+        },
+        {
+          "id": "lut-2",
+          "title": {
+            "id": "Penyelamatan dan kehancuran",
+            "en": "Rescue and destruction"
+          },
+          "body": {
+            "id": "Allah menyelamatkan Luth dan orang beriman yang bersamanya, kecuali istrinya yang termasuk orang yang tertinggal. Kaumnya dibinasakan. Al-Qur’an menyampaikan pelajaran moral dan akidah, bukan izin untuk menghina atau menyakiti orang secara sewenang-wenang.",
+            "en": "Allah saved Lut and the believers with him, except his wife who was among those left behind. His people were destroyed. The Qur’an conveys moral and theological lessons, not permission to insult or arbitrarily harm people."
+          },
+          "references": [
+            "Hud 11:81–83",
+            "Al-‘Ankabut 29:28–35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ismail",
+      "order": 8,
+      "name": {
+        "id": "Isma‘il",
+        "en": "Ishmael (Isma‘il)"
+      },
+      "arabic": "إسماعيل",
+      "subtitle": {
+        "id": "Kesabaran dan pembangunan Ka‘bah",
+        "en": "Patience and the building of the Ka‘bah"
+      },
+      "chapters": [
+        {
+          "id": "ismail-1",
+          "title": {
+            "id": "Anak yang sabar dan menepati janji",
+            "en": "Patient and true to his promise"
+          },
+          "body": {
+            "id": "Al-Qur’an menyebut Isma‘il sebagai benar janjinya, rasul dan nabi, serta memerintahkan keluarganya salat dan zakat. Dalam kisah pengorbanan, Isma‘il menunjukkan kesediaan untuk taat kepada perintah Allah sebagaimana diceritakan dalam Surah As-Saffat.",
+            "en": "The Qur’an describes Isma‘il as true to his promise, a messenger and prophet, and says he enjoined prayer and zakah upon his family. In the sacrifice account, Isma‘il shows willingness to obey Allah’s command as narrated in Surah As-Saffat."
+          },
+          "references": [
+            "Maryam 19:54–55",
+            "As-Saffat 37:101–107"
+          ]
+        },
+        {
+          "id": "ismail-2",
+          "title": {
+            "id": "Mendirikan fondasi Ka‘bah",
+            "en": "Raising the foundations of the Ka‘bah"
+          },
+          "body": {
+            "id": "Ibrahim dan Isma‘il bersama-sama meninggikan fondasi Baitullah dan memohon agar Allah menerima amal mereka. Mereka juga berdoa agar lahir umat yang berserah diri dan seorang rasul yang membacakan ayat-ayat Allah. Ini menghubungkan ibadah, kerendahan hati, dan pendidikan generasi.",
+            "en": "Ibrahim and Isma‘il raised the foundations of the House and asked Allah to accept their work. They prayed for a community submitted to Allah and a messenger who would recite His verses. This links worship with humility and the nurturing of future generations."
+          },
+          "references": [
+            "Al-Baqarah 2:125–129"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ishaq",
+      "order": 9,
+      "name": {
+        "id": "Ishaq",
+        "en": "Isaac (Ishaq)"
+      },
+      "arabic": "إسحاق",
+      "subtitle": {
+        "id": "Kabar gembira dan keberkahan keluarga Ibrahim",
+        "en": "Glad tidings and blessing in Ibrahim’s family"
+      },
+      "chapters": [
+        {
+          "id": "ishaq-1",
+          "title": {
+            "id": "Kabar gembira tentang Ishaq",
+            "en": "Glad tidings of Ishaq"
+          },
+          "body": {
+            "id": "Para malaikat menyampaikan kabar gembira kepada Ibrahim dan istrinya tentang Ishaq, meskipun usia mereka telah lanjut. Al-Qur’an menempatkan Ishaq dalam rangkaian keluarga nabi yang diberkahi. Rincian kehidupannya tidak dipaparkan panjang, sehingga kisah yang tidak memiliki landasan tidak dipastikan.",
+            "en": "Angels gave Ibrahim and his wife glad tidings of Ishaq despite their advanced age. The Qur’an places Ishaq among the blessed prophetic family. His life is not narrated at length, so details without a reliable basis are not asserted."
+          },
+          "references": [
+            "Hud 11:69–73",
+            "Al-Hijr 15:51–56",
+            "As-Saffat 37:112–113"
+          ]
+        },
+        {
+          "id": "ishaq-2",
+          "title": {
+            "id": "Warisan kenabian",
+            "en": "The prophetic legacy"
+          },
+          "body": {
+            "id": "Allah menyebut Ishaq dan Ya‘qub sebagai anugerah serta menjadikan mereka pemimpin yang memberi petunjuk dengan perintah-Nya. Kisah mereka mengajarkan bahwa keberkahan keluarga tidak otomatis, melainkan terkait iman, ibadah, dan petunjuk Allah.",
+            "en": "Allah names Ishaq and Ya‘qub as gifts and made them leaders guiding by His command. Their account teaches that family blessing is not automatic; it is connected to faith, worship, and Allah’s guidance."
+          },
+          "references": [
+            "Al-Anbiya 21:72–73",
+            "Sad 38:45–47"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yaqub",
+      "order": 10,
+      "name": {
+        "id": "Ya‘qub",
+        "en": "Jacob (Ya‘qub)"
+      },
+      "arabic": "يعقوب",
+      "subtitle": {
+        "id": "Kesabaran indah dalam ujian keluarga",
+        "en": "Patient endurance through family trials"
+      },
+      "chapters": [
+        {
+          "id": "yaqub-1",
+          "title": {
+            "id": "Keluarga Ya‘qub dan Yusuf",
+            "en": "Ya‘qub’s family and Yusuf"
+          },
+          "body": {
+            "id": "Ya‘qub adalah nabi dan ayah Yusuf. Ketika Yusuf menceritakan mimpinya, Ya‘qub menasihatinya agar tidak menceritakannya kepada saudara-saudaranya karena khawatir tipu daya. Kisah keluarga ini memperlihatkan hikmah, kewaspadaan, dan kasih sayang seorang ayah.",
+            "en": "Ya‘qub was a prophet and Yusuf’s father. When Yusuf told him his dream, Ya‘qub advised him not to tell his brothers, fearing their plotting. The family account shows wisdom, caution, and a father’s care."
+          },
+          "references": [
+            "Yusuf 12:4–18"
+          ]
+        },
+        {
+          "id": "yaqub-2",
+          "title": {
+            "id": "Sabar dan berharap kepada Allah",
+            "en": "Patience and hope in Allah"
+          },
+          "body": {
+            "id": "Saat kehilangan Yusuf dan kemudian Bunyamin, Ya‘qub menyatakan sabar yang baik dan mengadukan kesedihannya hanya kepada Allah. Ia tidak berputus asa dari rahmat Allah. Ini bukan berarti meniadakan kesedihan, tetapi mengarahkannya dengan iman dan harapan.",
+            "en": "When he lost Yusuf and later Bunyamin, Ya‘qub upheld beautiful patience and complained of his grief only to Allah. He did not despair of Allah’s mercy. This does not deny grief; it directs grief through faith and hope."
+          },
+          "references": [
+            "Yusuf 12:83–87",
+            "Yusuf 12:94–98"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yusuf",
+      "order": 11,
+      "name": {
+        "id": "Yusuf",
+        "en": "Joseph (Yusuf)"
+      },
+      "arabic": "يوسف",
+      "subtitle": {
+        "id": "Dari sumur menuju kemuliaan dan pengampunan",
+        "en": "From the well to honor and forgiveness"
+      },
+      "chapters": [
+        {
+          "id": "yusuf-1",
+          "title": {
+            "id": "Mimpi dan pengkhianatan saudara",
+            "en": "The dream and his brothers’ betrayal"
+          },
+          "body": {
+            "id": "Yusuf melihat sebelas bintang, matahari, dan bulan bersujud kepadanya dalam mimpi. Saudara-saudaranya iri lalu melemparkannya ke sumur; ia kemudian ditemukan kafilah dan dibawa ke Mesir. Al-Qur’an menyajikan kronologi ini sebagai awal ujian panjang, bukan alasan untuk membenarkan iri hati atau pengkhianatan.",
+            "en": "Yusuf dreamed of eleven stars, the sun, and the moon prostrating to him. His brothers grew jealous and cast him into a well; a caravan later found him and took him to Egypt. This begins a long trial and never justifies envy or betrayal."
+          },
+          "references": [
+            "Yusuf 12:4–20"
+          ]
+        },
+        {
+          "id": "yusuf-2",
+          "title": {
+            "id": "Menjaga kehormatan dan dipenjara",
+            "en": "Guarding chastity and imprisonment"
+          },
+          "body": {
+            "id": "Ketika menghadapi godaan, Yusuf berlindung kepada Allah dan memilih penjara daripada memenuhi ajakan maksiat. Di penjara, ia tetap berdakwah kepada tauhid dan menafsirkan mimpi dengan izin Allah. Keteguhan moralnya tampak saat ia memilih ketaatan meski harus menanggung kesulitan.",
+            "en": "When tempted, Yusuf sought refuge in Allah and chose prison over sin. In prison, he continued calling people to tawhid and interpreted dreams by Allah’s permission. His moral steadfastness appears in choosing obedience despite hardship."
+          },
+          "references": [
+            "Yusuf 12:23–42"
+          ]
+        },
+        {
+          "id": "yusuf-3",
+          "title": {
+            "id": "Takwil mimpi, amanah, dan rekonsiliasi",
+            "en": "Dream interpretation, trust, and reconciliation"
+          },
+          "body": {
+            "id": "Yusuf menafsirkan mimpi raja dan diberi tanggung jawab mengelola perbendaharaan negeri. Ketika keluarganya datang, ia akhirnya mempertemukan mereka dan memaafkan saudara-saudaranya. Ia mengakui nikmat Allah, dan keluarganya menyadari kebenaran mimpinya. Surah ini menutup kisah dengan pelajaran tentang takwa, sabar, dan akhir yang baik.",
+            "en": "Yusuf interpreted the king’s dream and was entrusted with managing the land’s storehouses. When his family came, he reunited them and forgave his brothers. He acknowledged Allah’s favor, and his family recognized the fulfillment of his dream. The surah closes with lessons in taqwa, patience, and a good end."
+          },
+          "references": [
+            "Yusuf 12:43–57",
+            "Yusuf 12:88–101",
+            "Yusuf 12:111"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ayyub",
+      "order": 12,
+      "name": {
+        "id": "Ayyub",
+        "en": "Job (Ayyub)"
+      },
+      "arabic": "أيوب",
+      "subtitle": {
+        "id": "Kesabaran dalam penderitaan",
+        "en": "Patience through affliction"
+      },
+      "chapters": [
+        {
+          "id": "ayyub-1",
+          "title": {
+            "id": "Doa dan kesabaran Ayyub",
+            "en": "Ayyub’s prayer and patience"
+          },
+          "body": {
+            "id": "Ayyub mengalami penderitaan dan berdoa kepada Allah dengan rendah hati: kesusahan menimpanya, dan Allah adalah Yang Maha Penyayang. Al-Qur’an tidak merinci semua penyakit, durasi, atau kehilangan yang disebut dalam kisah populer; rincian itu tidak perlu dipastikan.",
+            "en": "Ayyub endured affliction and prayed humbly to Allah, saying harm had touched him and Allah is the Most Merciful. The Qur’an does not detail every illness, duration, or loss found in popular retellings; those details need not be asserted."
+          },
+          "references": [
+            "Al-Anbiya 21:83–84",
+            "Sad 38:41–44"
+          ]
+        },
+        {
+          "id": "ayyub-2",
+          "title": {
+            "id": "Pemulihan sebagai rahmat",
+            "en": "Restoration as mercy"
+          },
+          "body": {
+            "id": "Allah menjawab doa Ayyub, memerintahkannya menghentakkan kaki sehingga muncul air untuk mandi dan minum, lalu mengembalikan keluarganya sebagai rahmat. Kisah ini menegaskan bahwa doa dan sabar berjalan bersama ikhtiar yang Allah bukakan.",
+            "en": "Allah answered Ayyub, instructed him to strike the ground so water emerged for washing and drinking, and restored his family as a mercy. The account shows that prayer and patience accompany the means Allah provides."
+          },
+          "references": [
+            "Sad 38:42–44",
+            "Al-Anbiya 21:84"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syuaib",
+      "order": 13,
+      "name": {
+        "id": "Syu‘aib",
+        "en": "Shu‘ayb"
+      },
+      "arabic": "شعيب",
+      "subtitle": {
+        "id": "Kejujuran dalam ibadah dan muamalah",
+        "en": "Honesty in worship and trade"
+      },
+      "chapters": [
+        {
+          "id": "syuaib-1",
+          "title": {
+            "id": "Seruan tauhid dan keadilan dagang",
+            "en": "Calling to tawhid and fair trade"
+          },
+          "body": {
+            "id": "Syu‘aib menyeru Madyan agar menyembah Allah, menyempurnakan takaran dan timbangan, serta tidak merugikan manusia. Ia menolak kerusakan di bumi dan mengingatkan bahwa keuntungan yang halal lebih baik daripada kecurangan. Kaumnya mengejek dan mengancamnya.",
+            "en": "Shu‘ayb called Midian to worship Allah, give full measure and weight, and not deprive people of their due. He opposed corruption and reminded them that lawful gain is better than fraud. His people mocked and threatened him."
+          },
+          "references": [
+            "Hud 11:84–95",
+            "Al-A‘raf 7:85–93",
+            "Asy-Syu‘ara 26:176–191"
+          ]
+        },
+        {
+          "id": "syuaib-2",
+          "title": {
+            "id": "Akibat mendustakan peringatan",
+            "en": "The consequence of rejecting the warning"
+          },
+          "body": {
+            "id": "Kaum yang mendustakan Syu‘aib ditimpa azab, sementara Allah menyelamatkan Syu‘aib dan orang beriman. Rangkaian kisah ini menghubungkan tauhid dengan etika sosial: ibadah yang benar tidak terpisah dari keadilan dan amanah.",
+            "en": "The people who rejected Shu‘ayb were punished, while Allah saved Shu‘ayb and the believers. The account links tawhid with social ethics: true worship is not separate from justice and trustworthiness."
+          },
+          "references": [
+            "Hud 11:94–95",
+            "Al-A‘raf 7:91–93"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "musa",
+      "order": 14,
+      "name": {
+        "id": "Musa",
+        "en": "Moses (Musa)"
+      },
+      "arabic": "موسى",
+      "subtitle": {
+        "id": "Misi kepada Fir‘aun dan pembebasan Bani Israil",
+        "en": "Mission to Pharaoh and the liberation of the Children of Israel"
+      },
+      "chapters": [
+        {
+          "id": "musa-1",
+          "title": {
+            "id": "Kelahiran dan pertolongan Allah",
+            "en": "Birth and Allah’s protection"
+          },
+          "body": {
+            "id": "Ketika Fir‘aun membunuh anak laki-laki Bani Israil, Allah mengilhamkan kepada ibu Musa untuk menghanyutkannya dalam peti dan menjanjikan pengembaliannya. Musa tumbuh di lingkungan istana Fir‘aun, lalu meninggalkan Mesir setelah sebuah insiden dan menuju Madyan.",
+            "en": "When Pharaoh was killing Israelite boys, Allah inspired Musa’s mother to place him in a chest and promised to return him to her. Musa grew up in Pharaoh’s household, then left Egypt after an incident and traveled toward Midian."
+          },
+          "references": [
+            "Al-Qasas 28:3–22",
+            "Taha 20:37–40"
+          ]
+        },
+        {
+          "id": "musa-2",
+          "title": {
+            "id": "Wahyu, tanda-tanda, dan Fir‘aun",
+            "en": "Revelation, signs, and Pharaoh"
+          },
+          "body": {
+            "id": "Di lembah suci, Allah memanggil Musa dan memberinya tanda-tanda, termasuk tongkat dan tangan yang bercahaya. Musa dan Harun diperintah mendatangi Fir‘aun dengan perkataan yang lembut, tetapi Fir‘aun menolak dan menuduh mereka sebagai penyihir. Pertarungan para penyihir berakhir dengan mereka beriman setelah mengenali kebenaran tanda Allah.",
+            "en": "At the sacred valley, Allah called Musa and gave him signs, including the staff and the shining hand. Musa and Harun were commanded to address Pharaoh gently, but Pharaoh rejected them and accused them of sorcery. The contest ended with the magicians believing after recognizing Allah’s sign."
+          },
+          "references": [
+            "Taha 20:9–73",
+            "Al-A‘raf 7:103–126",
+            "An-Nazi‘at 79:15–26"
+          ]
+        },
+        {
+          "id": "musa-3",
+          "title": {
+            "id": "Laut terbelah dan perjanjian",
+            "en": "The sea and the covenant"
+          },
+          "body": {
+            "id": "Allah menyelamatkan Bani Israil dengan membelah laut dan menenggelamkan Fir‘aun serta pasukannya. Musa kemudian menerima wahyu dan menghadapi penyimpangan kaumnya, termasuk penyembahan anak sapi. Kisah ini menunjukkan pertolongan Allah, tanggung jawab setelah keselamatan, dan bahaya mengikuti kesesatan.",
+            "en": "Allah rescued the Children of Israel by parting the sea and drowning Pharaoh and his army. Musa later received revelation and confronted his people’s deviations, including worship of the calf. The account shows divine help, responsibility after rescue, and the danger of following misguidance."
+          },
+          "references": [
+            "Asy-Syu‘ara 26:52–68",
+            "Al-Baqarah 2:49–61",
+            "Taha 20:80–98"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harun",
+      "order": 15,
+      "name": {
+        "id": "Harun",
+        "en": "Aaron (Harun)"
+      },
+      "arabic": "هارون",
+      "subtitle": {
+        "id": "Pendamping Musa dalam dakwah",
+        "en": "Musa’s companion in the mission"
+      },
+      "chapters": [
+        {
+          "id": "harun-1",
+          "title": {
+            "id": "Dukungan bagi Musa",
+            "en": "Support for Musa"
+          },
+          "body": {
+            "id": "Musa memohon agar Harun, saudaranya, menjadi pendamping yang menguatkannya dan fasih menyampaikan pesan. Allah mengabulkan permintaan itu. Harun membantu menyampaikan risalah kepada Fir‘aun dan membimbing Bani Israil bersama Musa.",
+            "en": "Musa asked that his brother Harun support him and help convey the message clearly. Allah granted the request. Harun helped deliver the message to Pharaoh and guide the Children of Israel alongside Musa."
+          },
+          "references": [
+            "Taha 20:25–36",
+            "Al-Qasas 28:34–35"
+          ]
+        },
+        {
+          "id": "harun-2",
+          "title": {
+            "id": "Menghadapi penyembahan anak sapi",
+            "en": "Confronting the calf worship"
+          },
+          "body": {
+            "id": "Saat Musa pergi menerima wahyu, sebagian kaumnya menyembah anak sapi. Harun memperingatkan mereka dan menjelaskan bahwa mereka sedang diuji, tetapi mereka menolak mendengarkannya. Musa kemudian menegur Harun, yang menjelaskan kekhawatirannya akan perpecahan Bani Israil.",
+            "en": "While Musa was away receiving revelation, some of his people worshipped the calf. Harun warned them that they were being tested, but they refused to listen. Musa later questioned Harun, who explained that he feared splitting the Children of Israel."
+          },
+          "references": [
+            "Al-A‘raf 7:142–150",
+            "Taha 20:83–94"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dzulkifli",
+      "order": 16,
+      "name": {
+        "id": "Dzulkifli",
+        "en": "Dhul-Kifl"
+      },
+      "arabic": "ذو الكفل",
+      "subtitle": {
+        "id": "Disebut di antara orang-orang sabar",
+        "en": "Named among the patient"
+      },
+      "chapters": [
+        {
+          "id": "dzulkifli-1",
+          "title": {
+            "id": "Pujian ringkas dalam Al-Qur’an",
+            "en": "Brief Qur’anic praise"
+          },
+          "body": {
+            "id": "Dzulkifli disebut bersama para nabi dan orang saleh yang sabar. Al-Qur’an tidak memaparkan kisah terperinci atau kronologi hidupnya. Karena itu, kisah-kisah tambahan tentang identitas, kerajaan, atau ujian tertentu perlu dinilai dengan bukti dan tidak disajikan sebagai kepastian.",
+            "en": "Dhul-Kifl is named among prophets and righteous people characterized by patience. The Qur’an does not provide a detailed biography or chronology. Additional stories about his identity, kingdom, or specific trials must be evaluated evidentially and not presented as certain."
+          },
+          "references": [
+            "Al-Anbiya 21:85–86",
+            "Sad 38:48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dawud",
+      "order": 17,
+      "name": {
+        "id": "Dawud",
+        "en": "David (Dawud)"
+      },
+      "arabic": "داود",
+      "subtitle": {
+        "id": "Keadilan, ibadah, dan Zabur",
+        "en": "Justice, worship, and the Psalms"
+      },
+      "chapters": [
+        {
+          "id": "dawud-1",
+          "title": {
+            "id": "Kemenangan dan anugerah kenabian",
+            "en": "Victory and the gift of prophethood"
+          },
+          "body": {
+            "id": "Dawud mengalahkan Jalut dengan izin Allah, lalu Allah memberinya kerajaan dan hikmah serta mengajarkannya apa yang Dia kehendaki. Al-Qur’an menyebut Zabur sebagai kitab yang diberikan kepada Dawud. Kisah ini menegaskan bahwa kemenangan berasal dari Allah, bukan semata kekuatan manusia.",
+            "en": "Dawud defeated Goliath by Allah’s permission, and Allah granted him kingdom and wisdom and taught him what He willed. The Qur’an names the Psalms as revelation given to Dawud. The account teaches that victory comes from Allah, not merely human strength."
+          },
+          "references": [
+            "Al-Baqarah 2:251",
+            "An-Nisa 4:163",
+            "Al-Isra 17:55"
+          ]
+        },
+        {
+          "id": "dawud-2",
+          "title": {
+            "id": "Keadilan dan ibadah",
+            "en": "Justice and worship"
+          },
+          "body": {
+            "id": "Allah memerintahkan Dawud memutuskan perkara dengan kebenaran dan tidak mengikuti hawa nafsu. Gunung-gunung dan burung bertasbih bersamanya, dan besi dilunakkan baginya. Rincian kisah yang tidak jelas dalilnya tidak dijadikan bahan tuduhan terhadap seorang nabi.",
+            "en": "Allah commanded Dawud to judge with truth and not follow desire. The mountains and birds glorified Allah with him, and iron was made pliable for him. Details lacking clear evidence are not used to make allegations against a prophet."
+          },
+          "references": [
+            "Sad 38:17–26",
+            "Saba 34:10–11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulaiman",
+      "order": 18,
+      "name": {
+        "id": "Sulaiman",
+        "en": "Solomon (Sulaiman)"
+      },
+      "arabic": "سليمان",
+      "subtitle": {
+        "id": "Kerajaan, hikmah, dan syukur",
+        "en": "Kingdom, wisdom, and gratitude"
+      },
+      "chapters": [
+        {
+          "id": "sulaiman-1",
+          "title": {
+            "id": "Ilmu dan keputusan yang tepat",
+            "en": "Knowledge and sound judgment"
+          },
+          "body": {
+            "id": "Sulaiman diberi ilmu dan memahami bahasa burung dengan izin Allah. Ia memeriksa pasukannya dan mendengar laporan semut, lalu bersyukur kepada Allah atas nikmat yang diberikan. Kekuasaan dipahami sebagai amanah untuk bersyukur dan berlaku adil.",
+            "en": "Sulaiman was granted knowledge and understood the speech of birds by Allah’s permission. He reviewed his forces and heard the report of an ant, then thanked Allah for His favor. Power is presented as a trust calling for gratitude and justice."
+          },
+          "references": [
+            "An-Naml 27:15–19"
+          ]
+        },
+        {
+          "id": "sulaiman-2",
+          "title": {
+            "id": "Ratu Saba dan seruan tauhid",
+            "en": "The Queen of Sheba and the call to tawhid"
+          },
+          "body": {
+            "id": "Sulaiman menerima kabar tentang negeri Saba dan mengirim surat yang menyeru agar mereka tidak menyombongkan diri, tetapi datang berserah diri kepada Allah. Setelah menyaksikan tanda-tanda Allah, sang ratu mengakui kesalahannya dan berserah diri bersama Sulaiman kepada Allah, Rabb semesta alam.",
+            "en": "Sulaiman received news of Sheba and sent a letter calling them not to be arrogant but to come in submission to Allah. After witnessing Allah’s signs, the queen acknowledged her former error and submitted with Sulaiman to Allah, Lord of all worlds."
+          },
+          "references": [
+            "An-Naml 27:20–44"
+          ]
+        },
+        {
+          "id": "sulaiman-3",
+          "title": {
+            "id": "Kematian dan batas pengetahuan makhluk",
+            "en": "Death and the limits of created knowledge"
+          },
+          "body": {
+            "id": "Ketika Sulaiman wafat sambil bersandar pada tongkatnya, jin tidak mengetahui kematiannya sampai ia roboh. Kisah ini menolak anggapan bahwa jin mengetahui perkara gaib secara mutlak. Ilmu gaib adalah milik Allah kecuali yang Dia beritahukan kepada siapa yang Dia kehendaki.",
+            "en": "When Sulaiman died while leaning on his staff, the jinn did not know of his death until he fell. The account rejects the claim that jinn possess absolute knowledge of the unseen. Knowledge of the unseen belongs to Allah, except what He reveals to whom He wills."
+          },
+          "references": [
+            "Saba 34:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilyas",
+      "order": 19,
+      "name": {
+        "id": "Ilyas",
+        "en": "Elijah (Ilyas)"
+      },
+      "arabic": "إلياس",
+      "subtitle": {
+        "id": "Menentang penyembahan Ba‘l",
+        "en": "Opposing the worship of Baal"
+      },
+      "chapters": [
+        {
+          "id": "ilyas-1",
+          "title": {
+            "id": "Seruan kepada Allah",
+            "en": "Calling people to Allah"
+          },
+          "body": {
+            "id": "Ilyas menegur kaumnya karena menyeru Ba‘l dan meninggalkan Allah, sebaik-baik Pencipta. Sebagian mendustakan, sedangkan hamba Allah yang ikhlas dikecualikan dari akibat kebinasaan. Al-Qur’an menyebut kisahnya secara ringkas tanpa memberi biografi panjang.",
+            "en": "Ilyas rebuked his people for invoking Baal and abandoning Allah, the best of creators. Some rejected him, while Allah’s sincere servants were excepted from destruction. The Qur’an gives a concise account rather than a long biography."
+          },
+          "references": [
+            "As-Saffat 37:123–132"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilyasa",
+      "order": 20,
+      "name": {
+        "id": "Ilyasa‘",
+        "en": "Elisha (Ilyasa‘)"
+      },
+      "arabic": "اليسع",
+      "subtitle": {
+        "id": "Disebut di antara hamba pilihan",
+        "en": "Named among the chosen servants"
+      },
+      "chapters": [
+        {
+          "id": "ilyasa-1",
+          "title": {
+            "id": "Pujian Allah kepada Ilyasa‘",
+            "en": "Allah’s praise of Ilyasa‘"
+          },
+          "body": {
+            "id": "Ilyasa‘ disebut dalam Al-Qur’an di antara orang-orang pilihan dan yang terbaik. Tidak tersedia narasi rinci tentang peristiwa hidupnya dalam Al-Qur’an. Penyajian yang aman ialah menjaga pujian wahyu dan tidak mengisi kekosongan dengan kisah tanpa dasar kuat.",
+            "en": "Ilyasa‘ is named in the Qur’an among the chosen and excellent. The Qur’an does not provide a detailed account of his life events. A careful presentation preserves the Qur’anic praise without filling gaps with weakly grounded stories."
+          },
+          "references": [
+            "Al-An‘am 6:86",
+            "Sad 38:48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yunus",
+      "order": 21,
+      "name": {
+        "id": "Yunus",
+        "en": "Jonah (Yunus)"
+      },
+      "arabic": "يونس",
+      "subtitle": {
+        "id": "Doa dalam kegelapan dan rahmat Allah",
+        "en": "Prayer in darkness and Allah’s mercy"
+      },
+      "chapters": [
+        {
+          "id": "yunus-1",
+          "title": {
+            "id": "Meninggalkan kaumnya dan ujian di laut",
+            "en": "Leaving his people and the trial at sea"
+          },
+          "body": {
+            "id": "Yunus pergi dalam keadaan marah sebelum mendapat izin yang disebut dalam kisah, lalu berada di kapal dan ditelan ikan besar. Al-Qur’an menyebutnya sebagai orang yang berada dalam kesusahan. Jangan menambahkan detail tentang spesies ikan atau lama waktu tanpa dalil yang sahih.",
+            "en": "Yunus departed in anger before the permission described in the account, then was aboard a ship and swallowed by a great fish. The Qur’an describes him as being in distress. Details such as the fish species or exact duration should not be added without sound evidence."
+          },
+          "references": [
+            "Al-Anbiya 21:87–88",
+            "As-Saffat 37:139–145"
+          ]
+        },
+        {
+          "id": "yunus-2",
+          "title": {
+            "id": "Doa, penyelamatan, dan taubat kaumnya",
+            "en": "Prayer, rescue, and his people’s repentance"
+          },
+          "body": {
+            "id": "Dalam kegelapan, Yunus mengakui keesaan Allah dan kesalahannya: tidak ada sesembahan yang benar selain Allah; Mahasuci Allah, sungguh ia termasuk orang zalim. Allah menyelamatkannya dan menumbuhkan tanaman sebagai perlindungan. Kaumnya beriman sehingga azab dunia diangkat dari mereka.",
+            "en": "In the darkness, Yunus affirmed Allah’s oneness and acknowledged his error: none is worthy of worship but Allah; glory be to Allah, he had been among the wrongdoers. Allah rescued him and caused a plant to grow over him. His people believed, and worldly punishment was lifted from them."
+          },
+          "references": [
+            "Al-Anbiya 21:87–88",
+            "As-Saffat 37:146–148",
+            "Yunus 10:98"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zakariya",
+      "order": 22,
+      "name": {
+        "id": "Zakariya",
+        "en": "Zechariah (Zakariya)"
+      },
+      "arabic": "زكريا",
+      "subtitle": {
+        "id": "Doa memohon keturunan yang saleh",
+        "en": "Praying for righteous offspring"
+      },
+      "chapters": [
+        {
+          "id": "zakariya-1",
+          "title": {
+            "id": "Doa dalam usia lanjut",
+            "en": "Prayer in old age"
+          },
+          "body": {
+            "id": "Zakariya berdoa kepada Allah agar diberi keturunan yang baik, meskipun dirinya telah tua dan istrinya mandul. Doanya bukan sekadar meminta penerus keluarga, tetapi keturunan yang menjadi hamba saleh. Allah menjawab dengan kabar gembira tentang Yahya.",
+            "en": "Zakariya prayed for righteous offspring despite his old age and his wife’s barrenness. His prayer was not merely for a family successor, but for a righteous servant. Allah answered with glad tidings of Yahya."
+          },
+          "references": [
+            "Maryam 19:2–11",
+            "Al-Anbiya 21:89–90"
+          ]
+        },
+        {
+          "id": "zakariya-2",
+          "title": {
+            "id": "Tanda dan kabar gembira",
+            "en": "The sign and glad tidings"
+          },
+          "body": {
+            "id": "Allah memberi tanda bahwa Zakariya tidak berbicara kepada manusia selama beberapa hari kecuali dengan isyarat, sementara ia tetap banyak berzikir. Kisah ini mengajarkan doa yang tulus, harapan kepada rahmat Allah, dan perhatian pada kesalehan generasi berikutnya.",
+            "en": "Allah gave Zakariya a sign that he would not speak to people for several days except by gesture, while continuing to remember Allah abundantly. The account teaches sincere supplication, hope in Allah’s mercy, and concern for the righteousness of the next generation."
+          },
+          "references": [
+            "Ali ‘Imran 3:38–41",
+            "Maryam 19:10–11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yahya",
+      "order": 23,
+      "name": {
+        "id": "Yahya",
+        "en": "John (Yahya)"
+      },
+      "arabic": "يحيى",
+      "subtitle": {
+        "id": "Hikmah, kesucian, dan bakti",
+        "en": "Wisdom, purity, and devotion"
+      },
+      "chapters": [
+        {
+          "id": "yahya-1",
+          "title": {
+            "id": "Diberi hikmah sejak kecil",
+            "en": "Granted wisdom from childhood"
+          },
+          "body": {
+            "id": "Allah memberi Yahya hikmah sejak kecil dan menyebutnya penuh kasih sayang, suci, bertakwa, serta berbakti kepada orang tuanya. Al-Qur’an tidak merinci semua episode hidupnya; sifat-sifat yang disebut wahyu menjadi dasar utama pelajaran tentang dirinya.",
+            "en": "Allah granted Yahya wisdom in childhood and describes him as compassionate, pure, God-fearing, and dutiful to his parents. The Qur’an does not detail every episode of his life; the qualities stated in revelation are the primary basis for lessons about him."
+          },
+          "references": [
+            "Maryam 19:12–15",
+            "Ali ‘Imran 3:39"
+          ]
+        },
+        {
+          "id": "yahya-2",
+          "title": {
+            "id": "Kehormatan dan keselamatan",
+            "en": "Honor and peace"
+          },
+          "body": {
+            "id": "Allah menyebut keselamatan bagi Yahya pada hari ia dilahirkan, hari wafat, dan hari dibangkitkan. Ayat ini menunjukkan kehormatan yang Allah berikan kepadanya, tanpa perlu mengarang rincian sejarah yang tidak disebutkan.",
+            "en": "Allah mentions peace for Yahya on the day he was born, the day he dies, and the day he is raised. This shows the honor Allah granted him without inventing historical details not stated in revelation."
+          },
+          "references": [
+            "Maryam 19:15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "isa",
+      "order": 24,
+      "name": {
+        "id": "‘Isa",
+        "en": "Jesus (‘Isa)"
+      },
+      "arabic": "عيسى",
+      "subtitle": {
+        "id": "Al-Masih, tanda Allah, dan seruan tauhid",
+        "en": "The Messiah, a sign from Allah, and the call to tawhid"
+      },
+      "chapters": [
+        {
+          "id": "isa-1",
+          "title": {
+            "id": "Kelahiran ajaib Maryam",
+            "en": "Maryam’s miraculous conception"
+          },
+          "body": {
+            "id": "Maryam menerima kabar tentang seorang anak dengan ketetapan Allah, meskipun tidak ada laki-laki yang menyentuhnya. ‘Isa diciptakan dengan perintah Allah dan menjadi tanda bagi manusia. Islam memuliakan Maryam dan ‘Isa, namun menolak menjadikan ‘Isa sebagai Tuhan atau anak Tuhan.",
+            "en": "Maryam received the news of a child by Allah’s decree although no man had touched her. ‘Isa was created by Allah’s command as a sign for humanity. Islam honors Maryam and ‘Isa while rejecting the deification of ‘Isa or calling him God’s son."
+          },
+          "references": [
+            "Ali ‘Imran 3:45–59",
+            "Maryam 19:16–36",
+            "At-Tahrim 66:12"
+          ]
+        },
+        {
+          "id": "isa-2",
+          "title": {
+            "id": "Mukjizat dengan izin Allah dan dakwah",
+            "en": "Miracles by Allah’s permission and his mission"
+          },
+          "body": {
+            "id": "‘Isa berbicara saat bayi dan melakukan tanda-tanda, termasuk menyembuhkan orang sakit, dengan izin Allah. Ia membenarkan Taurat dan menyeru Bani Israil agar menyembah Allah, Rabbnya dan Rabb mereka. Mukjizat bukan bukti ketuhanan, melainkan tanda kuasa Allah.",
+            "en": "‘Isa spoke as an infant and performed signs, including healing the sick, by Allah’s permission. He affirmed the Torah and called the Children of Israel to worship Allah, his Lord and theirs. Miracles are not proof of divinity; they are signs of Allah’s power."
+          },
+          "references": [
+            "Ali ‘Imran 3:49–51",
+            "Al-Ma’idah 5:110–117",
+            "As-Saff 61:6"
+          ]
+        },
+        {
+          "id": "isa-3",
+          "title": {
+            "id": "Pengangkatan dan keyakinan Islam",
+            "en": "Being raised and the Islamic belief"
+          },
+          "body": {
+            "id": "Al-Qur’an menyatakan bahwa mereka tidak membunuh dan tidak menyalib ‘Isa, tetapi perkara itu dibuat tampak demikian bagi mereka; Allah mengangkatnya kepada-Nya. Dalam akidah Islam, ‘Isa adalah hamba dan rasul Allah, bukan sesembahan. Rincian akhir zaman hendaknya diambil dari hadis sahih dan tidak dicampur dengan cerita populer.",
+            "en": "The Qur’an states that they did not kill or crucify ‘Isa, but it was made to appear so to them; Allah raised him to Himself. In Islamic creed, ‘Isa is Allah’s servant and messenger, not an object of worship. End-times details should be taken from sound hadith and not mixed with popular tales."
+          },
+          "references": [
+            "An-Nisa 4:157–159",
+            "An-Nisa 4:171",
+            "Az-Zukhruf 43:57–65",
+            "Sahih al-Bukhari, Kitab Ahadith al-Anbiya’; Sahih Muslim, Kitab al-Iman (reports on the descent of ‘Isa; numbering varies by edition)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muhammad",
+      "order": 25,
+      "name": {
+        "id": "Muhammad ﷺ",
+        "en": "Muhammad ﷺ"
+      },
+      "arabic": "محمد",
+      "subtitle": {
+        "id": "Penutup para nabi dan rahmat bagi alam",
+        "en": "The final prophet and a mercy to the worlds"
+      },
+      "chapters": [
+        {
+          "id": "muhammad-1",
+          "title": {
+            "id": "Kelahiran, nasab, dan masa muda",
+            "en": "Birth, lineage, and early life"
+          },
+          "body": {
+            "id": "Muhammad ﷺ lahir di Makkah dari keluarga Bani Hasyim. Al-Qur’an menegaskan bahwa beliau manusia dan rasul, yatim yang Allah lindungi, serta diberi petunjuk dan kecukupan oleh-Nya. Detail biografi awal banyak berasal dari kitab sirah; untuk setiap detail, tingkat kekuatan sumber perlu dibedakan dari dalil Al-Qur’an dan hadis sahih.",
+            "en": "Muhammad ﷺ was born in Makkah into Banu Hashim. The Qur’an affirms that he was a human messenger, an orphan whom Allah sheltered, and one whom Allah guided and enriched. Many early biographical details come from sira works; their evidentiary strength should be distinguished from Qur’anic proof and sound hadith."
+          },
+          "references": [
+            "Ad-Duha 93:6–8",
+            "Al-Kahf 18:110",
+            "Al-Ahzab 33:40"
+          ]
+        },
+        {
+          "id": "muhammad-2",
+          "title": {
+            "id": "Wahyu pertama dan dakwah Makkah",
+            "en": "The first revelation and the Makkan mission"
+          },
+          "body": {
+            "id": "Wahyu dimulai dengan perintah membaca dalam Surah Al-‘Alaq. Nabi ﷺ mengajak manusia kepada tauhid, akhirat, akhlak, dan keadilan. Para pengikut awal menghadapi tekanan, tetapi beliau tetap menyampaikan risalah dengan sabar. Riwayat permulaan wahyu terdapat dalam Sahih al-Bukhari, Kitab Bad’ al-Wahy.",
+            "en": "Revelation began with the command to read in Surah Al-‘Alaq. The Prophet ﷺ called people to tawhid, the Hereafter, good character, and justice. Early followers faced persecution, yet he continued delivering the message patiently. The account of the beginning of revelation is in Sahih al-Bukhari, Book of the Beginning of Revelation."
+          },
+          "references": [
+            "Al-‘Alaq 96:1–5",
+            "Al-Muddaththir 74:1–7",
+            "Al-Hijr 15:94–99",
+            "Sahih al-Bukhari, Kitab Bad’ al-Wahy (Beginning of Revelation; numbering varies by edition)"
+          ]
+        },
+        {
+          "id": "muhammad-3",
+          "title": {
+            "id": "Isra’ Mi‘raj dan hijrah",
+            "en": "The Night Journey and migration"
+          },
+          "body": {
+            "id": "Allah menyebut perjalanan malam dari Masjidil Haram ke Masjidil Aqsa. Setelah tekanan di Makkah, Nabi ﷺ berhijrah ke Madinah dengan pertolongan Allah. Hijrah membangun komunitas beriman yang diikat oleh ibadah, persaudaraan, dan tanggung jawab sosial. Kisah hijrah dirinci dalam sumber sirah dan hadis; setiap detail harus diperiksa sumbernya.",
+            "en": "Allah mentions the Night Journey from al-Masjid al-Haram to al-Masjid al-Aqsa. After persecution in Makkah, the Prophet ﷺ migrated to Madinah with Allah’s help. The Hijrah established a believing community bound by worship, brotherhood, and social responsibility. Details are found in sira and hadith sources and should be checked individually."
+          },
+          "references": [
+            "Al-Isra 17:1",
+            "At-Taubah 9:40",
+            "Al-Anfal 8:30",
+            "Sahih al-Bukhari, Kitab Manaqib al-Ansar (Hijrah reports; numbering varies by edition)"
+          ]
+        },
+        {
+          "id": "muhammad-4",
+          "title": {
+            "id": "Madinah, perjanjian, dan perjuangan",
+            "en": "Madinah, treaties, and struggle"
+          },
+          "body": {
+            "id": "Di Madinah, Nabi ﷺ membangun masjid dan mempersaudarakan kaum Muhajirin dan Ansar. Peristiwa seperti Badar, Uhud, Khandaq, dan Hudaibiyah menguji ketaatan dan strategi umat. Al-Qur’an membahas sejumlah peristiwa ini, sedangkan rincian kronologi hendaknya dirujuk pada hadis dan sirah yang dapat dipertanggungjawabkan.",
+            "en": "In Madinah, the Prophet ﷺ established the mosque and paired the Muhajirun and Ansar in brotherhood. Events including Badr, Uhud, the Trench, and Hudaybiyyah tested the community’s obedience and strategy. The Qur’an discusses several of these events, while detailed chronology should be checked against reliable hadith and sira sources."
+          },
+          "references": [
+            "Ali ‘Imran 3:123–175",
+            "Al-Ahzab 33:9–27",
+            "Al-Fath 48:1–29",
+            "Al-Hashr 59:2–10"
+          ]
+        },
+        {
+          "id": "muhammad-5",
+          "title": {
+            "id": "Fathu Makkah, haji, dan wafat",
+            "en": "The Conquest of Makkah, pilgrimage, and passing"
+          },
+          "body": {
+            "id": "Fathu Makkah menandai runtuhnya dominasi kemusyrikan di kota suci, dan Nabi ﷺ menegaskan tauhid. Dalam haji terakhir, beliau menyampaikan pesan tentang hak, amanah, dan berpegang pada petunjuk. Beliau wafat setelah menyampaikan risalah; agama disempurnakan oleh Allah, dan tidak ada nabi setelah beliau.",
+            "en": "The Conquest of Makkah marked the end of polytheist dominance in the sacred city, and the Prophet ﷺ affirmed tawhid. In his final pilgrimage, he conveyed teachings about rights, trust, and guidance. He passed away after delivering the message; Allah perfected the religion, and there is no prophet after him."
+          },
+          "references": [
+            "An-Nasr 110:1–3",
+            "Al-Ma’idah 5:3",
+            "Al-Ahzab 33:40",
+            "Sahih al-Bukhari, Kitab al-Maghazi and Kitab al-Hajj; Sahih Muslim, Kitab al-Hajj (relevant reports; numbering varies by edition)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14251f">
+<title>Sirah Para Nabi — Qur'an & Sunnah</title>
+<style>
+:root{--bg:#f5f3ed;--paper:#fffdf8;--ink:#1b2924;--muted:#66736c;--green:#1d4a3a;--gold:#c39a4a;--line:#e4e0d6;--soft:#e9efe9;--shadow:0 10px 30px #172b2010}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input{font:inherit}button{cursor:pointer}.app{min-height:100vh;display:grid;grid-template-columns:290px minmax(0,1fr)}
+.sidebar{background:#14251f;color:#f7f5ed;padding:22px 16px;position:sticky;top:0;height:100vh;overflow:auto}
+.brand{display:flex;gap:12px;align-items:center;padding:4px 8px 20px;border-bottom:1px solid #ffffff24}.brandmark{width:42px;height:42px;border:1px solid #c39a4a;border-radius:14px;display:grid;place-items:center;color:#e4c47e;font-size:23px}.brand h1{font-size:16px;line-height:1.3;margin:0}.brand small{color:#b9c7bf}
+.controls{display:grid;gap:9px;padding:18px 4px}.search{width:100%;border:1px solid #ffffff2b;border-radius:10px;background:#ffffff0d;color:white;padding:10px 12px;outline:none}.search::placeholder{color:#aebcb4}.toggle-row{display:flex;gap:6px}.toggle-row button{flex:1;border:1px solid #ffffff2b;color:#dbe5de;background:transparent;border-radius:9px;padding:8px 5px;font-size:13px}.toggle-row button.active{background:#e6d2a0;color:#192920;border-color:#e6d2a0;font-weight:700}
+.nav-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#91a79a;padding:8px 10px}.nav{display:grid;gap:3px}.nav button{display:flex;align-items:center;gap:10px;text-align:left;border:0;background:transparent;color:#dbe4de;padding:9px 10px;border-radius:9px}.nav button:hover,.nav button.active{background:#ffffff16;color:#fff}.nav .num{font-size:11px;color:#a8b9ad;min-width:20px}.nav button.active .num{color:#e6d2a0}.side-note{margin:20px 8px 4px;font-size:12px;color:#aebcb4}
+main{min-width:0;padding:28px clamp(16px,4vw,56px) 60px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:24px}.eyebrow{color:var(--green);font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800}.top-actions{display:flex;gap:8px}.pill{border:1px solid var(--line);border-radius:999px;background:var(--paper);padding:7px 12px;color:var(--ink);font-size:13px}
+.hero{position:relative;overflow:hidden;border-radius:22px;background:linear-gradient(120deg,#183d30,#254d3c 60%,#687957);color:#fffdf6;padding:clamp(24px,4vw,46px);box-shadow:var(--shadow);margin-bottom:22px}
+.hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #d8bd7b55;border-radius:50%;right:-60px;top:-65px;box-shadow:0 0 0 22px #d8bd7b0b,0 0 0 48px #d8bd7b0b}
+.hero h2{font-family:Georgia,serif;font-weight:500;font-size:clamp(30px,4vw,48px);line-height:1.12;max-width:700px;margin:8px 0 14px}.hero p{max-width:700px;color:#e0e8df;margin:0}.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.hero-meta span{font-size:12px;border:1px solid #ffffff36;border-radius:999px;padding:5px 10px}
+.grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(240px,.8fr);gap:18px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}.panel h3{margin:0 0 10px;font-size:18px}.panel p{margin:8px 0;color:#4e5a53}.principles{display:grid;gap:10px}.principle{display:flex;gap:11px;align-items:flex-start}.check{flex:none;width:24px;height:24px;display:grid;place-items:center;background:var(--soft);color:var(--green);border-radius:8px;font-size:12px;font-weight:800}
+.content-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:6px 0 22px}.arabic{font-family:serif;font-size:22px;color:#9b7737}.content-head h2{font:500 clamp(30px,4vw,44px)/1.15 Georgia,serif;margin:4px 0}.content-head p{margin:8px 0;color:var(--muted)}.chapter-list{display:grid;gap:14px}.chapter{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--paper)}.chapter-title{padding:16px 19px;background:#f0eee5;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px}.chapter-num{width:30px;height:30px;border-radius:10px;background:var(--green);color:white;display:grid;place-items:center;font-size:12px;flex:none}.chapter-title h3{margin:0;font-size:17px}.chapter-body{padding:18px 20px}.chapter-body p{margin:0 0 15px;max-width:850px}.refs{border-top:1px solid var(--line);padding-top:12px;display:flex;gap:7px;flex-wrap:wrap}.refs strong{width:100%;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}.ref{font-size:12px;text-decoration:none;color:var(--green);background:var(--soft);border-radius:7px;padding:4px 8px}.ref:hover{text-decoration:underline}.comic-intro{margin:0 0 14px;color:var(--muted);font-size:13px}.comic-panel{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}.scene{min-height:170px;border-radius:13px;background:linear-gradient(155deg,#dfe7dc,#aabda8);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:14px;color:#24392e}.scene:nth-child(2n){background:linear-gradient(155deg,#efe2c4,#c6a96d)}.scene .land{position:absolute;left:-10%;right:-10%;height:45%;bottom:0;background:#476d55;clip-path:polygon(0 80%,20% 25%,36% 60%,60% 0,78% 48%,100% 20%,100% 100%,0 100%);opacity:.85}.scene .sun{position:absolute;right:18px;top:17px;width:32px;height:32px;border-radius:50%;background:#f5d68e}.scene .silhouette{position:absolute;bottom:21px;left:48%;width:20px;height:55px;background:#24362c;border-radius:45% 45% 8% 8%;opacity:.92}.scene .silhouette:before{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:#24362c;top:-15px;left:1px}.scene .silhouette:after{content:"";position:absolute;width:42px;height:27px;background:#24362c;left:-11px;top:7px;clip-path:polygon(25% 0,75% 0,100% 100%,0 100%)}.scene.no-figure .silhouette,.scene.no-figure .silhouette:before,.scene.no-figure .silhouette:after{display:none}.scene-label{position:relative;background:#fffdf0df;border-radius:8px;padding:5px 8px;font-size:12px;font-weight:700}.notice{border-left:3px solid var(--gold);padding:10px 13px;background:#f8f1df;border-radius:0 9px 9px 0;font-size:13px;color:#5f512f;margin:16px 0}
+.refs-page{display:grid;gap:10px}.reference-item{padding:13px 0;border-bottom:1px solid var(--line)}.reference-item:last-child{border:0}.reference-item a{color:var(--green);font-weight:700}.reference-item p{font-size:13px;margin:4px 0;color:var(--muted)}
+.mobile-menu{display:none}.empty{padding:30px;text-align:center;color:var(--muted)}.footer{margin-top:28px;color:var(--muted);font-size:12px}.hidden{display:none!important}
+@media(max-width:900px){.app{grid-template-columns:1fr}.sidebar{position:fixed;z-index:10;left:0;top:0;bottom:0;width:min(310px,88vw);height:100dvh;transform:translateX(-105%);transition:transform .22s ease;box-shadow:20px 0 40px #0002}.sidebar.open{transform:translateX(0)}.mobile-menu{display:inline-flex}.grid{grid-template-columns:1fr}main{padding:16px 14px 42px}.topbar{margin-bottom:16px}.hero{border-radius:17px}.comic-panel{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.topbar{align-items:flex-start}.top-actions{flex-direction:column}.content-head{display:block}.comic-panel{grid-template-columns:1fr}.scene{min-height:145px}.panel{padding:17px}.chapter-body{padding:15px}.hero h2{font-size:32px}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="brandmark">۞</div><div><h1>Sirah Para Nabi</h1><small>Al-Qur’an · Sunnah · Salaf</small></div></div>
+  <div class="controls">
+    <input class="search" id="search" type="search" placeholder="Cari nabi / Search prophet…" aria-label="Cari nabi">
+    <div class="toggle-row"><button id="lang-id" class="active">Indonesia</button><button id="lang-en">English</button></div>
+    <div class="toggle-row"><button id="mode-text" class="active">Tulisan</button><button id="mode-comic">Komik</button></div>
+  </div>
+  <div class="nav-label" id="nav-label">Daftar Nabi · 25 nama</div>
+  <nav class="nav" id="nav"></nav>
+  <div class="side-note" id="side-note">Urutan bersifat tematis. Tidak semua nabi memiliki kisah panjang dalam Al-Qur’an.</div>
+</aside>
+<main>
+  <div class="topbar">
+    <button class="pill mobile-menu" id="menu">☰ Menu</button>
+    <div><div class="eyebrow" id="eyebrow">Panduan belajar</div><div style="font-size:13px;color:var(--muted)" id="top-sub">Kronologi · Dalil · Pelajaran</div></div>
+    <div class="top-actions"><button class="pill" id="home-btn">⌂ <span id="home-label">Beranda</span></button><button class="pill" id="refs-btn">◎ <span id="refs-label">Referensi</span></button></div>
+  </div>
+  <section id="home">
+    <div class="hero"><div class="eyebrow" style="color:#e4c47e" id="hero-eyebrow">Membaca kisah dengan amanah ilmu</div><h2 id="hero-title">Sirah Para Nabi</h2><p id="hero-desc">Pelajari kisah para nabi berdasarkan Al-Qur’an, hadis sahih, dan penjelasan ulama yang dapat dipertanggungjawabkan.</p><div class="hero-meta"><span id="meta-one">25 nabi disebut namanya dalam Al-Qur’an</span><span id="meta-two">Dua mode: tulisan & komik</span><span id="meta-three">Bilingual</span></div></div>
+    <div class="grid">
+      <section class="panel"><h3 id="principles-title">Prinsip membaca sirah</h3><div class="principles" id="principles"></div></section>
+      <section class="panel"><h3 id="method-title">Metode dan batasan</h3><p id="method-text"></p><div class="notice" id="notice">Tidak ada nabi yang digambarkan. Mode komik hanya memakai lanskap, benda, bangunan, dan siluet generik tanpa wajah untuk tokoh selain nabi.</div></section>
+    </div>
+    <section class="panel" style="margin-top:18px"><h3 id="start-title">Mulai membaca</h3><p id="start-text">Pilih nama nabi dari sidebar. Setiap bab memuat narasi, dalil Al-Qur’an, dan catatan kehati-hatian sumber.</p><button class="pill" id="start-btn">Mulai dari Nabi Adam →</button></section>
+  </section>
+  <section id="reader" class="hidden"></section>
+  <section id="references" class="panel hidden"><h2 id="references-title" style="font-family:Georgia,serif;font-weight:500">Referensi dan verifikasi</h2><p id="references-intro"></p><div class="refs-page" id="reference-list"></div></section>
+  <div class="footer" id="footer">Konten edukasi. Periksa teks ayat dan sumber hadis sebelum mengutip untuk kajian atau publikasi.</div>
+</main>
+</div>
+<script>
+const DATA_URL = "sirah-para-nabi.json";
+let DATA=null, language="id", mode="text", selected=null, page="home";
+const $=id=>document.getElementById(id);
+const tr=(v)=>typeof v==="string"?v:(v?.[language]||v?.id||"");
+const quranUrl=(ref)=>{let m=ref.match(/^(.+?)\s+(\d+):(\d+)(?:[–-](\d+))?$/);return m?`https://quran.com/${m[2]}/${m[3]}`:"https://quran.com/";};
+const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function renderNav(){
+ const term=$("search").value.trim().toLocaleLowerCase();
+ const nav=$("nav");nav.innerHTML="";
+ DATA.prophets.filter(p=>`${tr(p.name)} ${p.name.id} ${p.name.en} ${p.arabic} ${tr(p.subtitle)}`.toLocaleLowerCase().includes(term)).forEach(p=>{
+  const b=document.createElement("button");b.className=(selected===p.id?"active":"");b.innerHTML=`<span class="num">${String(p.order).padStart(2,"0")}</span><span>${escapeHtml(tr(p.name))}</span>`;
+  b.onclick=()=>{selected=p.id;page="reader";render();$("sidebar").classList.remove("open")};nav.appendChild(b);
+ });
+ if(!nav.children.length)nav.innerHTML=`<div class="side-note">${language==="id"?"Tidak ada hasil.":"No results."}</div>`;
+}
+function renderHome(){
+ $("home").classList.remove("hidden");$("reader").classList.add("hidden");$("references").classList.add("hidden");
+ const id=language==="id";
+ $("eyebrow").textContent=id?"Panduan belajar":"Study guide";$("top-sub").textContent=id?"Kronologi · Dalil · Pelajaran":"Chronology · Evidence · Lessons";
+ $("hero-eyebrow").textContent=id?"Membaca kisah dengan amanah ilmu":"Reading with scholarly care";
+ $("hero-title").textContent=tr(DATA.meta.title);$("hero-desc").textContent=tr(DATA.meta.description);
+ $("meta-one").textContent=id?"25 nabi disebut namanya dalam Al-Qur’an":"25 prophets are named in the Qur’an";
+ $("meta-two").textContent=id?"Dua mode: tulisan & komik":"Two modes: text & comic";
+ $("meta-three").textContent=id?"Bahasa Indonesia + English":"Indonesian + English";
+ $("principles-title").textContent=id?"Prinsip membaca sirah":"Principles for reading sira";
+ $("principles").innerHTML=DATA.meta.principles.map(t=>`<div class="principle"><div class="check">✓</div><div>${escapeHtml(tr(t))}</div></div>`).join("");
+ $("method-title").textContent=id?"Metode dan batasan":"Method and limitations";$("method-text").textContent=tr(DATA.meta.method);
+ $("notice").textContent=id?"Tidak ada nabi yang digambarkan. Mode komik hanya memakai lanskap, benda, bangunan, dan siluet generik tanpa wajah untuk tokoh selain nabi.":"No prophet is depicted. Comic mode uses landscapes, objects, architecture, and generic faceless silhouettes only for non-prophet characters.";
+ $("start-title").textContent=id?"Mulai membaca":"Start reading";$("start-text").textContent=id?"Pilih nama nabi dari sidebar. Setiap bab memuat narasi, dalil Al-Qur’an, dan catatan kehati-hatian sumber.":"Choose a prophet in the sidebar. Each chapter includes a narrative, Qur’anic evidence, and source-care notes.";
+ $("start-btn").textContent=id?"Mulai dari Nabi Adam →":"Start with Prophet Adam →";
+ $("footer").textContent=id?"Konten edukasi. Periksa teks ayat dan sumber hadis sebelum mengutip untuk kajian atau publikasi.":"Educational content. Verify verse text and hadith sources before citing in lessons or publications.";
+}
+function comicMarkup(p,ch,index){
+ const id=language==="id";
+ const labels=id?["Latar kisah","Konteks","Pelajaran"]:["Setting","Context","Lesson"];
+ const safeLabel=escapeHtml(tr(ch.title));
+ return `<p class="comic-intro">${id?"Panel ilustratif simbolis, bukan rekonstruksi sejarah. Tidak ada nabi yang divisualisasikan.":"Symbolic illustrative panels, not a historical reconstruction. No prophet is visualized."}</p>
+ <div class="comic-panel">
+ <div class="scene no-figure"><span class="sun"></span><span class="land"></span><span class="scene-label">${labels[0]} · ${safeLabel}</span></div>
+ <div class="scene"><span class="sun"></span><span class="land"></span><span class="silhouette"></span><span class="scene-label">${labels[1]} · ${id?"tokoh selain nabi":"non-prophet figures"}</span></div>
+ </div><p>${escapeHtml(tr(ch.body))}</p>`;
+}
+function renderReader(){
+ const p=DATA.prophets.find(x=>x.id===selected);if(!p){page="home";renderHome();return}
+ $("home").classList.add("hidden");$("references").classList.add("hidden");$("reader").classList.remove("hidden");
+ const id=language==="id";
+ $("reader").innerHTML=`<div class="content-head"><div><div class="eyebrow">${id?"Nabi ke":"Prophet"} ${p.order} / 25</div><h2>${escapeHtml(tr(p.name))}</h2><p>${escapeHtml(tr(p.subtitle))}</p></div><div class="arabic" lang="ar" dir="rtl">${escapeHtml(p.arabic)}</div></div>
+ <div class="notice">${id?"Kaidah sumber: ayat adalah rujukan utama. Detail yang tidak dinyatakan wahyu atau hadis sahih tidak dipastikan.":"Source rule: Qur’anic verses are the primary reference. Details not established by revelation or sound hadith are not asserted."}</div>
+ <div class="chapter-list">${p.chapters.map((ch,i)=>`<article class="chapter"><header class="chapter-title"><span class="chapter-num">${i+1}</span><h3>${escapeHtml(tr(ch.title))}</h3></header><div class="chapter-body">${mode==="comic"?comicMarkup(p,ch,i):`<p>${escapeHtml(tr(ch.body))}</p>`}<div class="refs"><strong>${id?"Dalil & referensi":"Evidence & references"}</strong>${ch.references.map(r=>`<a class="ref" target="_blank" rel="noopener noreferrer" href="${quranUrl(r)}">${escapeHtml(r)}</a>`).join("")}</div></div></article>`).join("")}</div>
+ <div style="display:flex;justify-content:space-between;gap:10px;margin-top:20px"><button class="pill" id="prev">${id?"← Sebelumnya":"← Previous"}</button><button class="pill" id="next">${id?"Berikutnya →":"Next →"}</button></div>`;
+ const i=DATA.prophets.findIndex(x=>x.id===selected);
+ $("prev").disabled=i===0;$("next").disabled=i===DATA.prophets.length-1;
+ $("prev").onclick=()=>{selected=DATA.prophets[i-1].id;render()};$("next").onclick=()=>{selected=DATA.prophets[i+1].id;render()};
+}
+function renderRefs(){
+ $("home").classList.add("hidden");$("reader").classList.add("hidden");$("references").classList.remove("hidden");
+ const id=language==="id";$("references-title").textContent=id?"Referensi dan verifikasi":"References and verification";
+ $("references-intro").textContent=id?"Gunakan tautan berikut untuk memeriksa teks dan konteks sumber. Nomor hadis tidak dicantumkan bila sistem penomoran dapat berbeda; nama kitab/bab disebut sebagai petunjuk penelusuran.":"Use these links to verify source text and context. Hadith numbers are omitted where numbering systems vary; book/section names are given as search guidance.";
+ $("reference-list").innerHTML=DATA.meta.references.map(r=>`<div class="reference-item"><a href="${r.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.title)} ↗</a><p>${escapeHtml(r.detail)}</p></div>`).join("");
+}
+function render(){
+ renderNav();
+ $("lang-id").classList.toggle("active",language==="id");$("lang-en").classList.toggle("active",language==="en");
+ $("mode-text").classList.toggle("active",mode==="text");$("mode-comic").classList.toggle("active",mode==="comic");
+ $("home-btn").querySelector("span").textContent=language==="id"?"Beranda":"Home";
+ $("refs-btn").querySelector("span").textContent=language==="id"?"Referensi":"References";
+ $("nav-label").textContent=language==="id"?"Daftar Nabi · 25 nama":"Prophets · 25 names";
+ $("side-note").textContent=language==="id"?"Urutan bersifat tematis. Tidak semua nabi memiliki kisah panjang dalam Al-Qur’an.":"Order is thematic. Not every prophet has an extensive Qur’anic narrative.";
+ if(page==="reader"&&selected)renderReader();else if(page==="references")renderRefs();else renderHome();
+}
+async function init(){
+ try{const response=await fetch(DATA_URL);if(!response.ok)throw new Error("HTTP "+response.status);DATA=await response.json();render();}
+ catch(e){document.querySelector("main").innerHTML=`<section class="panel"><h2>Data JSON belum dapat dimuat</h2><p>Pastikan <code>sirah-para-nabi.json</code> berada di folder yang sama dengan file HTML dan buka melalui web server lokal (bukan langsung file://), karena browser biasanya membatasi fetch JSON dari file lokal.</p><p>Contoh: jalankan <code>python -m http.server 8000</code> di folder kedua file, lalu buka <code>http://localhost:8000/sirah-para-nabi.html</code>.</p><p>Error: ${escapeHtml(e.message)}</p></section>`;}
+}
+$("lang-id").onclick=()=>{language="id";render()};$("lang-en").onclick=()=>{language="en";render()};
+$("mode-text").onclick=()=>{mode="text";render()};$("mode-comic").onclick=()=>{mode="comic";render()};
+$("search").addEventListener("input",renderNav);
+$("home-btn").onclick=()=>{page="home";render()};$("refs-btn").onclick=()=>{page="references";render()};
+$("start-btn").onclick=()=>{selected="adam";page="reader";render()};$("menu").onclick=()=>$("sidebar").classList.toggle("open");
+init();
+</script>
+</body></html>
